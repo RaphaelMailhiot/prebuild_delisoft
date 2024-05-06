@@ -1,5 +1,6 @@
 import ComponentFactory from './ComponentFactory';
 import Icons from './utils/Icons';
+import 'bootstrap';
 
 class Main {
   constructor() {

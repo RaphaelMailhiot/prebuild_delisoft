@@ -17,6 +17,14 @@ export default class Carousel {
         el: this.element.querySelector('.swiper-pagination'),
         type: 'bullets',
       },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: true,
+      },
     };
 
     this.init();
@@ -30,7 +38,7 @@ export default class Carousel {
 
     // Gestion des paramètres différents lorsqu'on veut avoir
     // 2 slides visibles sur grand écran et une seule sur petit écran
-    if (this.element.dataset.carousel == 'split') {
+    if (this.element.dataset.carousel === 'two') {
       options = {
         ...this.defaultOptions,
         ...{
@@ -38,6 +46,60 @@ export default class Carousel {
           breakpoints: {
             768: {
               slidesPerView: 2,
+            },
+          },
+        },
+      };
+    } else if (this.element.dataset.carousel === 'three') {
+      options = {
+        ...this.defaultOptions,
+        ...{
+          slidesPerView: 1,
+          breakpoints: {
+            768: {
+              slidesPerView: 2,
+            },
+            1200: {
+              slidesPerView: 3,
+            },
+          },
+        },
+      };
+    } else if (this.element.dataset.carousel === 'four') {
+      options = {
+        ...this.defaultOptions,
+        ...{
+          slidesPerView: 1,
+          breakpoints: {
+            544: {
+              slidesPerView: 2,
+            },
+            768: {
+              slidesPerView: 3,
+            },
+            1200: {
+              slidesPerView: 4,
+            },
+          },
+        },
+      };
+    } else if (this.element.dataset.carousel === 'five') {
+      options = {
+        ...this.defaultOptions,
+        ...{
+          slidesPerView: 1,
+          breakpoints: {
+            544: {
+              slidesPerView: 2,
+            },
+            768: {
+              slidesPerView: 3,
+            },
+            992: {
+              slidesPerView: 4,
+            },
+            1200: {
+              slidesPerView: 5,
             },
           },
         },

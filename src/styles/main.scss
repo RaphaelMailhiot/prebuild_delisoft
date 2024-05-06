@@ -1,33 +1,68 @@
 //FONTS
-// ici sont chargé les fonts
+// montserrat et poppins
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+// dosis
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+// themify
+@import 'fonts/themify-icons';
+
+// BOOTSTRAP 5.3.3
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// SWIPER
+@import '../node_modules/swiper/swiper';
+@import '../node_modules/swiper/modules/pagination.scss';
+@import '../node_modules/swiper/modules/navigation.scss';
+
+// WEBSTER
+@import 'webster/style';
 
 // TOOLS
 // mixins et fonctions utilisés globalement dans le SCSS (Sass)
 
+//@import 'tools/cover';
+
 // SETTINGS
 // Contient les variables sur les polices, les définitions de couleurs, les définitions de  grandeurs,   etc.
-@import 'settings/colors';
-@import 'settings/easing';
-@import 'settings/fonts';
-@import 'settings/dimensions';
+
+//@import 'settings/colors';
+//@import 'settings/easing';
+//@import 'settings/fonts';
+//@import 'settings/dimensions';
 
 // GENERIC
 // Permet de réinitialiser les CSS et de changer le modèle de boîte en box-sizing: border-box
-@import 'generic/normalize';
-@import 'generic/reset';
+
+//@import 'generic/normalize';
+//@import 'generic/reset';
 
 // ELEMENTS
 // Modification des styles généraux de la page. Ce sont les styles qui seront généralement hérités par les éléments de la page.
-@import 'elements/body';
-@import 'elements/headings';
-@import 'elements/links';
-@import 'elements/wrapper';
+
+//@import 'elements/body';
+@import 'elements/cookies';
+//@import 'elements/headings';
+//@import 'elements/icons';
+//@import 'elements/links';
+//@import 'elements/modal';
+//@import 'elements/wrapper';
 
 // COMPONENTS
 // Composants d'interface utilisateur spécifiques.
 // C’est là que la majorité de notre travail a lieu.
-@import 'components/icons.scss';
+@import 'components/avantages';
+@import 'components/bloc-texte';
+@import 'components/footer';
+@import 'components/four-sections';
+@import 'components/modules';
+@import 'components/partenaires';
+@import 'components/services';
+@import 'components/slides';
+@import 'components/temoignages';
 
 // UTILITIES
 // Utilitaires et classes auxiliaires avec possibilité de remplacer tout ce qui précède, par exemple masquer les éléments de la page
-@import 'utilities/accessibility';
+
+//@import 'utilities/accessibility';

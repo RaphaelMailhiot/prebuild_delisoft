@@ -1,0 +1,51 @@
+/* ==========================================================================
+   four-sections / components
+   ========================================================================== */
+
+// four-section-1 (Club gazon)
+.four-section-1 {
+
+    .fs1-info {
+        background-color: #fff;
+        border-radius: 20px;
+        padding: 30px;
+        box-shadow: 0 7px 40px rgba(0, 0, 0, 5%);
+        margin-left: 25px;
+        margin-right: 25px;
+        position: relative;
+        margin-top: -60px;
+    }
+
+    .fs1-img-1 {
+        //background: url("/assets/images/background.jpg");
+    }
+
+    .icon-bnt {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .call-action-icon {
+        width: 55px;
+        height: auto;
+    }
+
+    .bnt-arrow-round {
+        width: 55px;
+        height: 55px;
+        border: 2px solid #f1f1f1;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        background-color: #8dc63f;
+
+        i {
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 18px;
+            font-weight: 600;
+            color: white;
+            text-decoration: none;
+        }
+    }
+}

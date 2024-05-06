@@ -1,0 +1,42 @@
+/* ==========================================================================
+   COOKIES / ELEMENT
+   ========================================================================== */
+
+.cookies-bar{
+    background-color: #000;
+    position: fixed;
+    bottom: 0;
+    z-index: 99999999999999999999999999999;
+    width: 100%; /* calc(100% - 260px) si c'est un side menu */
+}
+.cookie-button-close{
+    text-align: right !important;
+    float: right;
+    font-size: 20px;
+    margin-top: 7px;
+    background-color: rgba(0,0,0,0) !important;
+    border: none;
+    cursor: pointer;
+}
+.politique-cookies{
+    text-decoration: underline;
+    color: #fff;
+}
+
+@media only screen and (max-width: 1200px) {
+    .md-text-center{
+        text-align: center !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .cookies-bar {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .cookies-bar .button{
+        width: 100% !important;
+    }
+}
