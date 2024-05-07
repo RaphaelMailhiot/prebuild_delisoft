@@ -2,7 +2,7 @@
 .countdown {
 	display: inline-block;
 	text-align: center;
-	margin: 0px 20px;
+	margin: 0 20px;
 	span {
 		font-size: $fs-40;
 		line-height: $l-height-40;
@@ -16,7 +16,7 @@
 .countdown.small {
 	display: inline-block;
 	text-align: center;
-	margin: 0px 10px;
+	margin: 0 10px;
 	span {
 		font-size: $fs-30;
 		line-height: $l-height-30;
@@ -25,7 +25,7 @@
 .countdown.medium {
 	display: inline-block;
 	text-align: center;
-	margin: 0px 30px;
+	margin: 0 30px;
 	span {
 		font-size: $fs-50;
 		line-height: $l-height-50;
@@ -38,7 +38,7 @@
 .countdown.large {
 	display: inline-block;
 	text-align: center;
-	margin: 0px 20px;
+	margin: 0 20px;
 	span {
 		font-size: $fs-70;
 		line-height: $l-height-70;

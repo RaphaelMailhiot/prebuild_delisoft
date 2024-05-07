@@ -30,11 +30,9 @@
 		border-color: #d0dae5;
 	}
 	&:active {
-		border-color: #88bfff;
 		border-color: $white !important;
 	}
 	&:focus {
-		border-color: #88bfff;
 		border-color: $white !important;
 	}
 	&:after {
@@ -120,7 +118,6 @@
 	}
 }
 .nice-select.open {
-	border-color: #88bfff;
 	border-color: $white !important;
 	&:after {
 		-webkit-transform: rotate(-135deg);

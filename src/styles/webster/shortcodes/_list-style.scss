@@ -9,7 +9,7 @@ ul.list {
 		line-height: $l-height-28;
 		&:after {
 			content: "";
-			font-family: 'FontAwesome';
+			font-family: 'FontAwesome',fantasy;
 			position: absolute;
 			color: $theme-color;
 			left: 0;

@@ -11,16 +11,12 @@
 		z-index: 999;
 		width: 100%;
 		.owl-prev {
-			display: block;
 			position: absolute;
 			text-indent: inherit;
 			width: auto;
 			cursor: pointer;
 			@include transition (all, 0.2s, ease);
 			left: 10px;
-			display: block;
-			position: absolute;
-			text-indent: inherit;
 			top: 50%;
 			transform: translateY(-50%);
 			-webkit-transform: translateY(-50%);
@@ -29,17 +25,12 @@
 			-moz-transform: translateY(-50%);
 			margin: 0 !important;
 			display: inline-block;
-			margin: 14px 2px 0;
 		}
 		.owl-next {
-			display: block;
-			position: absolute;
-			text-indent: inherit;
 			width: auto;
 			cursor: pointer;
 			@include transition (all, 0.2s, ease);
 			right: 10px;
-			display: block;
 			position: absolute;
 			text-indent: inherit;
 			top: 50%;
@@ -50,7 +41,6 @@
 			-moz-transform: translateY(-50%);
 			margin: 0 !important;
 			display: inline-block;
-			margin: 14px 2px 0;
 		}
 		i {
 			font-size: $fs-20;
@@ -61,7 +51,7 @@
 			color: $white;
 			border-radius: 3px;
 			background: $theme-color;
-			border: 0px solid #3d3d3d;
+			border: 0 solid #3d3d3d;
 			font-weight: normal;
 			text-align: center;
 			@include transition (all, 0.25s, ease);

@@ -70,7 +70,6 @@
 	.pricing-top {
 		box-shadow: none;
 		border: 0;
-		padding: inherit;
 		border-radius: inherit;
 		padding: 0;
 	}
@@ -86,7 +85,6 @@
 }
 .price {
 	list-style-type: none;
-	border: 1px solid $border-color;
 	margin: 0;
 	padding: 0;
 	-webkit-transition: 0.3s;

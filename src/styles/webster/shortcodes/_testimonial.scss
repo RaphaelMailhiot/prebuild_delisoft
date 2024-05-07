@@ -3,7 +3,7 @@
 	position: relative;
 	background: #f9f9f9;
 	padding: 85px 50px 45px 70px;
-	margin: 45px 0px 4px 0;
+	margin: 45px 0 4px 0;
 	color: #656565;
 	font-weight: 400;
 	line-height: 24px;
@@ -66,7 +66,6 @@
 .testimonial.clean {
 	background: none;
 	box-shadow: none;
-	padding-bottom: 0;
 	padding: 0 50px 25px 70px;
 	margin-top: 0;
 	.testimonial-avatar {
@@ -107,7 +106,7 @@
 	}
 }
 .testimonial.left_pos {
- 	margin: 0px 0px 0px 40px;
+ 	margin: 0 0 0 40px;
 	padding: 60px 40px 40px 100px;
 	text-align: left;
 	.testimonial-avatar {
@@ -130,7 +129,7 @@
 	.testimonial-avatar {
 		bottom: -50px;
 		top: inherit;
-		left: 0px;
+		left: 0;
 		margin-left: 50px;
 	}
 	.author-info {

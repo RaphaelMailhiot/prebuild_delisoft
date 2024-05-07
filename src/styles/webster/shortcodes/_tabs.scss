@@ -4,13 +4,12 @@
 		border: none;
 		margin-bottom: 20px;
 		li {
-			margin-bottom: 0px;
+			margin-bottom: 0;
 			float: none;
 			display: inline-block;
 			a {
-				border: none;
 				line-height: normal;
-				border-radius: 0px;
+				border-radius: 0;
 				padding: 12px 30px;
 				background: $gray-bg-02;
 				color: $text-black;
@@ -141,20 +140,20 @@
 				background: $white !important;
 				border-color: $border-color;
 				border-bottom: 0;
-				box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+				box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 				&:focus {
 					color: $theme-color;
 					background: $white !important;
 					border-color: $border-color;
 					border-bottom: 0;
-					box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+					box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 				}
 				&:hover {
 					color: $theme-color;
 					background: $white !important;
 					border-color: $border-color;
 					border-bottom: 0;
-					box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+					box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 				}
 			}
 		}
@@ -247,7 +246,7 @@
 	.nav {
 		li {
 			a {
-				margin-right: 0px !important;
+				margin-right: 0 !important;
 				border-top: 2px solid transparent;
 				border-left: 0;
 				border-right: 0;
@@ -270,7 +269,7 @@
 	.nav {
 		li {
 			a {
-				margin-right: 0px !important;
+				margin-right: 0 !important;
 			}
 		}
 	}
@@ -296,7 +295,7 @@
 	.nav {
 		li {
 			a {
-				margin-right: 0px !important;
+				margin-right: 0 !important;
 			}
 		}
 	}
