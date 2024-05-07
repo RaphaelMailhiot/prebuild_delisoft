@@ -30,6 +30,11 @@ export const paths = {
     watch: 'src/**/*.{twig,html}',
     dest: 'dist/',
   },
+  php: {
+    src: 'src/**/*.php',  // Chemin vers les fichiers PHP source
+    watch: 'src/**/*.php',
+    dest: 'dist/'         // Chemin de destination pour les fichiers copiés
+  },
   assets: {
     src: 'src/assets/**/*',
     icons: 'src/assets/icons/**/*.svg',

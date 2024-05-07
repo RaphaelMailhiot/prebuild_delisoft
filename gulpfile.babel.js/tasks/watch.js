@@ -12,6 +12,7 @@ import { reload, serve } from './server';
 import { styles } from './styles';
 import { scripts } from './scripts';
 import { templates } from './templates';
+import { php } from './php';
 import { assets } from './assets';
 
 // Config
@@ -21,6 +22,7 @@ function watchFiles() {
   gulp.watch([paths.styles.watch], styles);
   gulp.watch([paths.scripts.watch], series(scripts, reload));
   gulp.watch([paths.templates.watch], series(templates, reload));
+  gulp.watch([paths.php.watch], series(php, reload));
   gulp.watch(paths.assets.src, series(assets, reload));
 }
 

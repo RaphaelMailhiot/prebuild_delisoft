@@ -1,6 +1,6 @@
 import ComponentFactory from './ComponentFactory';
-import Icons from './utils/Icons';
-import 'bootstrap';
+//import Icons from './utils/Icons';
+//import 'bootstrap';
 
 class Main {
   constructor() {
@@ -11,8 +11,7 @@ class Main {
     document.documentElement.classList.add('has-js');
 
     new ComponentFactory();
-
-    Icons.load();
+    //Icons.load();
   }
 }
 new Main();
