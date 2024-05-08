@@ -7,6 +7,7 @@ Voici quelques liens qui vous seront utiles
 - [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 - [Webster](https://themes.potenzaglobalsolutions.com/html/webster-responsive-multi-purpose-html5-template/index-01.html)
 - [FontAwesome](https://fontawesome.com/search?o=r&m=free)
+- [Swiperjs](https://swiperjs.com/demos)
 
 <br><hr><br>
 

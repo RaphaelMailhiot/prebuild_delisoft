@@ -2,8 +2,8 @@
    four-sections / components
    ========================================================================== */
 
-// four-section-1 (Club gazon)
-.four-section-1 {
+// four-sections-1 (Club gazon)
+.four-sections-1 {
 
     .fs1-info {
         background-color: #fff;
@@ -23,6 +23,11 @@
     .icon-bnt {
         display: flex;
         justify-content: space-between;
+
+        i {
+            font-size: 40px;
+            color: $theme-color;
+        }
     }
 
     .call-action-icon {
@@ -37,7 +42,7 @@
         border-radius: 100%;
         display: flex;
         align-items: center;
-        background-color: #8dc63f;
+        background-color: $theme-color;
 
         i {
             margin-left: auto;
@@ -50,7 +55,52 @@
     }
 }
 
-// four-section-2 (Serrurier)
-.four-section-2 {
+// four-sections-2 (Serrurier)
+.four-sections-2 {
+    .p-15 {
+        padding: 15px;
+    }
+}
 
+// four-sections-3 (Visionère4)
+.four-sections-3 {
+    .a-boxes {
+        padding: 40px 25px;
+    }
+
+    .c-icon-services {
+        width: 70px;
+        height: auto;
+    }
+
+    .feature-icon {
+        span {
+            padding: 0;
+        }
+    }
+}
+
+// four-sections-4 (Chiropratiquepelletier)
+.four-sections-4 {
+
+}
+
+// four-sections-5 (fondationphilippelaprise)
+.four-sections-5 {
+    .fs5-round {
+        border-radius: 16px;
+    }
+
+    .feature-icon {
+        span {
+            padding: 0;
+        }
+    }
+}
+
+// four-sections-6 (pavagesealtec)
+.four-sections-6 {
+    .fz-40 {
+        font-size: 40px;
+    }
 }

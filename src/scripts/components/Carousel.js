@@ -13,6 +13,7 @@ export default class Carousel {
     this.defaultOptions = {
       slidesPerView: 1,
       spaceBetween: 20,
+      loop: true,
       pagination: {
         el: this.element.querySelector('.swiper-pagination'),
         type: 'bullets',

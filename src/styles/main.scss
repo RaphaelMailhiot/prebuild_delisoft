@@ -19,35 +19,16 @@
 // WEBSTER
 @import 'webster/style';
 
-// TOOLS
-// mixins et fonctions utilisés globalement dans le SCSS (Sass)
-
-//@import 'tools/cover';
-
-// SETTINGS
-// Contient les variables sur les polices, les définitions de couleurs, les définitions de  grandeurs,   etc.
-
-//@import 'settings/colors';
-//@import 'settings/easing';
-//@import 'settings/fonts';
-//@import 'settings/dimensions';
-
-// GENERIC
-// Permet de réinitialiser les CSS et de changer le modèle de boîte en box-sizing: border-box
-
-//@import 'generic/normalize';
-//@import 'generic/reset';
-
 // ELEMENTS
 // Modification des styles généraux de la page. Ce sont les styles qui seront généralement hérités par les éléments de la page.
-
-//@import 'elements/body';
 @import 'elements/cookies';
-//@import 'elements/headings';
-//@import 'elements/icons';
 @import 'elements/links';
+
+//@import 'elements/icons';
 //@import 'elements/modal';
-//@import 'elements/wrapper';
+
+//@import 'tools/cover';
+//@import 'utilities/accessibility';
 
 // COMPONENTS
 // Composants d'interface utilisateur spécifiques.
@@ -61,8 +42,3 @@
 @import 'components/services';
 @import 'components/slides';
 @import 'components/temoignages';
-
-// UTILITIES
-// Utilitaires et classes auxiliaires avec possibilité de remplacer tout ce qui précède, par exemple masquer les éléments de la page
-
-//@import 'utilities/accessibility';
