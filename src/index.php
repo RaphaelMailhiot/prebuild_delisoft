@@ -11,8 +11,8 @@ $namebase = "NomDeLaCompagnie";
 // TODO POUR LES TEST
 $lang = 'fr';
 
-include("lang/" . $lang . ".php");
-include("lang/lang.php");
+include("assets/lang/" . $lang . ".php");
+include("assets/lang/lang.php");
 
 ?>
 
@@ -37,6 +37,12 @@ include("lang/lang.php");
 
   <!-- Styles -->
   <link rel="stylesheet" href="styles/main.css" />
+  <!--<link rel="stylesheet" type="text/css" href="<?php /*= $url */?>css/plugins-css.min.css">
+  <link rel="stylesheet" type="text/css" href="<?php /*= $url */?>css/typography.css">
+  <link rel="stylesheet" type="text/css" href="<?php /*= $url */?>css/shortcodes/shortcodes.min.css">
+  <link rel="stylesheet" type="text/css" href="<?php /*= $url */?>css/style.css">
+  <link rel="stylesheet" type="text/css" href="<?php /*= $url */?>css/responsive.min.css">
+  <link rel="stylesheet" type="text/css" href="<?php /*= $url */?>css/skins/skin-yellow.css" data-style="styles"/>-->
 
   <!-- jquery -->
   <script src="<?= $url ?>js/jquery-3.6.0.min.js"></script>
@@ -62,41 +68,6 @@ include("lang/lang.php");
   <?php
 
   include "_components/all.php";
-
-  $titrePage = [
-    'fr' => [
-      'header' => 'header.php',
-      'footer' => 'footer.php',
-
-      'accueil' => 'accueil.php',
-      'a-propos' => 'a-propos.php',
-      'services' => 'services.php',
-      'realisations' => 'realisations.php',
-      'contact' => 'contact.php',
-
-      // Mettre les autres pages ici
-      'seo' => null
-    ],
-    'en' => [
-      'header' => 'en/header-en.php',
-      'footer' => 'en/footer-en.php',
-
-      'accueil' => 'en/accueil-en.php',
-      'a-propos' => 'en/a-propos-en.php',
-      'services' => 'en/services-en.php',
-      'realisations' => 'en/realisations-en.php',
-      'contact' => 'en/contact-en.php',
-
-      // Mettre les autres pages ici
-      'seo' => null
-    ]
-  ];
-
-  include($titrePage[$lang]['header']);
-
-  include($titrePage[$lang][$page]);
-
-  include($titrePage[$lang]['footer']);
 
   ?>
 

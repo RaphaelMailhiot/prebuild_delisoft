@@ -25,9 +25,24 @@ export const paths = {
     watch: 'src/scripts/**/*.js',
     dest: 'dist/scripts',
   },
+  css: {
+    src: './src/css/**',
+    watch: 'src/css/**/*.js',
+    dest: 'dist/css',
+  },
+  js: {
+    src: './src/js/**',
+    watch: 'src/js/**/*.js',
+    dest: 'dist/js',
+  },
   templates: {
     src: 'src/*.{twig,html}',
     watch: 'src/**/*.{twig,html}',
+    dest: 'dist/',
+  },
+  htaccess: {
+    src: 'src/.htaccess',
+    watch: 'src/.htaccess',
     dest: 'dist/',
   },
   php: {
