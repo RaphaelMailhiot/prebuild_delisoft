@@ -17,7 +17,11 @@
 @import '../node_modules/swiper/modules/navigation.scss';
 
 // WEBSTER
-@import 'test/style';
+@import 'webster/style';
+@import 'webster/css/mega_menu';
+@import 'webster/css/magnific_popup';
+@import 'webster/css/bugs';
+//@import 'webster/css/style';
 
 // ELEMENTS
 // Modification des styles généraux de la page. Ce sont les styles qui seront généralement hérités par les éléments de la page.

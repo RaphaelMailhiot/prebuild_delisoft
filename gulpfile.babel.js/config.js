@@ -25,11 +25,6 @@ export const paths = {
     watch: 'src/scripts/**/*.js',
     dest: 'dist/scripts',
   },
-  css: {
-    src: './src/css/**',
-    watch: 'src/css/**/*.js',
-    dest: 'dist/css',
-  },
   js: {
     src: './src/js/**',
     watch: 'src/js/**/*.js',

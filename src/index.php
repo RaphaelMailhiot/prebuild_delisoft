@@ -17,7 +17,7 @@ include("assets/lang/lang.php");
 ?>
 
 <!DOCTYPE html>
-<html lang="<?= $lang ?>">
+<html lang="<?= $lang ?>" id="html">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -36,13 +36,14 @@ include("assets/lang/lang.php");
   <script src="https://kit.fontawesome.com/747138080a.js" crossorigin="anonymous"></script>
 
   <!-- Styles -->
-  <link rel="stylesheet" href="styles/main.css" />
   <!--<link rel="stylesheet" type="text/css" href="<?php /*= $url */?>css/plugins-css.min.css">
   <link rel="stylesheet" type="text/css" href="<?php /*= $url */?>css/typography.css">
   <link rel="stylesheet" type="text/css" href="<?php /*= $url */?>css/shortcodes/shortcodes.min.css">
   <link rel="stylesheet" type="text/css" href="<?php /*= $url */?>css/style.css">
   <link rel="stylesheet" type="text/css" href="<?php /*= $url */?>css/responsive.min.css">
   <link rel="stylesheet" type="text/css" href="<?php /*= $url */?>css/skins/skin-yellow.css" data-style="styles"/>-->
+
+  <link rel="stylesheet" href="styles/main.css" />
 
   <!-- jquery -->
   <script src="<?= $url ?>js/jquery-3.6.0.min.js"></script>

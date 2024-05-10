@@ -10,7 +10,6 @@ import { series } from 'gulp';
 // Tasks
 import { reload, serve } from './server';
 import { styles } from './styles';
-import { css } from './css';
 import { scripts } from './scripts';
 import { js } from './js';
 import { templates } from './templates';
@@ -24,7 +23,6 @@ import { paths } from '../config';
 function watchFiles() {
   gulp.watch([paths.styles.watch], styles);
   gulp.watch([paths.scripts.watch], series(scripts, reload));
-  gulp.watch([paths.css.watch], series(css, reload));
   gulp.watch([paths.js.watch], series(js, reload));
   gulp.watch([paths.templates.watch], series(templates, reload));
   gulp.watch([paths.htaccess.watch], series(htaccess, reload));

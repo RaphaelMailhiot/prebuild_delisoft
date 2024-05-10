@@ -227,7 +227,7 @@
     color: $white;
     line-height: $l-height-20;
     font-size: $fs-14;
-    @include transition (all, 0.5s, ease);
+    //@include transition (all, 0.5s, ease);
     &:hover {
       color: $theme-color;
     }
@@ -275,7 +275,7 @@
     -ms-transition: color 300ms ease 0s;
     -webkit-transition: color 300ms ease 0s;
     transition: color 300ms ease 0s;
-   @include transition (all, 0.5s, ease);
+   //@include transition (all, 0.5s, ease);
     &:before {
       content: "";
       font-family: "FontAwesome",fantasy;
@@ -309,7 +309,7 @@
       position: absolute;
       right: 27px;
       top: 27px;
-      @include transition (all, 0.5s, ease);
+      //@include transition (all, 0.5s, ease);
       &:hover {
         color: $theme-color;
       }
@@ -766,7 +766,7 @@
 
 .header.fancy .mega-menu.desktopTopFixed .menu-links > li > a:hover,
 .header.fancy .mega-menu.desktopTopFixed .menu-links > li.active > a {
-  color: #84ba3f;
+  color: $theme-color;
 }
 
 .header.fancy.without-topbar {
@@ -1355,7 +1355,7 @@ header.one-page {
   float: right;
   >li {
     >a {
-      @include transition (all, 0.5s, ease);
+      //@include transition (all, 0.5s, ease);
     }
   }
 }
@@ -1495,7 +1495,7 @@ header.one-page.light {
       >li {
         >a {
           padding: 5px 10px;
-          @include transition (all, 0.6s, ease);
+          //@include transition (all, 0.6s, ease);
           &:hover {
             -webkit-box-shadow: inset 178px 0 0 0 $theme-color;
             -o-box-shadow: inset 178px 0 0 0 $theme-color;
@@ -1503,7 +1503,7 @@ header.one-page.light {
             -moz-box-shadow: inset 178px 0 0 0 $theme-color;
             box-shadow: inset 178px 0 0 0 $theme-color;
             color: $white;
-            @include transition (all, 0.9s, ease);
+            //@include transition (all, 0.9s, ease);
           }
         }
       }
@@ -1515,7 +1515,7 @@ header.one-page.light {
           -moz-box-shadow: inset 178px 0 0 0 $theme-color;
           box-shadow: inset 178px 0 0 0 $theme-color;
           color: $white;
-          @include transition (all, 0.9s, ease);
+          //@include transition (all, 0.9s, ease);
         }
       }
     }
@@ -1615,13 +1615,13 @@ header.one-page.light {
       }
     }
     .drop-down {
-      top: 100%;
+      top: 100% !important;
     }
     .drop-down-tab-bar {
-      top: 100%;
+      top: 100% !important;
     }
     .drop-down-multilevel {
-      top: 100%;
+      top: 100% !important;
     }
   }
   .header.light {

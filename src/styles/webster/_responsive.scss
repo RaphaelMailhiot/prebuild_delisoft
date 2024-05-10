@@ -245,7 +245,7 @@
 		padding: 30px;
 	}
 }
-.header.fancy.without-topbar {
+#html .header.fancy.without-topbar {
 	.menu {
 		top: 16px;
 	}
@@ -695,7 +695,7 @@ h4 {
 		padding-right: 0;
 	}
 }
-.vertical-header {
+#html .vertical-header {
 	.container-fluid {
 		padding: 0 30px;
 	}
@@ -987,7 +987,7 @@ h4 {
 		}
 	}
 }
-.header.logo-center.magazine-header {
+#html .header.logo-center.magazine-header {
 	.mega-menu {
 		.menu-links {
 			>li {
@@ -1224,7 +1224,7 @@ h4 {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1500px) {
-.vertical-header {
+#html .vertical-header {
 	.container {
 		max-width: unset;
 	}
@@ -1408,7 +1408,7 @@ h4 {
 		}
 	}
 }
-.header.fullWidth {
+#html .header.fullWidth {
 	.container-fluid {
 		padding: 0 15px;
 	}
@@ -1860,7 +1860,7 @@ h5 {
 		}
 	}
 }
-.header.fancy {
+#html .header.fancy {
 	.mega-menu {
 		>section.menu-list-items {
 			box-shadow: none;
@@ -1928,7 +1928,7 @@ h5 {
 		}
 	}
 }
-.header.light {
+#html .header.light {
 	.mega-menu {
 		.menu-mobile-collapse-trigger {
 			&:before {
@@ -1949,7 +1949,7 @@ h5 {
 		}
 	}
 }
-.header.logo-center {
+#html .header.logo-center {
 	.mega-menu {
 		min-height: 60px;
 	}
@@ -1962,16 +1962,16 @@ h5 {
 		}
 	}
 }
-.header.left-menu {
+#html .header.left-menu {
 	.menu-links {
 		padding-left: 0;
 	}
 }
-.header.transparent {
+#html .header.transparent {
 	position: relative;
 	background: $black;
 }
-header.one-page {
+#html header.one-page {
 	position: relative;
 	background: $black;
 }
@@ -1985,7 +1985,7 @@ header.one-page {
 		}
 	}
 }
-.navbar-header {
+#html .navbar-header {
 	float: none;
 }
 .navbar-left {
@@ -2057,7 +2057,7 @@ header.one-page {
 		}
 	}
 }
-.header.burger {
+#html .header.burger {
 	padding: 10px 10px;
 	position: relative;
 	background: $white;
@@ -2071,7 +2071,7 @@ header.one-page {
 		color: $black !important;
 	}
 }
-.vertical-header {
+#html .vertical-header {
 	padding-left: 0;
 	.header {
 		left: inherit;
@@ -2154,7 +2154,7 @@ header.one-page {
 		bottom: 0;
 	}
 }
-#left-header {
+#html #left-header {
 	position: fixed;
 	left: -230px;
 	top: 0;
@@ -2204,7 +2204,7 @@ header.one-page {
 	padding: 14px 15px;
 	display: block;
 }
-.header.fancy.without-topbar {
+#html .header.fancy.without-topbar {
 	.menu {
 		top: 0;
 	}
@@ -2239,12 +2239,12 @@ header.one-page {
 		}
 	}
 }
-.header.fullWidth {
+#html .header.fullWidth {
 	.container-fluid {
 		padding: 0 20px;
 	}
 }
-.header {
+#html .header {
 	.mega-menu.mobileTopFixed {
 		.menu-list-items {
 			background: $black;
@@ -2261,7 +2261,7 @@ header.one-page {
 		}
 	}
 }
-.container-fluid {
+#html .container-fluid {
 	>.navbar-collapse {
 		margin: 0;
 	}
@@ -2269,7 +2269,7 @@ header.one-page {
 		margin: 0;
 	}
 }
-.container {
+#html .container {
 	>.navbar-collapse {
 		margin: 0;
 	}
@@ -2277,12 +2277,12 @@ header.one-page {
 		margin: 0;
 	}
 }
-.header.vertical-menu {
+#html .header.vertical-menu {
 	.mega-menu.mobileTopFixed {
 		display: none;
 	}
 }
-.header.text-dark {
+#html .header.text-dark {
 	.mega-menu {
 		>section.menu-list-items {
 			.menu-links {
@@ -2309,7 +2309,7 @@ header.one-page {
 		}
 	}
 }
-.header.magazine-header {
+#html .header.magazine-header {
 	.mega-menu.desktopTopFixed {
 		.menu-logo {
 			padding: 14px 0;
@@ -2317,7 +2317,7 @@ header.one-page {
 		}
 	}
 }
-.header.logo-center.magazine-header {
+#html .header.logo-center.magazine-header {
 	.mega-menu {
 		.menu-links {
 			>li {
@@ -2337,7 +2337,7 @@ header.one-page {
 		float: none;
 	}
 }
-.st-effect-3 {
+#html .st-effect-3 {
 	.header.default.fullWidth {
 		.search-cart {
 			right: 50px;
@@ -3622,7 +3622,7 @@ footer.error-04 {
 		font-size: $fs-30;
 	}
 }
-#header.pizza-menu {
+#html #header.pizza-menu {
 	.container-fluid {
 		padding: 0 15px;
 	}
@@ -3638,7 +3638,7 @@ footer.error-04 {
 .rev-slider {
 	margin: 0;
 }
-header.one-page.light {
+#html header.one-page.light {
 	.navbar-inverse {
 		.navbar-collapse {
 			background: $black;
@@ -3784,7 +3784,7 @@ header.one-page.light {
 		}
 	}
 }
-.barber-header {
+#html .barber-header {
 	.mega-menu {
 		.topbar-social {
 			display: none;
@@ -3803,7 +3803,7 @@ header.one-page.light {
 		}
 	}
 }
-.barber-header.logo-center {
+#html .barber-header.logo-center {
 	.mega-menu {
 		.menu-logo {
 			padding: 12px 0;
@@ -4174,7 +4174,7 @@ h2 {
 .page-section-1-ptb {
 	padding: 60px 0;
 }
-.header.fullWidth {
+#html .header.fullWidth {
 	.container-fluid {
 		padding: 0 20px;
 	}
@@ -6566,7 +6566,7 @@ h2 {
 		}
 	}
 }
-.st-effect-3 {
+#html .st-effect-3 {
 	.header.default.fullWidth {
 		.search-cart {
 			right: 45px;
