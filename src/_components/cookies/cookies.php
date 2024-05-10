@@ -22,5 +22,3 @@
         </div>
     </div>
 </div>
-
-<?php echo "test" ?>

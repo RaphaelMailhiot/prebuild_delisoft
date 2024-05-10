@@ -5,3 +5,12 @@
 .hoverTrigger {
     position: relative;
 }
+
+.header.fancy .mega-menu.desktopTopFixed .menu-logo {
+    padding: 0;
+}
+
+// Peut être supprimé
+.divider {
+    background: $theme-color;
+}

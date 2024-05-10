@@ -17,7 +17,7 @@ include("assets/lang/lang.php");
 ?>
 
 <!DOCTYPE html>
-<html lang="<?= $lang ?>" id="html">
+<html lang="<?= $lang ?>">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -33,6 +33,7 @@ include("assets/lang/lang.php");
   <link rel="shortcut icon" href="images/favicon.ico">
 
   <!-- font -->
+  <link rel="preconnect" href="https://kit.fontawesome.com/747138080a.js">
   <script src="https://kit.fontawesome.com/747138080a.js" crossorigin="anonymous"></script>
 
   <!-- Styles -->
@@ -46,7 +47,8 @@ include("assets/lang/lang.php");
   <link rel="stylesheet" href="styles/main.css" />
 
   <!-- jquery -->
-  <script src="<?= $url ?>js/jquery-3.6.0.min.js"></script>
+  <!--s'il y a un bug mettre la version 3.6.0-->
+  <script src="<?= $url ?>js/jquery-3.7.1.min.js"></script>
 
   <!-- scripts -->
   <script src="scripts/main.js" defer></script>

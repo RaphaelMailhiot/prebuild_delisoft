@@ -1,4 +1,4 @@
-<div class="page-section-ptb">
+<div class="pt-10 pb-10">
   <div class="seo-h1">Bloc-texte</div>
 
   <?php
@@ -11,6 +11,5 @@
     include $file;
   } ?>
 
-
-  <div class="divider"></div>
 </div>
+<div class="divider"></div>

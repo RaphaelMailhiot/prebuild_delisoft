@@ -3410,7 +3410,7 @@ a.blog-btn {
       margin-top: 3px;
       width: 20px;
       color: $theme-color;
-      border-color: #84ba3f;
+      border-color: $theme-color;
     }
     &:after {
       content: '\f00c';
@@ -3428,7 +3428,7 @@ a.blog-btn {
           &:after {
             max-width: 25px;
             opacity: 1;
-            color: #84ba3f;
+            color: $theme-color;
           }
         }
       }
