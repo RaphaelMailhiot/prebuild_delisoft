@@ -1,27 +1,32 @@
-<section class="page-section-ptb parallax bg-overlay-black-70 parallax" style="background: url(images/bg/03.jpg);">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center position-relative">
-                <h4 class="mb-30 text-white">Pie Chart small</h4>
-            </div>
+<section class="services-1 page-section-ptb gray-bg">
+  <div class="container">
+
+    <div class="row justify-content-center mb-30 xs-mb-0">
+      <div class="col-lg-8 text-center">
+        <div class="section-title mb-30">
+          <div class="seo-h6 subtitle theme-color-dark">Nos services</div>
+          <div class="seo-h1 title theme-color mb-30 xs-mb-10">Mettre <span class="bg-dark text-white pl-15 pr-15">Titre</span> ici</div>
+          <p class="theme-color-dark">SousTitre</p>
         </div>
-        <div class="row">
-            <div class="col-md-3 col-sm-6 text-center sm-mb-40 position-relative">
-                <span class="round-chart white" data-percent="77" data-color="#84ba3f" data-trackcolor="#ffffff"> <span class="percent"></span> </span>
-                <h5 class="text-white">SKILLS</h5>
-            </div>
-            <div class="col-md-3 col-sm-6 text-center sm-mb-40 position-relative">
-                <div class="round-chart white" data-percent="89" data-color="#84ba3f" data-trackcolor="#ffffff"> <span class="percent"></span> </div>
-                <h5 class="text-white">CONTENT</h5>
-            </div>
-            <div class="col-md-3 col-sm-6 text-center sm-mb-40 position-relative">
-                <div class="round-chart white" data-percent="77" data-color="#84ba3f" data-trackcolor="#ffffff"> <span class="percent"></span> </div>
-                <h5 class="text-white">WEBSITES</h5>
-            </div>
-            <div class="col-md-3 col-sm-6 text-center position-relative">
-                <div class="round-chart white" data-percent="66" data-color="#84ba3f" data-trackcolor="#ffffff"> <span class="percent"></span> </div>
-                <h5 class="text-white">EMPLOYEES</h5>
-            </div>
-        </div>
+      </div>
     </div>
+
+    <div class="row justify-content-center mb-30 xs-mb-0">
+
+      <?php for ($i = 0; $i < 6; $i++) : ?>
+        <div class="col-lg-4 col-md-6 mb-24">
+          <a href="#">
+            <div class="portfolio-item image-text">
+              <img src="assets/images/img.png" alt="Palceholder">
+              <div class="portfolio-overlay">
+                <div class="seo-h5 text-uppercase text-white mb-0">Titre</div>
+                <div class="formations-arrow"><i class="ti-arrow-right"></i></div>
+              </div>
+            </div>
+          </a>
+        </div>
+      <?php endfor; ?>
+
+    </div>
+  </div>
 </section>

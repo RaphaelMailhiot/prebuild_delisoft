@@ -1,0 +1,56 @@
+/* ==========================================================================
+   services / components
+   ========================================================================== */
+
+// services-1 (visionere4)
+.services-1 {
+    .portfolio-overlay {
+        padding: 20px;
+        bottom: 0 !important;
+        background-color: rgba(50, 62, 72, 0.5);
+        backdrop-filter: blur(16px);
+    }
+
+    .formations-arrow {
+        background: $theme-color;
+        width: 68px;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding-left: 24px;
+        padding-top: 18px;
+        font-size: 20px;
+    }
+}
+
+// services-2 (chirotrottier)
+.services-2 {
+
+}
+
+// services-3 (force-legal)
+.services-3 {
+
+}
+
+// services-4 (Club gazon)
+.services-4 {
+    .service-box-s{
+        background-color: #fff;
+        padding: 30px 10px 10px;
+        border-radius: 20px;
+        background-size: 130px;
+        background-repeat: no-repeat;
+        background-position: top 30px right 40px;
+    }
+
+    .call-action-icon {
+        font-size: 40px;
+    }
+}
+
+// services-5 (Assainiteck)
+.services-5 {
+
+}

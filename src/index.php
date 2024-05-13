@@ -3,7 +3,7 @@ $page = $_GET["page"];
 $lang = $_GET["lang"];
 
 // TODO Mettre l'URL du site
-$url = "http://prebuild/";
+$url = "http://localhost:3004/";
 
 // TODO Mettre le nom du site
 $namebase = "NomDeLaCompagnie";
@@ -48,7 +48,7 @@ include("assets/lang/lang.php");
 
   <!-- jquery -->
   <!--s'il y a un bug mettre la version 3.6.0-->
-  <script src="<?= $url ?>js/jquery-3.7.1.min.js"></script>
+  <script src="/js/jquery-3.7.1.min.js"></script>
 
   <!-- scripts -->
   <script src="scripts/main.js" defer></script>
@@ -89,13 +89,32 @@ include("assets/lang/lang.php");
  jquery -->
 
 <!-- plugins-jquery -->
-<script src="<?= $url ?>js/plugins-jquery.js"></script>
+<script src="/js/plugins-jquery.js"></script>
 
 <!-- plugin_path -->
-<script>const plugin_path = '<?= $url ?>js/';</script>
+<script>const plugin_path = '/js/';</script>
 
 <!-- custom -->
-<script src="<?= $url ?>js/custom.js"></script>
+<script src="/js/custom.js"></script>
+
+<script id="__bs_script__">
+  (function() {
+    try {
+      var script = document.createElement('script');
+      if ('async') {
+        script.async = true;
+      }
+      script.src = 'http://HOST:3004/browser-sync/browser-sync-client.js?v=2.29.3'.replace("HOST", location.hostname);
+      if (document.body) {
+        document.body.appendChild(script);
+      } else if (document.head) {
+        document.head.appendChild(script);
+      }
+    } catch (e) {
+      console.error("Browsersync: could not append script tag", e);
+    }
+  })()
+</script>
 
 </body>
 </html>

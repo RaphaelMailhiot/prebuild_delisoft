@@ -12,7 +12,7 @@ export default class Carousel {
     // Options par défaut pour la librairie Swiper
     this.defaultOptions = {
       slidesPerView: 1,
-      spaceBetween: 20,
+      spaceBetween: 24,
       loop: true,
       pagination: {
         el: this.element.querySelector('.swiper-pagination'),

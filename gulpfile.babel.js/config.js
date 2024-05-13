@@ -14,6 +14,7 @@ export const browsers =
 export const paths = {
   src: './src',
   dest: './dist',
+  dev: "http://prebuild",
   deploy: './dist/**/*',
   styles: {
     src: 'src/styles/main.scss',

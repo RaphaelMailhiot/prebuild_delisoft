@@ -13,12 +13,11 @@ import { paths, browsers } from '../config';
 
 export function serve(cb) {
   browserSync.init({
-    server: {
-      baseDir: [paths.dest],
-    },
+    proxy: paths.dev,
     ghostMode: false,
     notify: false,
     browser: browsers,
+    host: "10.10.50.214",
   });
   cb();
 }
