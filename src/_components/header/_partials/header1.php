@@ -41,7 +41,7 @@
                             <!-- menu logo -->
                             <ul class="menu-logo">
                                 <li>
-                                    <a href="<?= $url . $meta['accueil'][3] ?>"><img src="<?= $url ?>images/favicon.ico" alt="logo"></a>
+                                    <a href="<?= $url . $meta['accueil'][3] ?>"><img src="favicon.ico" alt="logo"></a>
                                 </li>
                             </ul>
                             <!-- menu links -->

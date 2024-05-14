@@ -26,10 +26,10 @@ export const paths = {
     watch: 'src/scripts/**/*.js',
     dest: 'dist/scripts',
   },
-  js: {
-    src: './src/js/**',
-    watch: 'src/js/**/*.js',
-    dest: 'dist/js',
+  jquery: {
+    src: './src/jquery/**/*.js',
+    watch: 'src/jquery/**/*.js',
+    dest: 'dist/jquery',
   },
   templates: {
     src: 'src/*.{twig,html}',

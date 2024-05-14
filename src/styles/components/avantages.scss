@@ -1,3 +1,8 @@
+/* ==========================================================================
+   avantages / components
+   ========================================================================== */
+
+// avantages-1 (visionere4)
 .avantages-1 {
 
     .list-customlogo {
@@ -18,6 +23,7 @@
     }
 }
 
+// avantages-2 (chirotrottier)
 .avantages-2 {
 
     .a-icon-services {
@@ -26,6 +32,7 @@
     }
 }
 
+// avantages-3 (Assainiteck)
 .avantages-3 {
 
     @media screen and (max-width: 767px) {
@@ -39,8 +46,14 @@
     }
 }
 
+// avantages-4 (Philippe Laprise)
 .avantages-4 {
     .feature-box-img {
         background-image: url("/assets/images/background.jpg");
     }
+}
+
+// avantages-5 (Heneault Gosselin)
+.avantages-5 {
+
 }

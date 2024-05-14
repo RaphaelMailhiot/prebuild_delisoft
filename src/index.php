@@ -1,19 +1,13 @@
 <?php
 $page = $_GET["page"];
 $lang = $_GET["lang"];
-
-// TODO Mettre l'URL du site
-$url = "http://localhost:3004/";
+$url = 'https://' . $_SERVER["HTTP_HOST"] . '/';
 
 // TODO Mettre le nom du site
 $namebase = "NomDeLaCompagnie";
 
-// TODO POUR LES TEST
-$lang = 'fr';
-
 include("assets/lang/" . $lang . ".php");
 include("assets/lang/lang.php");
-
 ?>
 
 <!DOCTYPE html>
@@ -30,7 +24,7 @@ include("assets/lang/lang.php");
 
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="shortcut icon" href="assets/images/favicon.ico">
 
   <!-- font -->
   <link rel="preconnect" href="https://kit.fontawesome.com/747138080a.js">
@@ -41,7 +35,7 @@ include("assets/lang/lang.php");
 
   <!-- jquery -->
   <!--s'il y a un bug mettre la version 3.6.0-->
-  <script src="/js/jquery-3.7.1.min.js"></script>
+  <script src="jquery/jquery-3.7.1.min.js"></script>
 
   <!-- scripts -->
   <script src="scripts/main.js" defer></script>
@@ -81,13 +75,13 @@ include("assets/lang/lang.php");
  jquery -->
 
 <!-- plugins-jquery -->
-<script src="/js/plugins-jquery.js"></script>
+<script src="jquery/plugins-jquery.js"></script>
 
 <!-- plugin_path -->
-<script>const plugin_path = '/js/';</script>
+<script>const plugin_path = 'jquery/';</script>
 
 <!-- custom -->
-<script src="/js/custom.js"></script>
+<script src="jquery/custom.js"></script>
 
 </body>
 </html>

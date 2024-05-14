@@ -10,6 +10,18 @@
     padding: 0;
 }
 
+.menu-list-items {
+    height: 92px;
+}
+
+.mega-menu .drop-down-multilevel {
+    width: 220px;
+
+    @media screen and (max-width: 991px) {
+        width: 100%;
+    }
+}
+
 // Pour les bouttons
 .button {
     margin-bottom: 24px;

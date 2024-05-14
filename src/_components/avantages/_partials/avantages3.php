@@ -1,5 +1,5 @@
 <section class="avantages-3 page-section-pt clearfix parallax jarallax" data-speed="0.6"
-         data-img-src="assets/images/background.jpg" data-component="Jarallax" data-jarallax="Image de fond">
+         data-img-src="assets/images/background.jpg" data-component="Jarallax">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 col-md-6 align-self-end order-switch">

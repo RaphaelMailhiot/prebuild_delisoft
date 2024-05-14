@@ -5,7 +5,7 @@
 
 // Dependencies
 import { src, dest, series } from 'gulp';
-import gulpWebpack from 'webpack-stream';
+import uglify  from 'gulp-uglify';
 import plumber from 'gulp-plumber';
 import errorHandler from '../util/errorHandler.js';
 
@@ -13,9 +13,9 @@ import errorHandler from '../util/errorHandler.js';
 import { paths } from '../config';
 
 // Task
-export function js() {
-  return src(paths.js.src)
+export function jquery() {
+  return src(paths.jquery.src)
     .pipe(plumber({ errorHandler }))
-    //.pipe(gulpWebpack(require('../webpack.config.js')))
-    .pipe(dest(paths.js.dest));
+    .pipe(uglify())
+    .pipe(dest(paths.jquery.dest));
 }

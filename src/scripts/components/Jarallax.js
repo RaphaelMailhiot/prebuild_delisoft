@@ -6,8 +6,6 @@ export default class Jarallax {
   }
 
   init() {
-    console.log("Jarallax");
-
     document.addEventListener("DOMContentLoaded", function() {
 
       setTimeout(function() {
