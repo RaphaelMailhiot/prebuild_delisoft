@@ -1,0 +1,46 @@
+.avantages-1 {
+
+    .list-customlogo {
+
+        li {
+            list-style-type: none;
+            line-height: 28px;
+
+            &:after {
+                font: var(--fa-font-solid);
+                content: '\f007'; //Voir README.md pour info
+                position: absolute;
+                left: 0;
+                top: 12%;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+.avantages-2 {
+
+    .a-icon-services {
+        font-size: 40px;
+        color: $theme-color;
+    }
+}
+
+.avantages-3 {
+
+    @media screen and (max-width: 767px) {
+        .order-switch {
+            order: 2;
+        }
+
+        .border-end {
+            border: none !important;
+        }
+    }
+}
+
+.avantages-4 {
+    .feature-box-img {
+        background-image: url("/assets/images/background.jpg");
+    }
+}

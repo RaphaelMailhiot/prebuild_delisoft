@@ -7,6 +7,7 @@ Voici quelques liens qui vous seront utiles
 - [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 - [Webster](https://themes.potenzaglobalsolutions.com/html/webster-responsive-multi-purpose-html5-template/index-01.html)
 - [FontAwesome](https://fontawesome.com/search?o=r&m=free)
+- [Pseudo-elements FontAwsome](https://docs.fontawesome.com/web/add-icons/pseudo-elements)
 - [Swiperjs](https://swiperjs.com/demos)
 
 <br><hr><br>
@@ -25,7 +26,8 @@ Afin de démarrer le stack de développement, utilisez les commandes suivantes d
 | `npm run build`       | Compile production code                                                                                     |
 
 <br><br><br><hr>
-Préparé par : Matthieu Parent et Jean-François Leblanc  
-_timtools v1.3_
+Préparé à partir de timtools v1.3
+<br>
+qui a été créé par : Matthieu Parent et Jean-François Leblanc
 <br>
 Adapté par Raphaël Mailhiot

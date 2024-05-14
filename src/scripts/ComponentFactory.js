@@ -1,5 +1,6 @@
 import Carousel from './components/Carousel';
 import Cookies from './components/Cookies';
+import Jarallax from './components/Jarallax';
 
 export default class ComponentFactory {
   constructor() {
@@ -7,6 +8,7 @@ export default class ComponentFactory {
     this.componentList = {
       Carousel,
       Cookies,
+      Jarallax,
     };
     this.init();
   }

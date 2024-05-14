@@ -37,13 +37,6 @@ include("assets/lang/lang.php");
   <script src="https://kit.fontawesome.com/747138080a.js" crossorigin="anonymous"></script>
 
   <!-- Styles -->
-  <!--<link rel="stylesheet" type="text/css" href="<?php /*= $url */?>css/plugins-css.min.css">
-  <link rel="stylesheet" type="text/css" href="<?php /*= $url */?>css/typography.css">
-  <link rel="stylesheet" type="text/css" href="<?php /*= $url */?>css/shortcodes/shortcodes.min.css">
-  <link rel="stylesheet" type="text/css" href="<?php /*= $url */?>css/style.css">
-  <link rel="stylesheet" type="text/css" href="<?php /*= $url */?>css/responsive.min.css">
-  <link rel="stylesheet" type="text/css" href="<?php /*= $url */?>css/skins/skin-yellow.css" data-style="styles"/>-->
-
   <link rel="stylesheet" href="styles/main.css" />
 
   <!-- jquery -->
@@ -68,20 +61,19 @@ include("assets/lang/lang.php");
 <div class="wrapper">
 
 
-  <?php
+  <?php include ('_components/header/header.php'); ?>
 
-  include "_components/all.php";
+  <div class="pt-50"></div>
 
-  ?>
+  <?php include "_components/all.php"; ?>
+
+  <?php include ('_components/footer/footer.php'); ?>
 
   <!--Pour les Cookies si nécessaire-->
   <!--Ne pas oublier le gtag-->
-
   <?php /*include('_components/cookies/cookies.php') */?>
 
-
 </div>
-
 
 <div id="back-to-top"><a class="top arrow" href="#top"><i class="fa-solid fa-angle-up"></i> <span>TOP</span></a></div>
 
@@ -96,25 +88,6 @@ include("assets/lang/lang.php");
 
 <!-- custom -->
 <script src="/js/custom.js"></script>
-
-<script id="__bs_script__">
-  (function() {
-    try {
-      var script = document.createElement('script');
-      if ('async') {
-        script.async = true;
-      }
-      script.src = 'http://HOST:3004/browser-sync/browser-sync-client.js?v=2.29.3'.replace("HOST", location.hostname);
-      if (document.body) {
-        document.body.appendChild(script);
-      } else if (document.head) {
-        document.head.appendChild(script);
-      }
-    } catch (e) {
-      console.error("Browsersync: could not append script tag", e);
-    }
-  })()
-</script>
 
 </body>
 </html>

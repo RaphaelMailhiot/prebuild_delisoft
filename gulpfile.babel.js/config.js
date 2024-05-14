@@ -7,8 +7,8 @@ const os = require('os');
 // Navigateurs pour BrowserSync
 export const browsers =
   os.platform() == 'darwin'
-    ? ['google chrome' /*, 'firefox'*/] // osx
-    : ['chrome' /*, 'firefox'*/]; // windows
+    ? ['microsoft edge'/*'google chrome', 'firefox'*/] // osx
+    : ['msedge'/*'chrome', 'firefox'*/]; // windows
 
 // Paths (ne pas toucher)
 export const paths = {

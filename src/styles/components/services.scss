@@ -36,7 +36,12 @@
 
 // services-4 (Club gazon)
 .services-4 {
-    .service-box-s{
+    .service-info {
+        margin-bottom: 16px;
+        padding: 0 25px;
+    }
+
+    .service-box-s {
         background-color: #fff;
         padding: 30px 10px 10px;
         border-radius: 20px;
@@ -45,12 +50,49 @@
         background-position: top 30px right 40px;
     }
 
+    .bnt-arrow-d-round {
+        position: absolute;
+        right: 20px;
+        top: -30px;
+        padding: 10px;
+        background-color: $white;
+        border-radius: 100%;
+    }
+
+    .bnt-services-d {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        background-color: $theme-color;
+
+        i {
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 18px;
+            font-weight: 600;
+            color: $white;
+        }
+    }
+
     .call-action-icon {
         font-size: 40px;
+    }
+
+    .bg-images {
+        background-image: url("/assets/images/img.png");
     }
 }
 
 // services-5 (Assainiteck)
 .services-5 {
+    .a-services-icons {
+        font-size: 40px;
+        text-align: center;
+    }
 
+    .portfolio-item:hover.image-text::before {
+        background: linear-gradient(to bottom,rgba(0,0,0,0) 0,$theme-color 100%);
+    }
 }
