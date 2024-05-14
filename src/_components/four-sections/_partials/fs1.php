@@ -5,7 +5,7 @@
       <div class="col-lg-3 col-md-6 pl-15 pr-15 sm-mb-40 xs-mb-30">
         <a href="#">
           <div class="call-action-box">
-            <img class="img-fluid" src="/assets/images/img.png"
+            <img class="img-fluid" src="/assets/images/placeholder/image-placeholder.webp"
                  alt="Placeholder">
             <div class="fs1-info fs1-img-1">
               <div class="icon-bnt">
@@ -24,7 +24,7 @@
       <div class="col-lg-3 col-md-6 pl-15 pr-15 sm-mb-40 xs-mb-30">
         <a href="#">
           <div class="call-action-box">
-            <img class="img-fluid" src="/assets/images/img.png"
+            <img class="img-fluid" src="/assets/images/placeholder/image-placeholder.webp"
                  alt="Placeholder">
             <div class="fs1-info fs1-img-1">
               <div class="icon-bnt">
@@ -43,7 +43,7 @@
       <div class="col-lg-3 col-md-6 pl-15 pr-15 sm-mb-40 xs-mb-30">
         <a href="#">
           <div class="call-action-box">
-            <img class="img-fluid" src="/assets/images/img.png"
+            <img class="img-fluid" src="/assets/images/placeholder/image-placeholder.webp"
                  alt="Placeholder">
             <div class="fs1-info fs1-img-1">
               <div class="icon-bnt">
@@ -62,7 +62,7 @@
       <div class="col-lg-3 col-md-6 pl-15 pr-15 sm-mb-40 xs-mb-30">
         <a href="#">
           <div class="call-action-box">
-            <img class="img-fluid" src="/assets/images/img.png"
+            <img class="img-fluid" src="/assets/images/placeholder/image-placeholder.webp"
                  alt="Placeholder">
             <div class="fs1-info fs1-img-1">
               <div class="icon-bnt">

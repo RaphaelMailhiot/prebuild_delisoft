@@ -171,7 +171,7 @@
 .header.text-dark .mega-menu .drop-down a:hover,.header.text-dark .mega-menu .drop-down-tab-bar a:hover{color:#84ba3f}
 .header.text-dark .mega-menu .menu-links > li.active .drop-down-multilevel a,.header.text-dark .mega-menu .drop-down-multilevel a{color:#fff}
 .header.text-dark .mega-menu .menu-links > li.active .drop-down-multilevel li.active a,.header.text-dark .mega-menu .drop-down-multilevel li:hover{background:#282828}
-.header.text-dark .mega-menu .drop-down.menu-shop-bg{background:rgba(50,50,50,1) url(../../images/objects/menu-shop-bg.jpg)!important;background-repeat:no-repeat;background-position:right}
+.header.text-dark .mega-menu .drop-down.menu-shop-bg{background:rgba(50,50,50,1) url(../../assets/webster/objects/menu-shop-bg.jpg)!important;background-repeat:no-repeat;background-position:right}
 .header.text-dark .mega-menu .menu-links > li.active .drop-down-multilevel a:hover,.header.text-dark .mega-menu .drop-down-multilevel a:hover{color:#84ba3f}
 .header.text-dark .mega-menu .menu-links > li.active .drop-down-multilevel li.active a{color:#84ba3f;background:#282828}
 .header.text-dark .mega-menu .menu-links > li.active .drop-down-multilevel li.active .drop-down-multilevel li a{color:#fff;background:transparent}
@@ -201,7 +201,7 @@
 .header.dark-dropdown .mega-menu .drop-down a:hover,.header.dark-dropdown .mega-menu .drop-down-tab-bar a:hover{color:#84ba3f}
 .header.dark-dropdown .mega-menu .menu-links > li.active .drop-down-multilevel a,.header.dark-dropdown .mega-menu .drop-down-multilevel a{color:#fff}
 .header.dark-dropdown .mega-menu .menu-links > li.active .drop-down-multilevel li.active a,.header.dark-dropdown .mega-menu .drop-down-multilevel li:hover{background:#282828}
-.header.dark-dropdown .mega-menu .drop-down.menu-shop-bg{background:rgba(50,50,50,1) url(../../images/objects/menu-shop-bg.jpg)!important;background-repeat:no-repeat;background-position:right}
+.header.dark-dropdown .mega-menu .drop-down.menu-shop-bg{background:rgba(50,50,50,1) url(../../assets/webster/objects/menu-shop-bg.jpg)!important;background-repeat:no-repeat;background-position:right}
 .header.dark-dropdown .mega-menu .menu-links > li.active .drop-down-multilevel a:hover,.header.dark-dropdown .mega-menu .drop-down-multilevel a:hover{color:#84ba3f}
 .header.dark-dropdown .mega-menu .menu-links > li.active .drop-down-multilevel li.active a{color:#84ba3f;background:#282828}
 .header.dark-dropdown .mega-menu .menu-links > li.active .drop-down-multilevel li.active .drop-down-multilevel li a{color:#fff;background:transparent}
@@ -576,9 +576,9 @@ header.one-page.light .navbar-inverse .navbar-nav.hover-effect-01 > li > a:hover
 .feature-step a{font-size:14px;color:#84ba3f}
 .feature-step a:hover{color:#323232}
 .feature-step-2-box{padding:70px 30px;z-index:99;position:relative}
-.feature-step-2.bg-01{background:url(../../images/blog/05.jpg) no-repeat;background-size:cover}
-.feature-step-2.bg-02{background:url(../../images/blog/06.jpg) no-repeat;background-size:cover}
-.feature-step-2.bg-03{background:url(../../images/blog/09.jpg) no-repeat;background-size:cover}
+.feature-step-2.bg-01{background:url(../../assets/webster/blog/05.jpg) no-repeat;background-size:cover}
+.feature-step-2.bg-02{background:url(../../assets/webster/blog/06.jpg) no-repeat;background-size:cover}
+.feature-step-2.bg-03{background:url(../../assets/webster/blog/09.jpg) no-repeat;background-size:cover}
 .feature-step-2.bg-overlay-black-50:before{z-index:0}
 .feature-step-2 .feature-step-2-title-left h1{font-size:75px;line-height:60px;color:#fff}
 .feature-step-2 h3{margin-bottom:0}
@@ -794,7 +794,7 @@ a.blog-btn i{margin-left:10px;-webkit-transition:all .3s ease-out;-moz-transitio
 .blog-entry .grid-post li{float:left;width:50%;border-right:4px solid #fff;border-bottom:4px solid #fff;list-style:none}
 .blog-entry .grid-post li img{width:100%}
 .blog-entry .grid-post li .portfolio-item{width:100%}
-.blog-entry .blog-entry-audio{padding:136px 20px;background:url(../../images/blog/04.jpg) center no-repeat;background-size:cover}
+.blog-entry .blog-entry-audio{padding:136px 20px;background:url(../../assets/webster/blog/04.jpg) center no-repeat;background-size:cover}
 .blog-grid-3-column .blog-entry .blog-entry-audio{padding:63px 20px}
 .blog-grid-2-sidebar .blog-entry .blog-entry-audio{padding:96px 20px}
 .service-image-holder{position:relative;height:496px}
@@ -1763,19 +1763,19 @@ canvas{-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none}
 **************************************/
 
 .a-propos-bg{
-    background-image: url(../../images/bg/placeholder-bg.jpg);
+    background-image: url(../../assets/webster/bg/placeholder-bg.jpg);
 }
 
 .services-bg{
-    background-image: url(../../images/bg/placeholder-bg.jpg);
+    background-image: url(../../assets/webster/bg/placeholder-bg.jpg);
 }
 
 .realisations-bg{
-    background-image: url(../../images/bg/placeholder-bg.jpg);
+    background-image: url(../../assets/webster/bg/placeholder-bg.jpg);
 }
 
 .contact-bg{
-    background-image: url(../../images/bg/placeholder-bg.jpg);
+    background-image: url(../../assets/webster/bg/placeholder-bg.jpg);
 }
 
 /*************************************

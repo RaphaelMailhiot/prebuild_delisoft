@@ -1,0 +1,37 @@
+.bloc-texte-1 {
+
+}
+
+.bloc-texte-2 {
+
+    .about-image {
+        width: 100%;
+        position: relative;
+        height: 430px;
+    }
+
+    .about-image-01 {
+        background-image: url("/assets/images/placeholder/bloc-texte2-img1-placeholder.webp");
+        display: table-cell;
+        width: 30%;
+        height: 440px;
+        margin-top: 20px;
+        position: absolute;
+        right: 0;
+        transition: all 1s cubic-bezier(.165, .84, .44, 1);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .about-image-02 {
+        background-image: url("/assets/images/placeholder/bloc-texte2-img2-placeholder.webp");
+        display: table-cell;
+        width: 70%;
+        height: 480px;
+        position: absolute;
+        left: 0;
+        transition: all 1s cubic-bezier(.165, .84, .44, 1);
+        background-size: cover;
+        background-position: center;
+    }
+}

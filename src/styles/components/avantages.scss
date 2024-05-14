@@ -48,12 +48,55 @@
 
 // avantages-4 (Philippe Laprise)
 .avantages-4 {
+
     .feature-box-img {
-        background-image: url("/assets/images/background.jpg");
+        background-image: url("/assets/images/placeholder/background-placeholder.webp");
     }
 }
 
 // avantages-5 (Heneault Gosselin)
 .avantages-5 {
 
+    // Pour mettre une image de background
+    .bg-plan {
+        /*background-image: url(/images/accueil/plan-bg1-10-min.png);
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-size: 330px;*/
+    }
+
+    .a-avantage-order {
+        @media screen and (max-width: 991px) {
+            order: 2;
+            text-align: left;
+        }
+    }
+
+    .img-worker-a {
+        margin-top: -420px;
+
+        @media screen and (max-width: 991px) {
+            display: none;
+        }
+    }
+
+    .col-md-0 {
+        @media screen and (max-width: 991px) {
+            display: none;
+        }
+    }
+}
+
+.avantages-6 {
+
+    .image-offlimit {
+        margin-top: -80px;
+    }
+
+    .text-border-white {
+        border: 2px solid $white;
+        display: inline-block;
+        padding: 6px 15px;
+        margin-bottom: 30px;
+    }
 }

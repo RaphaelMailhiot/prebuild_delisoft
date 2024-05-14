@@ -6,7 +6,7 @@
         <?php for ($i = 0; $i < 6; $i++) : ?>
           <div class="swiper-slide">
             <div class="portfolio-item image-text">
-              <img class="img-fluid" src="assets/images/img.png" alt="Placeholder">
+              <img class="img-fluid" src="assets/images/placeholder/image-placeholder.webp" alt="Placeholder">
               <div class="portfolio-overlay">
                 <div class="seo-h6 subtitle text-white">SousTitre</div>
                 <a class="seo-h3 text-white text-uppercase" href="#">Titre</a>

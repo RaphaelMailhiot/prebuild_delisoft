@@ -11,7 +11,7 @@
               <a class="button" href="#">Lien1</a>
             </div>
             <div class="col-lg-6 col-md-6">
-              <img class="img-fluid" src="/assets/images/img.png" alt="Placeholder Image">
+              <img class="img-fluid" src="/assets/images/placeholder/image-placeholder.webp" alt="Placeholder Image">
             </div>
           </div>
         </div>
@@ -24,7 +24,7 @@
               <a class="button" href="#">Lien2</a>
             </div>
             <div class="col-lg-6 col-md-6">
-              <img class="img-fluid" src="/assets/images/img.png" alt="Placeholder Image">
+              <img class="img-fluid" src="/assets/images/placeholder/image-placeholder.webp" alt="Placeholder Image">
             </div>
           </div>
         </div>

@@ -41,12 +41,10 @@
                             <!-- menu logo -->
                             <ul class="menu-logo">
                                 <li>
-                                    <a href="<?= $url . $meta['accueil'][3] ?>"><img src="favicon.ico" alt="logo"></a>
+                                    <a href="<?= $url . $meta['accueil'][3] ?>"><img src="assets/images/logo.webp" alt="Logo de <?= $namebase ?>"></a>
                                 </li>
                             </ul>
                             <!-- menu links -->
-
-
 
                             <div class="menu-bar">
                                 <ul class="menu-links">

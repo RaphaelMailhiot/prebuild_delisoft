@@ -30,7 +30,7 @@
         </div>
       </div>
       <div class="col-lg-6 col-md-5 d-flex align-items-end">
-        <img class="img-fluid" src="https://fondationphilippelaprise.com/images/a-section-formations-img1-min.jpg"
+        <img class="img-fluid" src="assets/images/placeholder/avantages-4-placeholder.webp"
              alt="Placeholder">
       </div>
     </div>

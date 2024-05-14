@@ -1,9 +1,9 @@
 <section class="avantages-3 page-section-pt clearfix parallax jarallax" data-speed="0.6"
-         data-img-src="assets/images/background.jpg" data-component="Jarallax">
+         data-img-src="assets/images/placeholder/background-placeholder.webp" data-component="Jarallax">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 col-md-6 align-self-end order-switch">
-        <img class="img-fluid" src="https://assainiteck.ca/images/about/08.png" alt="Placeholder">
+        <img class="img-fluid" src="assets/images/placeholder/avantages-3-placeholder.webp" alt="Placeholder">
       </div>
       <div class="col-lg-6 col-md-6 align-self-center">
         <div class="section-title mb-20">

@@ -83,7 +83,7 @@
 			-o-transition: opacity 0.5s;
 			-moz-transition: opacity 0.5s;
 			transition: opacity 0.5s;
-			cursor: url("../../images/close.png") 25 25, pointer;
+			cursor: url("../../assets/webster/close.png") 25 25, pointer;
 		}
 	}
 	.st-menu {
@@ -884,7 +884,7 @@
 	left: inherit;
 }
 .st-effect-1.st-menu.right-side {
-	background: $white url(../../images/objects/sidemenu_bg.png) no-repeat;
+	background: $white url(../../assets/webster/objects/sidemenu_bg.png) no-repeat;
 	visibility: visible;
 	-webkit-transform: translate3d(100%, 0, 0);
 	-ms-transform: translate3d(100%, 0, 0);

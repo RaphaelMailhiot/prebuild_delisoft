@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-lg-3 col-md-6 mb-4 mb-md-0 sm-mb-30">
         <a href="#">
-          <img class="img-fluid width2" src="/assets/images/img.png" alt="Placeholder">
+          <img class="img-fluid width2" src="/assets/images/placeholder/image-placeholder.webp" alt="Placeholder">
         </a>
         <div class="bg-white p-4 box-shadow-s1 pb-70 sm-pb-90 xs-pb-24">
           <div class="row">
@@ -21,7 +21,7 @@
       </div>
       <div class="col-lg-3 col-md-6 mb-4 mb-md-0 sm-mb-30">
         <a href="#">
-          <img class="img-fluid width2" src="/assets/images/img.png" alt="Placeholder">
+          <img class="img-fluid width2" src="/assets/images/placeholder/image-placeholder.webp" alt="Placeholder">
         </a>
         <div class="bg-white p-4 box-shadow-s1 pb-70 sm-pb-90 xs-pb-24">
           <div class="row">
@@ -39,7 +39,7 @@
       </div>
       <div class="col-lg-3 col-md-6 mb-4 mb-md-0 sm-mb-30">
         <a href="#">
-          <img class="img-fluid width2" src="/assets/images/img.png" alt="Placeholder">
+          <img class="img-fluid width2" src="/assets/images/placeholder/image-placeholder.webp" alt="Placeholder">
         </a>
         <div class="bg-white p-4 box-shadow-s1 pb-70 sm-pb-90 xs-pb-24">
           <div class="row">
@@ -57,7 +57,7 @@
       </div>
       <div class="col-lg-3 col-md-6 mb-4 mb-md-0 sm-mb-30">
         <a href="#">
-          <img class="img-fluid width2" src="/assets/images/img.png" alt="Placeholder">
+          <img class="img-fluid width2" src="/assets/images/placeholder/image-placeholder.webp" alt="Placeholder">
         </a>
         <div class="bg-white p-4 box-shadow-s1 pb-70 sm-pb-90 xs-pb-24">
           <div class="row">

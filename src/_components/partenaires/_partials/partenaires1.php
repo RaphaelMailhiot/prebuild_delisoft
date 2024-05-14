@@ -13,7 +13,7 @@
       <div class="swiper-wrapper">
         <?php for ($row = 1; $row <= 7; $row++): ?>
           <div class="swiper-slide">
-            <img class="img-fluid" src="/assets/images/img.png" alt="Placeholder">
+            <img class="img-fluid" src="/assets/images/placeholder/image-placeholder.webp" alt="Placeholder">
           </div>
         <?php endfor; ?>
       </div>

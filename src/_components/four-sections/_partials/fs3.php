@@ -5,7 +5,7 @@
         <div class="a-boxes h-100 gray-bg">
           <div class="feature-text">
             <div class="feature-icon">
-              <span><img class="c-icon-services" src="/assets/images/img.png" alt="Placeholder"></span>
+              <span><img class="c-icon-services" src="/assets/images/placeholder/image-placeholder.webp" alt="Placeholder"></span>
             </div>
             <div class="feature-info">
               <p class="text-uppercase seo-h5">Titre</p>
@@ -19,7 +19,7 @@
         <div class="a-boxes h-100 gray-bg">
           <div class="feature-text">
             <div class="feature-icon">
-              <span><img class="c-icon-services" src="/assets/images/img.png" alt="Placeholder"></span>
+              <span><img class="c-icon-services" src="/assets/images/placeholder/image-placeholder.webp" alt="Placeholder"></span>
             </div>
             <div class="feature-info">
               <p class="text-uppercase seo-h5">Titre</p>
@@ -33,7 +33,7 @@
         <div class="a-boxes h-100 gray-bg">
           <div class="feature-text">
             <div class="feature-icon">
-              <span><img class="c-icon-services" src="/assets/images/img.png" alt="Placeholder"></span>
+              <span><img class="c-icon-services" src="/assets/images/placeholder/image-placeholder.webp" alt="Placeholder"></span>
             </div>
             <div class="feature-info">
               <p class="text-uppercase seo-h5">Titre</p>
@@ -47,7 +47,7 @@
         <div class="a-boxes h-100 gray-bg">
           <div class="feature-text">
             <div class="feature-icon">
-              <span><img class="c-icon-services" src="/assets/images/img.png" alt="Placeholder"></span>
+              <span><img class="c-icon-services" src="/assets/images/placeholder/image-placeholder.webp" alt="Placeholder"></span>
             </div>
             <div class="feature-info">
               <p class="text-uppercase seo-h5">Titre</p>
