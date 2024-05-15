@@ -51,6 +51,15 @@
 
                                     <li <?php if ($_GET["page"] === "accueil"): ?> class="active" <?php endif;?>><a href="<?= $url . $meta['accueil'][3] ?>">Accueil</a></li>
 
+                                    <li <?php if (in_array($_GET["about"], ["about", "about", "about", "about"])): ?> class="active" <?php endif;?>><a href="#">About<i class="fa fa-angle-down fa-indicator"></i></a>
+                                      <ul class="drop-down-multilevel left-side">
+                                        <li <?php if ($_GET["page"] === "about"): ?> class="active" <?php endif;?>><a href="<?= $url . $meta['about'][3] ?>">About</a></li>
+                                        <li <?php if ($_GET["page"] === "about"): ?> class="active" <?php endif;?>><a href="<?= $url . $meta['about'][3] ?>">Avantages</a></li>
+                                        <li <?php if ($_GET["page"] === "about"): ?> class="active" <?php endif;?>><a href="<?= $url . $meta['about'][3] ?>">Fonctionnement</a></li>
+                                        <li <?php if ($_GET["page"] === "about"): ?> class="active" <?php endif;?>><a href="<?= $url . $meta['about'][3] ?>">FAQ</a></li>
+                                      </ul>
+                                    </li>
+
                                     <!--À utiliser quand on utilise des ancres dans la même page-->
                                     <li <?php if ($_GET["page"] === "a-propos"): ?> class="active" <?php endif;?>><a href="#">À Propos<i class="fa fa-angle-down fa-indicator"></i></a>
                                         <ul class="drop-down-multilevel left-side">
@@ -75,9 +84,19 @@
 
                                     <li <?php if ($_GET["page"] === "services"): ?> class="active" <?php endif;?>><a href="<?= $url . $meta['services'][3] ?>">Services</a></li>
                                     <li <?php if ($_GET["page"] === "realisations"): ?> class="active" <?php endif;?>><a href="<?= $url . $meta['realisations'][3] ?>">Réalisations</a></li>
-                                    <li <?php if ($_GET["page"] === "contact"): ?> class="active" <?php endif;?>><a href="<?= $url . $meta['contact'][3] ?>">Contact</a></li>
 
-                                    <!--Permet de changer de langue-->
+                                    <li <?php if (in_array($_GET["contact"], ["contact1", "contact2", "contact3", "contact4"])): ?> class="active" <?php endif;?>><a href="#">Contact<i class="fa fa-angle-down fa-indicator"></i></a>
+                                      <ul class="drop-down-multilevel left-side">
+                                        <li <?php if ($_GET["page"] === "contact1"): ?> class="active" <?php endif;?>><a href="<?= $url . $meta['contact1'][3] ?>">Contact1</a></li>
+                                        <li <?php if ($_GET["page"] === "contact2"): ?> class="active" <?php endif;?>><a href="<?= $url . $meta['contact2'][3] ?>">Contact2</a></li>
+                                        <li <?php if ($_GET["page"] === "contact3"): ?> class="active" <?php endif;?>><a href="<?= $url . $meta['contact3'][3] ?>">Contact3</a></li>
+                                        <li <?php if ($_GET["page"] === "contact4"): ?> class="active" <?php endif;?>><a href="<?= $url . $meta['contact4'][3] ?>">Contact4</a></li>
+                                      </ul>
+                                    </li>
+
+                                  <li <?php if ($_GET["page"] === "exemples"): ?> class="active" <?php endif;?>><a href="<?= $url . $meta['exemples'][3] ?>">Exemples</a></li>
+
+                                  <!--Permet de changer de langue-->
                                     <li><a href="<?= $meta[$page]['en'] ?>">EN</a></li>
 
                                 </ul>

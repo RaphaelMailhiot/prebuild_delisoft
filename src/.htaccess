@@ -14,18 +14,13 @@ RewriteBase /
 #RewriteCond %{HTTP_USER_AGENT} libwww-perl.*
 #RewriteRule .* ? [F,L]
 
-# compress text, html, javascript, css, xml:
-#AddOutputFilterByType DEFLATE text/plain
-#AddOutputFilterByType DEFLATE text/html
-#AddOutputFilterByType DEFLATE text/xml
-#AddOutputFilterByType DEFLATE text/css
-#AddOutputFilterByType DEFLATE application/xml
-#AddOutputFilterByType DEFLATE application/xhtml+xml
-#AddOutputFilterByType DEFLATE application/rss+xml
-#AddOutputFilterByType DEFLATE application/javascript
-#AddOutputFilterByType DEFLATE application/x-javascript
-
 #---- Commented for local end -----#
+
+<IfModule mod_deflate.c>
+<FilesMatch "\.(html|php|txt|xml|js|css)$">
+SetOutputFilter DEFLATE
+</FilesMatch>
+</IfModule>
 
 ErrorDocument 404 UrlDuSite
 
@@ -43,6 +38,9 @@ RewriteRule ^en/achievements$ index.php?lang=en&page=realisations
 
 RewriteRule ^contact$ index.php?lang=fr&page=contact
 RewriteRule ^en/contact$ index.php?lang=en&page=contact
+
+RewriteRule ^exemples$ index.php?lang=fr&page=exemples
+RewriteRule ^en/exemples$ index.php?lang=en&page=exemples
 
 RewriteRule ^([a-z-A-Z0-9]+)/([a-z-A-Z0-9]+)$	index.php?lang=fr&page=seo-1&town=$1	[L]
 

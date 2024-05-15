@@ -28,6 +28,11 @@ $meta['contact'][1] ="Contactez un employé de notre équipe d'expert dès maint
 $meta['contact'][2] ="contacter, contact,";
 $meta['contact'][3] ="contact";
 
+$meta['exemples'][0] ="Exemples - $namebase";
+$meta['exemples'][1] ="Exemples";
+$meta['exemples'][2] ="exemples";
+$meta['exemples'][3] ="exemples";
+
 
 $province=$_GET['province'];
 $town=$_GET['town'];

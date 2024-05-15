@@ -54,18 +54,36 @@ include("assets/lang/lang.php");
 
 <div class="wrapper">
 
+  <?php
 
-  <?php include ('_components/header/header.php'); ?>
+  $titrePage = [
+    'fr' => [
+      //'header' => 'header.php',
+      //'footer' => 'footer.php',
 
-  <div class="pt-50"></div>
+      'accueil' => 'views/accueil.php',
+      'a-propos' => 'views/a-propos.php',
+      //'services' => 'services.php',
+      //'realisations' => 'realisations.php',
+      'contact' => 'views/contact.php',
+      'exemples' => 'views/exemples.php',
 
-  <?php include "_components/all.php"; ?>
+      // Mettre les autres pages ici
+      'seo' => null
+    ]
+  ];
 
-  <?php include ('_components/footer/footer.php'); ?>
+  include('_components/header/header.php');
 
-  <!--Pour les Cookies si nécessaire-->
-  <!--Ne pas oublier le gtag-->
-  <?php /*include('_components/cookies/cookies.php') */?>
+  include($titrePage[$lang][$page]);
+
+  include('_components/footer/footer.php');
+
+  //Pour les Cookies si nécessaire
+  //Ne pas oublier le gtag
+  //include('_components/cookies/cookies.php')
+
+  ?>
 
 </div>
 
@@ -78,7 +96,7 @@ include("assets/lang/lang.php");
 <script src="jquery/plugins-jquery.js"></script>
 
 <!-- plugin_path -->
-<script>const plugin_path = 'jquery/';</script>
+<script>const plugin_path = "jquery/";</script>
 
 <!-- custom -->
 <script src="jquery/custom.js"></script>
