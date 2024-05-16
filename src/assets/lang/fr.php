@@ -13,6 +13,16 @@ $meta['a-propos'][1] ="$descriptionbasefr";
 $meta['a-propos'][2] ="$keywordsbasefr, à propos,";
 $meta['a-propos'][3] ="a-propos";
 
+$meta['avantages'][0] ="Avantages - $namebase";
+$meta['avantages'][1] ="$descriptionbasefr";
+$meta['avantages'][2] ="$keywordsbasefr, avantages,";
+$meta['avantages'][3] ="a-propos/avantages";
+
+$meta['deroulement'][0] ="Déroulement - $namebase";
+$meta['deroulement'][1] ="$descriptionbasefr";
+$meta['deroulement'][2] ="$keywordsbasefr, déroulement,";
+$meta['deroulement'][3] ="a-propos/deroulement";
+
 $meta['services'][0] ="Services - $namebase";
 $meta['services'][1] ="$descriptionbasefr";
 $meta['services'][2] ="$keywordsbasefr, services,";

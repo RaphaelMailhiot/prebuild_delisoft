@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-7 col-md-5 pr-30 sm-pr-15">
-        <img class="img-fluid" src="assets/images/placeholder/bloc-texte1-placeholder.webp" alt="Placeholder">
+        <img class="img-fluid" src="/assets/images/placeholder/bloc-texte1-placeholder.webp" alt="Placeholder">
       </div>
       <div class="col-lg-5 col-md-7 pl-30 sm-pl-15 sm-mt-0 align-self-center mt-80">
         <div class="section-title mb-30 xs-mt-30">

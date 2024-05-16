@@ -30,6 +30,12 @@ RewriteRule ^en/$ index.php?lang=en&page=accueil
 RewriteRule ^a-propos$ index.php?lang=fr&page=a-propos
 RewriteRule ^en/about$ index.php?lang=en&page=a-propos
 
+RewriteRule ^a-propos/avantages$ index.php?lang=fr&page=avantages
+RewriteRule ^en/about/benefits$ index.php?lang=en&page=avantages
+
+RewriteRule ^a-propos/deroulement$ index.php?lang=fr&page=deroulement
+RewriteRule ^en/about/progress index.php?lang=en&page=deroulement
+
 RewriteRule ^services$ index.php?lang=fr&page=services
 RewriteRule ^en/services$ index.php?lang=en&page=services
 

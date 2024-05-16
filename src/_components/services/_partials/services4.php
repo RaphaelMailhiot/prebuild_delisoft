@@ -18,7 +18,7 @@
                     </div>
                   </div>
                 </div>
-                <img class="img-fluid border-radius" src="assets/images/placeholder/background-placeholder.webp"
+                <img class="img-fluid border-radius" src="/assets/images/placeholder/background-placeholder.webp"
                      alt="Placeholder">
               </div>
             </a>

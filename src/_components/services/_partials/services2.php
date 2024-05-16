@@ -33,12 +33,12 @@
             <div class="col-lg-6 pl-30">
                 <div class="row">
                     <div class="col-lg-6 col-md-6">
-                        <img class="img-fluid mb-24" src="assets/images/placeholder/image-placeholder.webp" alt="Placeholder">
-                        <img class="img-fluid" src="assets/images/placeholder/image-placeholder.webp" alt="Placeholder">
+                        <img class="img-fluid mb-24" src="/assets/images/placeholder/image-placeholder.webp" alt="Placeholder">
+                        <img class="img-fluid" src="/assets/images/placeholder/image-placeholder.webp" alt="Placeholder">
                     </div>
                     <div class="col-lg-6 col-md-6">
-                        <img class="img-fluid mt-60 mb-24" src="assets/images/placeholder/image-placeholder.webp" alt="Placeholder">
-                        <img class="img-fluid" src="assets/images/placeholder/image-placeholder.webp" alt="Placeholder">
+                        <img class="img-fluid mt-60 mb-24" src="/assets/images/placeholder/image-placeholder.webp" alt="Placeholder">
+                        <img class="img-fluid" src="/assets/images/placeholder/image-placeholder.webp" alt="Placeholder">
                     </div>
                 </div>
             </div>

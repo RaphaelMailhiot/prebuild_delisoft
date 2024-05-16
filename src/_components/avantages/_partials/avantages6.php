@@ -7,7 +7,7 @@
     <div class="row">
       <div class="col-lg-6 align-self-end col-md-6">
         <img class="img-fluid image-offlimit"
-             src="assets/images/placeholder/avantages-6-placeholder.webp" alt="Placeholder">
+             src="/assets/images/placeholder/avantages-6-placeholder.webp" alt="Placeholder">
       </div>
       <div class="col-lg-6 align-self-center col-md-6">
         <div class="theme-bg pt-50 pl-50 pr-50 pb-50">

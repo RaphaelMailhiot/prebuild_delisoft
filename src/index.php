@@ -27,18 +27,18 @@ include("assets/lang/lang.php");
   <link rel="shortcut icon" href="assets/images/favicon.ico">
 
   <!-- font -->
-  <link rel="preconnect" href="https://kit.fontawesome.com/747138080a.js">
+  <link rel="preconnect" href="https://ka-f.fontawesome.com">
   <script src="https://kit.fontawesome.com/747138080a.js" crossorigin="anonymous"></script>
 
   <!-- Styles -->
-  <link rel="stylesheet" href="styles/main.css" />
+  <link rel="stylesheet" href="/styles/main.css" />
 
   <!-- jquery -->
   <!--s'il y a un bug mettre la version 3.6.0-->
-  <script src="jquery/jquery-3.7.1.min.js"></script>
+  <script src="/jquery/jquery-3.7.1.min.js"></script>
 
   <!-- scripts -->
-  <script src="scripts/main.js" defer></script>
+  <script src="/scripts/main.js" defer></script>
 
   <!-- slider revolution -->
   <!-- SI VOUS NE L'UTILISEZ PAS METTRE EN COMMENTAIRE -->
@@ -63,6 +63,8 @@ include("assets/lang/lang.php");
 
       'accueil' => 'views/accueil.php',
       'a-propos' => 'views/a-propos.php',
+      'avantages' => 'views/a-propos.php',
+      'deroulement' => 'views/a-propos.php',
       //'services' => 'services.php',
       //'realisations' => 'realisations.php',
       'contact' => 'views/contact.php',
@@ -93,13 +95,13 @@ include("assets/lang/lang.php");
  jquery -->
 
 <!-- plugins-jquery -->
-<script src="jquery/plugins-jquery.js"></script>
+<script src="/jquery/plugins-jquery.js"></script>
 
 <!-- plugin_path -->
-<script>const plugin_path = "jquery/";</script>
+<script>const plugin_path = "/jquery/";</script>
 
 <!-- custom -->
-<script src="jquery/custom.js"></script>
+<script src="/jquery/custom.js"></script>
 
 </body>
 </html>

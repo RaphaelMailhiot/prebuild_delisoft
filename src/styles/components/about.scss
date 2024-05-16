@@ -1,8 +1,17 @@
-.about-avantage {
+.about-deroulement {
+    .order-switch {
 
-    .img-cover {
-        background-image: url("/assets/images/placeholder/about/about-avantage-1.webp");
-        background-size: cover;
-        background-position: bottom center;
+        @media screen and (max-width: 768px) {
+            order: 2;
+        }
+    }
+
+    .service-blog {
+        position: relative;
+
+        b {
+            color: $dark-gray-bg;
+            user-select: none;
+        }
     }
 }

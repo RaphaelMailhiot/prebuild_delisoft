@@ -51,11 +51,11 @@
 
                                     <li <?php if ($_GET["page"] === "accueil"): ?> class="active" <?php endif;?>><a href="<?= $url . $meta['accueil'][3] ?>">Accueil</a></li>
 
-                                    <li <?php if (in_array($_GET["about"], ["about", "about", "about", "about"])): ?> class="active" <?php endif;?>><a href="#">About<i class="fa fa-angle-down fa-indicator"></i></a>
+                                    <li <?php if (in_array($_GET["about"], ["about", "avantages", "deroulement", "about"])): ?> class="active" <?php endif;?>><a href="#">About<i class="fa fa-angle-down fa-indicator"></i></a>
                                       <ul class="drop-down-multilevel left-side">
                                         <li <?php if ($_GET["page"] === "about"): ?> class="active" <?php endif;?>><a href="<?= $url . $meta['about'][3] ?>">About</a></li>
-                                        <li <?php if ($_GET["page"] === "about"): ?> class="active" <?php endif;?>><a href="<?= $url . $meta['about'][3] ?>">Avantages</a></li>
-                                        <li <?php if ($_GET["page"] === "about"): ?> class="active" <?php endif;?>><a href="<?= $url . $meta['about'][3] ?>">Fonctionnement</a></li>
+                                        <li <?php if ($_GET["page"] === "avantages"): ?> class="active" <?php endif;?>><a href="<?= $url . $meta['avantages'][3] ?>">Avantages</a></li>
+                                        <li <?php if ($_GET["page"] === "deroulement"): ?> class="active" <?php endif;?>><a href="<?= $url . $meta['deroulement'][3] ?>">Déroulement</a></li>
                                         <li <?php if ($_GET["page"] === "about"): ?> class="active" <?php endif;?>><a href="<?= $url . $meta['about'][3] ?>">FAQ</a></li>
                                       </ul>
                                     </li>

@@ -2,7 +2,7 @@
 
   <?php
 
-  include "_components/sliders/_partials/sliders1.php";
+  include "_components/sliders/_partials/sliders3.php";
   include "_components/four-sections/_partials/fs5.php";
   include "_components/bloc-texte/_partials/bloc-texte1.php";
   include "_components/services/_partials/services1.php";

@@ -7,7 +7,7 @@
                     <div class="swiper-slide">
                         <a href="#">
                             <div class="portfolio-item image-text">
-                                <img src="assets/images/placeholder/image-placeholder.webp" alt="Placeholder">
+                                <img src="/assets/images/placeholder/image-placeholder.webp" alt="Placeholder">
                                 <div class="portfolio-overlay text-center pl-20 pr-20">
                                     <i class="fa-solid fa-heart a-services-icons mb-20"></i>
                                     <div class="seo-h4 text-white text-uppercase">Titre</div>

@@ -18,7 +18,7 @@
             </div>
             <div class="col-3">
               <img class="img-fluid"
-                   src="assets/images/placeholder/avantages-5-icone.svg"
+                   src="/assets/images/placeholder/avantages-5-icone.svg"
                    alt="Placeholder">
             </div>
           </div>
@@ -29,7 +29,7 @@
             </div>
             <div class="col-3">
               <img class="img-fluid"
-                   src="assets/images/placeholder/avantages-5-icone.svg"
+                   src="/assets/images/placeholder/avantages-5-icone.svg"
                    alt="Placeholder">
             </div>
           </div>
@@ -39,7 +39,7 @@
           <div class="row mb-20">
             <div class="col-3">
               <img class="img-fluid"
-                   src="assets/images/placeholder/avantages-5-icone.svg"
+                   src="/assets/images/placeholder/avantages-5-icone.svg"
                    alt="Placeholder">
             </div>
             <div class="col-9">
@@ -50,7 +50,7 @@
           <div class="row">
             <div class="col-3">
               <img class="img-fluid"
-                   src="assets/images/placeholder/avantages-5-icone.svg"
+                   src="/assets/images/placeholder/avantages-5-icone.svg"
                    alt="Placeholder">
             </div>
             <div class="col-9">
@@ -74,7 +74,7 @@
         </div>
         <div class="col-lg-4 col-md-0 align-self-end">
           <img class="img-fluid img-worker-a"
-               src="assets/images/placeholder/avantages-5-placeholder.webp"
+               src="/assets/images/placeholder/avantages-5-placeholder.webp"
                alt="Nos avantages">
         </div>
         <div class="col-lg-4 col-md-6">
