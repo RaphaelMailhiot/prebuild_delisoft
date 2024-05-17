@@ -27,6 +27,18 @@
         transition: all 1s cubic-bezier(.165, .84, .44, 1);
         background-size: cover;
         background-position: center;
+
+        &:hover {
+            width: 70%;
+            height: 480px;
+            margin-top: 0;
+
+            + .about-image-02 {
+                width: 30%;
+                height: 440px;
+                margin-top: 20px;
+            }
+        }
     }
 
     .about-image-02 {
