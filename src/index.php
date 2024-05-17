@@ -97,7 +97,7 @@ include("assets/lang/lang.php");
 
   //Pour les Cookies si nécessaire
   //Ne pas oublier le gtag
-  //include('_components/cookies/cookies.php')
+  include('_components/cookies/cookies.php')
 
   ?>
 

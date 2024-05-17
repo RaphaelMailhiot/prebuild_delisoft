@@ -2,6 +2,7 @@
    COOKIES / ELEMENT
    ========================================================================== */
 
+// cookies1
 .cookies-bar{
     background-color: #000;
     position: fixed;
@@ -12,7 +13,7 @@
 .cookie-button-close{
     text-align: right !important;
     float: right;
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-top: 7px;
     background-color: rgba(0,0,0,0) !important;
     border: none;
@@ -39,4 +40,42 @@
     .cookies-bar .button{
         width: 100% !important;
     }
+}
+
+// cookies2
+.cookies-square {
+    position: fixed;
+    bottom: 24px;
+    left: 24px;
+    z-index: 99999999999999999999999999999;
+    padding: 24px;
+
+    background: black;
+    color: $white;
+    max-width: 320px;
+
+    p {
+        font-size: 1.25rem;
+        color: $white;
+    }
+
+    .button {
+        margin-bottom: 0;
+    }
+}
+
+.cookies-square-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.close-square {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+
+    font-size: 1.25rem;
+    border: none;
+    background: unset;
+    cursor: pointer;
 }

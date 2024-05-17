@@ -1,12 +1,28 @@
+/* ==========================================================================
+   sliders / components
+   ========================================================================== */
+
+.slider {
+    overflow: hidden;
+}
+
 .slider1 {
     background: url("/assets/images/placeholder/background-placeholder.webp") center no-repeat;
 }
 
+.slider2 {
+    padding: 50px 0 0 0 !important;
 
+    .slider2__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
 
 .slider3 {
     background: url("/assets/images/placeholder/background-placeholder.webp") center no-repeat;
-    height: 700px;
+    height: 600px;
     position: relative;
 
     .slider3__container {
@@ -36,12 +52,16 @@
         overflow: hidden;
         background: url("/assets/images/placeholder/sliders3-placeholder.webp") no-repeat;
         background-size: auto 100%;
-        
+
         @media screen and (min-width: 1900px) {
             background-position-x: right;
         }
     }
 }
+
+/* ==========================================================================
+   animations / sliders
+   ========================================================================== */
 
 .bg-zoom-out {
     animation: bg-zoom-out 12s ease forwards;
@@ -53,6 +73,21 @@
     }
     to {
         background-size: 100%;
+    }
+}
+
+.from-bottom {
+    animation: from-bottom 3s ease forwards;
+    overflow: hidden;
+}
+
+@keyframes from-bottom {
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateY(0);
     }
 }
 

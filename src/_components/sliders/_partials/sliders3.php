@@ -1,4 +1,4 @@
-<section class="slider3 page-section-ptb bg-zoom-out">
+<section class="slider3 bg-zoom-out">
   <div class="container slider3__container">
     <div class="slider3__info">
       <p class="seo-h6 text-left">Soustitre</p>

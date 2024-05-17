@@ -26,7 +26,7 @@ export default class Cookies {
       } else if (event.target.matches('.js-cookie-consent-refuse')) {
         this.consentWithCookies();
         //removeCookies();
-      } else if (event.target.matches('.cookie-button-close')) {
+      } else if (event.target.matches('.js-cookie-button-close')) {
         this.hideCookieDialog();
       }
     });

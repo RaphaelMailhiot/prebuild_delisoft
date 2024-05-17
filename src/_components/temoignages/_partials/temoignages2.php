@@ -1,4 +1,4 @@
-<section class="temoignages-2 page-section-ptb">
+<section class="temoignages2 page-section-ptb">
   <div class="container">
     <div class="row">
       <div class="col-lg-4 col-md-4 align-self-center xs-mb-30">
