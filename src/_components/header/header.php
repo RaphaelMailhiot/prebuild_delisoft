@@ -6,4 +6,5 @@ $files = glob('_components/header/_partials/*.php');
 // Incluez chaque fichier trouvé
 foreach ($files as $file) {
     include $file;
+    //include "_components/divider.php";
 }

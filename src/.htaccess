@@ -30,11 +30,11 @@ RewriteRule ^en/$ index.php?lang=en&page=accueil
 RewriteRule ^a-propos$ index.php?lang=fr&page=a-propos
 RewriteRule ^en/about$ index.php?lang=en&page=a-propos
 
-RewriteRule ^a-propos/avantages$ index.php?lang=fr&page=avantages
-RewriteRule ^en/about/benefits$ index.php?lang=en&page=avantages
+RewriteRule ^a-propos/avantages$ index.php?lang=fr&page=a-propos-avantages
+RewriteRule ^en/about/benefits$ index.php?lang=en&page=a-propos-avantages
 
-RewriteRule ^a-propos/deroulement$ index.php?lang=fr&page=deroulement
-RewriteRule ^en/about/progress index.php?lang=en&page=deroulement
+RewriteRule ^a-propos/deroulement$ index.php?lang=fr&page=a-propos-deroulement
+RewriteRule ^en/about/progress index.php?lang=en&page=a-propos-deroulement
 
 RewriteRule ^services$ index.php?lang=fr&page=services
 RewriteRule ^en/services$ index.php?lang=en&page=services
@@ -48,7 +48,22 @@ RewriteRule ^en/contact$ index.php?lang=en&page=contact
 RewriteRule ^exemples$ index.php?lang=fr&page=exemples
 RewriteRule ^en/exemples$ index.php?lang=en&page=exemples
 
+
+# LES _COMPONENTS
+RewriteRule ^components/avantages$ index.php?lang=fr&page=components-avantages
+RewriteRule ^components/bloc-texte$ index.php?lang=fr&page=components-bloc-texte
+RewriteRule ^components/contact$ index.php?lang=fr&page=components-contact
+RewriteRule ^components/four-sections$ index.php?lang=fr&page=components-four-sections
+RewriteRule ^components/modules$ index.php?lang=fr&page=components-modules
+RewriteRule ^components/partenaires$ index.php?lang=fr&page=components-partenaires
+RewriteRule ^components/services$ index.php?lang=fr&page=components-services
+RewriteRule ^components/sliders$ index.php?lang=fr&page=components-sliders
+RewriteRule ^components/temoignages$ index.php?lang=fr&page=components-temoignages
+
+#SEO
 RewriteRule ^([a-z-A-Z0-9]+)/([a-z-A-Z0-9]+)$	index.php?lang=fr&page=seo-1&town=$1	[L]
+
+
 
 # Disable server signature
 ServerSignature Off

@@ -1,7 +1,9 @@
 <?php
 $page = $_GET["page"];
 $lang = $_GET["lang"];
-$url = 'https://' . $_SERVER["HTTP_HOST"] . '/';
+
+$protocol = "http://";
+$url = $protocol . $_SERVER["HTTP_HOST"] . '/';
 
 // TODO Mettre le nom du site
 $namebase = "NomDeLaCompagnie";
@@ -24,7 +26,7 @@ include("assets/lang/lang.php");
 
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="assets/images/favicon.ico">
+  <link rel="shortcut icon" href="/assets/images/favicon.ico">
 
   <!-- font -->
   <link rel="preconnect" href="https://ka-f.fontawesome.com">
@@ -62,15 +64,27 @@ include("assets/lang/lang.php");
       //'footer' => 'footer.php',
 
       'accueil' => 'views/accueil.php',
+
       'a-propos' => 'views/a-propos.php',
-      'avantages' => 'views/a-propos.php',
-      'deroulement' => 'views/a-propos.php',
-      //'services' => 'services.php',
-      //'realisations' => 'realisations.php',
-      'contact' => 'views/contact.php',
+      'a-propos-avantages' => 'views/a-propos.php',
+      'a-propos-deroulement' => 'views/a-propos.php',
+
       'exemples' => 'views/exemples.php',
 
-      // Mettre les autres pages ici
+
+      // LES _COMPONENTS
+      //'about' => '_components/about/about.php',
+      'components-avantages' => '_components/avantages/avantages.php',
+      'components-bloc-texte' => '_components/bloc-texte/bloc-texte.php',
+      'components-contact' => '_components/contact/contact.php',
+      'components-four-sections' => '_components/four-sections/four-sections.php',
+      'components-modules' => '_components/modules/modules.php',
+      'components-partenaires' => '_components/partenaires/partenaires.php',
+      'components-services' => '_components/services/services.php',
+      'components-sliders' => '_components/sliders/sliders.php',
+      'components-temoignages' => '_components/temoignages/temoignages.php',
+
+      // SEO
       'seo' => null
     ]
   ];
