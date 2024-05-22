@@ -2,7 +2,7 @@
   <div class="swiper" data-component="Carousel">
     <div class="swiper-wrapper">
 
-      <div class="swiper-slide">
+      <div class="swiper-slide slide1">
 
         <img class="animation-slider-img-zoom-in" src="/assets/images/placeholder/sliders6-s1-bg.webp" alt="Cour arrière avec gazon traité par Club gazon">
 
@@ -24,11 +24,11 @@
         </div>
       </div>
 
-      <div class="swiper-slide">
+      <div class="swiper-slide slide2">
 
         <img class="animation-slider-img-zoom-in" src="/assets/images/placeholder/sliders6-s2-bg.webp" alt="Personne qui fait un traitement de gazon">
 
-        <div class="container sliders6-textes">
+        <div class="container sliders6-textes slide2-texte">
           <div class="w-50">
             <p><span class="green-bg animation-slider-texte-appear">Traitement contre<br>mauvaises herbes</span></p>
             <p><span class="red-bg after-bio">70% de rabais</span></p>
@@ -47,11 +47,11 @@
         </div>
       </div>
 
-      <div class="swiper-slide">
+      <div class="swiper-slide slide3">
 
         <img class="animation-slider-img-zoom-out" src="/assets/images/placeholder/sliders6-s3-bg.webp" alt="Famille qui s'amuse sur leur pelouse">
 
-        <div class="sliders6-textes text-center">
+        <div class="sliders6-textes text-center slide3-texte">
           <p><span class="green-bg animation-slider-texte-appear">Profitez d'un gazon vert cet été</span></p>
           <p><span class="black-bg">entretien de gazon</span></p>
           <div>

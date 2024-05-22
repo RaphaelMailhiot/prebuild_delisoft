@@ -274,6 +274,11 @@
             p {
                 margin: 0;
                 text-transform: uppercase;
+                font-size: $fs-36;
+
+                @media screen and (max-width: $tablet-portrait) {
+                    font-size: $fs-28;
+                }
 
                 span {
                     display: inline-flex;
@@ -297,21 +302,47 @@
                     transform: translate(-50%, -50%);
                     text-align: center;
 
-                    p {
-                        font-size: $fs-36;
-
+                    .after-bio {
                         @media screen and (max-width: $tablet-portrait) {
-                            font-size: $fs-28;
+                            display: none !important;
                         }
+                    }
+                }
 
-                        @media screen and (max-width: $mobile-landscape) {
-                            font-size: $fs-20;
+                &.slide2-texte {
+                    text-align: center;
+                    display: flex;
+                    align-items: center;
+
+                    .w-50 {
+                        width: 100% !important;
+                    }
+
+                    .avant-apres {
+                        display: none !important;
+                    }
+
+                    .after-bio::after {
+                        @media screen and (max-width: $tablet-portrait) {
+                            display: none !important;
                         }
                     }
                 }
             }
-
         }
+
+        @media screen and (max-width: $tablet-landscape) {
+
+            &.slide3 {
+                display: flex;
+                justify-content: center;
+            }
+
+            .slide3-texte {
+                width: 75%;
+            }
+        }
+
 
         .after-bio {
             position: relative;
