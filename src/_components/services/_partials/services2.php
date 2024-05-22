@@ -1,4 +1,4 @@
-<section class="services-2 page-section-ptb gray-bg">
+<section class="services-2 page-section-ptb img-bg">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 pr-30">
@@ -8,7 +8,7 @@
                     <p>Le chiropraticien est le spécialiste idéal pour traiter et corriger ces problèmes :</p>
                 </div>
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-sm-6">
                         <ul class="list list-unstyled">
                             <li><i class="ti-check-box theme-color"></i> Lorem ipsum.</li>
                             <li><i class="ti-check-box theme-color"></i> Lorem ipsum.</li>
@@ -17,7 +17,7 @@
                             <li><i class="ti-check-box theme-color"></i> Lorem ipsum.</li>
                         </ul>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-sm-6">
                         <ul class="list list-unstyled">
                           <li><i class="ti-check-box theme-color"></i> Lorem ipsum.</li>
                           <li><i class="ti-check-box theme-color"></i> Lorem ipsum.</li>
@@ -33,12 +33,12 @@
             <div class="col-lg-6 pl-30">
                 <div class="row">
                     <div class="col-lg-6 col-md-6">
-                        <img class="img-fluid mb-24" src="/assets/images/placeholder/image-placeholder.webp" alt="Placeholder">
-                        <img class="img-fluid" src="/assets/images/placeholder/image-placeholder.webp" alt="Placeholder">
+                        <img class="img-fluid mb-24" src="/assets/images/placeholder/service2-placeholder-1.webp" alt="Placeholder">
+                        <img class="img-fluid" src="/assets/images/placeholder/service2-placeholder-2.webp" alt="Placeholder">
                     </div>
                     <div class="col-lg-6 col-md-6">
-                        <img class="img-fluid mt-60 mb-24" src="/assets/images/placeholder/image-placeholder.webp" alt="Placeholder">
-                        <img class="img-fluid" src="/assets/images/placeholder/image-placeholder.webp" alt="Placeholder">
+                        <img class="img-fluid mt-60 mb-24" src="/assets/images/placeholder/service2-placeholder-3.webp" alt="Placeholder">
+                        <img class="img-fluid" src="/assets/images/placeholder/service2-placeholder-4.webp" alt="Placeholder">
                     </div>
                 </div>
             </div>

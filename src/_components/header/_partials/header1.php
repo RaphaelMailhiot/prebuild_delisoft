@@ -71,6 +71,7 @@
 
                   <li <?php if (in_array($_GET["page"], [
                     "components-avantages",
+                    "components-actionbox",
                     "components-bloc-texte",
                     "components-contact",
                     "components-four-sections",
@@ -84,6 +85,8 @@
                     <ul class="drop-down-multilevel left-side">
                       <li <?php if ($_GET["page"] === "components-avantages"): ?> class="active" <?php endif; ?>><a
                           href="<?= $url . $meta['components-avantages'][3] ?>">Avantages</a></li>
+                      <li <?php if ($_GET["page"] === "components-actionbox"): ?> class="active" <?php endif; ?>><a
+                          href="<?= $url . $meta['components-actionbox'][3] ?>">ActionBox</a></li>
                       <li <?php if ($_GET["page"] === "components-bloc-texte"): ?> class="active" <?php endif; ?>><a
                           href="<?= $url . $meta['components-bloc-texte'][3] ?>">Bloc-texte</a></li>
                       <li <?php if ($_GET["page"] === "components-contact"): ?> class="active" <?php endif; ?>><a

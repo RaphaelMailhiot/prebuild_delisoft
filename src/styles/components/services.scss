@@ -26,7 +26,10 @@
 
 // services-2 (chirotrottier)
 .services-2 {
-
+    &.img-bg {
+        background: url(../assets/images/placeholder/service2-bg.webp) no-repeat;
+        background-size: cover;
+    }
 }
 
 // services-3 (force-legal)
@@ -93,6 +96,6 @@
     }
 
     .portfolio-item:hover.image-text::before {
-        background: linear-gradient(to bottom,rgba(0,0,0,0) 0,$theme-color 100%);
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, $theme-color 100%);
     }
 }

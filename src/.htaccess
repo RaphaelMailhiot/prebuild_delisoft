@@ -51,6 +51,7 @@ RewriteRule ^en/exemples$ index.php?lang=en&page=exemples
 
 # LES _COMPONENTS
 RewriteRule ^components/avantages$ index.php?lang=fr&page=components-avantages
+RewriteRule ^components/actionbox$ index.php?lang=fr&page=components-actionbox
 RewriteRule ^components/bloc-texte$ index.php?lang=fr&page=components-bloc-texte
 RewriteRule ^components/contact$ index.php?lang=fr&page=components-contact
 RewriteRule ^components/four-sections$ index.php?lang=fr&page=components-four-sections

@@ -75,6 +75,7 @@ include("assets/lang/lang.php");
       // LES _COMPONENTS
       //'about' => '_components/about/about.php',
       'components-avantages' => '_components/avantages/avantages.php',
+      'components-actionbox' => '_components/actionbox/actionbox.php',
       'components-bloc-texte' => '_components/bloc-texte/bloc-texte.php',
       'components-contact' => '_components/contact/contact.php',
       'components-four-sections' => '_components/four-sections/four-sections.php',
@@ -89,7 +90,7 @@ include("assets/lang/lang.php");
     ]
   ];
 
-  include('_components/header/header.php');
+  //include('_components/header/header.php');
 
   include($titrePage[$lang][$page]);
 

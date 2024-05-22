@@ -1,8 +1,8 @@
-<div class="pt-10 pb-10">
-  <div class="seo-h1">Sliders</div>
+<!--<div class="pt-10 pb-10">
+  <div class="seo-h1">Sliders</div>-->
 
   <?php
-
+  /*
   // Récupérez tous les fichiers PHP dans le dossier
   $files = glob('_components/sliders/_partials/*.php');
 
@@ -10,7 +10,12 @@
   foreach ($files as $file) {
     include $file;
     include "_components/divider.php";
-  } ?>
+  }
+  */
 
-</div>
-<div class="divider"></div>
+  include "_components/sliders/_partials/sliders4.php";
+
+  ?>
+
+<!--</div>
+<div class="divider"></div>-->

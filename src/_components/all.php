@@ -1,6 +1,7 @@
 <?php
 
 include ('avantages/avantages.php');
+include ('actionbox/actionbox.php');
 include ('bloc-texte/bloc-texte.php');
 include ('contact/contact.php');
 include ('four-sections/four-sections.php');

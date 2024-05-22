@@ -38,7 +38,7 @@
     }
 
     .slider3__titre {
-        font-size: 4rem;
+        font-size: $fs-64;
     }
 
     &::after {
@@ -55,6 +55,97 @@
 
         @media screen and (min-width: 1900px) {
             background-position-x: right;
+        }
+    }
+}
+
+.sliders4 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+
+    p {
+        color: $white;
+    }
+
+    .seo-h1 {
+        font-size: $fs-64;
+
+        &.theme-color {
+            color: $theme-color;
+        }
+    }
+
+    .seo-h4 {
+        margin: 40px 0;
+    }
+
+    .swiper {
+        height: 100%;
+
+        .swiper-button-prev, .swiper-button-next {
+
+            &::after {
+                color: $white;
+            }
+        }
+    }
+
+    .swiper-slide {
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+
+        .bg-img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+
+            img {
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .container {
+            position: relative;
+            z-index: 10;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+
+            >* {
+                width: 60%;
+            }
+        }
+    }
+
+    .slider__drop {
+        height: 55px;
+        width: 35px;
+        border-radius: 24px;
+        border: solid 3px white;
+        position: absolute;
+        bottom: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        span {
+            height: 8px;
+            width: 8px;
+            border-radius: 100%;
+            background: white;
+            opacity: 0;
+            animation: drop 2s 2s ease-out infinite;
         }
     }
 }
@@ -111,5 +202,23 @@
 
     100% {
         transform: translateX(0%);
+    }
+}
+
+@keyframes drop {
+    0% {
+        transform: translateY(-16px);
+        opacity: 0.5;
+    }
+
+    30% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 0;
     }
 }

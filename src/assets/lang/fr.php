@@ -70,6 +70,11 @@ $meta['components-avantages'][1] ="Exemples";
 $meta['components-avantages'][2] ="components-avantages";
 $meta['components-avantages'][3] ="components/avantages";
 
+$meta['components-actionbox'][0] ="ActionBox - $namebase";
+$meta['components-actionbox'][1] ="Exemples";
+$meta['components-actionbox'][2] ="components-actionbox";
+$meta['components-actionbox'][3] ="components/actionbox";
+
 $meta['components-bloc-texte'][0] ="Bloc-texte - $namebase";
 $meta['components-bloc-texte'][1] ="Exemples";
 $meta['components-bloc-texte'][2] ="components-bloc-texte";
