@@ -150,6 +150,42 @@
     }
 }
 
+.sliders5 {
+    position: relative;
+    height: 800px;
+
+    .seo-h1 {
+        font-size: $fs-50;
+        line-height: 1.1;
+    }
+
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .container {
+        position: relative;
+        z-index: 10;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        overflow-x: hidden;
+
+        >* {
+            max-width: 60%;
+            color: $white;
+        }
+    }
+}
+
 /* ==========================================================================
    animations / sliders
    ========================================================================== */
@@ -183,7 +219,7 @@
 }
 
 .text-left {
-
+    animation: text-left 1.5s ease forwards;
 }
 
 @keyframes text-left {
