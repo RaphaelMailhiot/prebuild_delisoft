@@ -84,6 +84,20 @@
     margin-bottom: 24px;
 }
 
+// Pour les arrow de swiperjs
+.swiper-button-prev, .swiper-button-next {
+
+    &.arrow-white {
+        &::after {
+            color: $white;
+        }
+    }
+
+    &::after {
+        color: $theme-color;
+    }
+}
+
 // Peut être supprimé
 .divider {
     background: $theme-color;
