@@ -13,7 +13,7 @@
         </div>
       </div>
       <div class="col-4">
-        <img class="img-fluid from-bottom" src="/assets/images/placeholder/sliders2-placeholder.webp" alt="Placeholder">
+        <img class="img-fluid animation-from-bottom" src="/assets/images/placeholder/sliders2-placeholder.webp" alt="Placeholder">
       </div>
     </div>
   </div>
