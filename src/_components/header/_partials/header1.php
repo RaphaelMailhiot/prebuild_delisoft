@@ -49,10 +49,28 @@
               <div class="menu-bar">
                 <ul class="menu-links">
 
-                  <li <?php if ($_GET["page"] === "accueil"): ?> class="active" <?php endif; ?>>
-                    <a href="<?= $url . $meta['accueil'][3] ?>">
-                      <?= $meta['header']['menu']['accueil'] ?>
-                    </a></li>
+                  <li <?php if (in_array($_GET["page"], [
+                    "accueil1",
+                    "accueil2",
+                    "accueil3"
+                  ])): ?> class="active" <?php endif; ?>>
+                    <a href="#"><?= $meta['header']['menu']['accueil'] ?><i
+                        class="fa fa-angle-down fa-indicator"></i></a>
+                    <ul class="drop-down-multilevel left-side">
+                      <li <?php if ($_GET["page"] === "accueil-1"): ?> class="active" <?php endif; ?>>
+                        <a href="<?= $url . $meta['accueil-1'][3] ?>">
+                          <?= $meta['header']['menu']['accueil-1'] ?>
+                        </a></li>
+                      <li <?php if ($_GET["page"] === "accueil-2"): ?> class="active" <?php endif; ?>>
+                        <a href="<?= $url . $meta['accueil-2'][3] ?>">
+                          <?= $meta['header']['menu']['accueil-2'] ?>
+                        </a></li>
+                      <li <?php if ($_GET["page"] === "accueil-3"): ?> class="active" <?php endif; ?>>
+                        <a href="<?= $url . $meta['accueil-3'][3] ?>">
+                          <?= $meta['header']['menu']['accueil-3'] ?>
+                        </a></li>
+                    </ul>
+                  </li>
 
                   <li <?php if (in_array($_GET["about"], ["about", "avantages", "deroulement", "about"])): ?> class="active" <?php endif; ?>>
                     <a href="#"><?= $meta['header']['menu']['a-propos'] ?><i class="fa fa-angle-down fa-indicator"></i></a>
@@ -78,6 +96,7 @@
 
 
                   <li <?php if (in_array($_GET["page"], [
+                    "all",
                     "components-avantages",
                     "components-actionbox",
                     "components-bloc-texte",
@@ -92,6 +111,10 @@
                     <a href="#"><?= $meta['header']['menu']['components'] ?><i
                         class="fa fa-angle-down fa-indicator"></i></a>
                     <ul class="drop-down-multilevel left-side">
+                      <li <?php if ($_GET["page"] === "all"): ?> class="active" <?php endif; ?>>
+                        <a href="<?= $url . $meta['all'][3] ?>">
+                          All
+                        </a></li>
                       <li <?php if ($_GET["page"] === "components-avantages"): ?> class="active" <?php endif; ?>>
                         <a href="<?= $url . $meta['components-avantages'][3] ?>">
                           <?= $meta['header']['menu']['components-avantages'] ?>
@@ -140,6 +163,11 @@
                       <?= $meta['header']['menu']['exemples'] ?>
                     </a></li>
 
+                  <li <?php if ($_GET["page"] === "traduction"): ?> class="active" <?php endif; ?>>
+                    <a href="<?= $url . $meta['traduction'][3] ?>">
+                      <?= $meta['header']['menu']['traduction'] ?>
+                    </a></li>
+
                   <!--Permet de changer de langue-->
                   <li><a href="<?= $meta[$page][$meta['header']['switch']] ?>"><?= $meta['header']['switch'] ?></a></li>
 
@@ -152,8 +180,3 @@
     </div>
   </div>
 </header>
-
-<!--=================================
- header -->
-
-<div class="mb-60"></div>

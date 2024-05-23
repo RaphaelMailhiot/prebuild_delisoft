@@ -10,5 +10,3 @@ include ('partenaires/partenaires.php');
 include ('services/services.php');
 include ('sliders/sliders.php');
 include ('temoignages/temoignages.php');
-
-//include ('cookies/cookies.php');

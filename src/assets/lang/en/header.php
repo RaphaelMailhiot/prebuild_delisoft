@@ -4,6 +4,9 @@
 
 // Accueil
 $meta['header']['menu']['accueil'] = "Home";
+$meta['header']['menu']['accueil-1'] = "Home 1";
+$meta['header']['menu']['accueil-2'] = "Home 2";
+$meta['header']['menu']['accueil-3'] = "Home 3";
 
 // À propos
 $meta['header']['menu']['a-propos'] = "About";
@@ -26,6 +29,9 @@ $meta['header']['menu']['components-temoignages'] = "Testimonials";
 
 // Exemples
 $meta['header']['menu']['exemples'] = "Examples";
+
+// Traduction
+$meta['header']['menu']['traduction'] = "Translation";
 
 // Changer de langue
 $meta['header']['switch'] = "fr";

@@ -4,5 +4,3 @@
 ];
 
 include "_partials/cookies2.php";
-
-

@@ -3,10 +3,10 @@
 $descriptionbaseen = "CeciEstLaDescriptionDeBase";
 $keywordsbaseen = "CeuxCiSontLesKeywordsDeBase";
 
-$meta['accueil'][0] ="Accueil - $namebase";
-$meta['accueil'][1] ="$descriptionbaseen";
-$meta['accueil'][2] ="$keywordsbaseen";
-$meta['accueil'][3] ="en";
+$meta['all'][0] ="All - $namebase";
+$meta['all'][1] ="$descriptionbaseen";
+$meta['all'][2] ="$keywordsbaseen";
+$meta['all'][3] ="en";
 
 $meta['a-propos'][0] ="About - $namebase";
 $meta['a-propos'][1] ="$descriptionbaseen";

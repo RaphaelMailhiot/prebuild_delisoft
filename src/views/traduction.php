@@ -17,7 +17,6 @@ Pour la traduction → assets/lang/{lang}/{page}.php
     </div>
 </section>
 
-
 <!--=================================
  Section Contenu -->
 

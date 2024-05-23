@@ -66,16 +66,19 @@ include("assets/lang/" . $lang . "/footer.php");
     'header' => '_components/header/header.php',
     'footer' => '_components/footer/footer.php',
 
-    'accueil' => 'views/accueil.php',
+    'all' => 'views/all.php',
+
+    'accueil-1' => '_components/accueil/accueil1.php',
+    'accueil-2' => '_components/accueil/accueil2.php',
+    'accueil-3' => '_components/accueil/accueil3.php',
 
     'a-propos' => 'views/a-propos.php',
     'a-propos-avantages' => 'views/a-propos.php',
     'a-propos-deroulement' => 'views/a-propos.php',
 
-    'traduction' => 'views/traduction.php',
-
     'exemples' => 'views/exemples.php',
 
+    'traduction' => 'views/traduction.php',
 
     // LES _COMPONENTS
     //'about' => '_components/about/about.php',

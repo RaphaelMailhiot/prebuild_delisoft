@@ -1,3 +1,5 @@
+<div class="mb-60"></div>
+
 <?php
 
 switch ($page) {

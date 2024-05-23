@@ -3,10 +3,10 @@
 $descriptionbasefr = "CeciEstLaDescriptionDeBase";
 $keywordsbasefr = "CeuxCiSontLesKeywordsDeBase";
 
-$meta['accueil'][0] ="Accueil - $namebase";
-$meta['accueil'][1] ="$descriptionbasefr";
-$meta['accueil'][2] ="$keywordsbasefr";
-$meta['accueil'][3] ="";
+$meta['all'][0] ="All - $namebase";
+$meta['all'][1] ="$descriptionbaseen";
+$meta['all'][2] ="$keywordsbaseen";
+$meta['all'][3] ="";
 
 $meta['a-propos'][0] ="À propos - $namebase";
 $meta['a-propos'][1] ="$descriptionbasefr";
@@ -53,8 +53,24 @@ if ($page == "seo-1") {
 }
 
 
-// LES PAGES D'EXEMPLES
+// LES PAGES D'ACCUEIL
+$meta['accueil-1'][0] ="Accueil 1 - $namebase";
+$meta['accueil-1'][1] ="$descriptionbaseen";
+$meta['accueil-1'][2] ="$keywordsbaseen";
+$meta['accueil-1'][3] ="accueil/1";
 
+$meta['accueil-2'][0] ="Accueil 2 - $namebase";
+$meta['accueil-2'][1] ="$descriptionbaseen";
+$meta['accueil-2'][2] ="$keywordsbaseen";
+$meta['accueil-2'][3] ="accueil/2";
+
+$meta['accueil-3'][0] ="Accueil 3 - $namebase";
+$meta['accueil-3'][1] ="$descriptionbaseen";
+$meta['accueil-3'][2] ="$keywordsbaseen";
+$meta['accueil-3'][3] ="accueil/3";
+
+
+// LES PAGES D'EXEMPLES
 $meta['components-avantages'][0] ="Avantages - $namebase";
 $meta['components-avantages'][1] ="Exemples";
 $meta['components-avantages'][2] ="components-avantages";
