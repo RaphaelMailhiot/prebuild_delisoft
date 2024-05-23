@@ -1,4 +1,4 @@
-<section class="avantages-1 page-section-ptb gray-bg">
+<section class="avantages-1 page-section-ptb">
     <div class="container">
       <div class="row mb-30">
         <div class="col-12">
