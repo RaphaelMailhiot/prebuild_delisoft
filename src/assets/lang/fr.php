@@ -23,24 +23,14 @@ $meta['a-propos-deroulement'][1] ="$descriptionbasefr";
 $meta['a-propos-deroulement'][2] ="$keywordsbasefr, déroulement,";
 $meta['a-propos-deroulement'][3] ="a-propos/deroulement";
 
-$meta['services'][0] ="Services - $namebase";
-$meta['services'][1] ="$descriptionbasefr";
-$meta['services'][2] ="$keywordsbasefr, services,";
-$meta['services'][3] ="services";
-
-$meta['realisations'][0] ="Réalisations - $namebase";
-$meta['realisations'][1] ="$descriptionbasefr";
-$meta['realisations'][2] ="$keywordsbasefr, réalisations,";
-$meta['realisations'][3] ="realisations";
-
-$meta['contact'][0] ="Contact - $namebase";
-$meta['contact'][1] ="Contactez un employé de notre équipe d'expert dès maintenant.";
-$meta['contact'][2] ="contacter, contact,";
-$meta['contact'][3] ="contact";
+$meta['traduction'][0] ="Traduction - $namebase";
+$meta['traduction'][1] ="Traduction";
+$meta['traduction'][2] ="$keywordsbasefr, traduction";
+$meta['traduction'][3] ="traduction";
 
 $meta['exemples'][0] ="Exemples - $namebase";
 $meta['exemples'][1] ="Exemples";
-$meta['exemples'][2] ="exemples";
+$meta['exemples'][2] ="$keywordsbasefr, exemples";
 $meta['exemples'][3] ="exemples";
 
 

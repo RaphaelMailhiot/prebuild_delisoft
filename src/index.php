@@ -9,7 +9,11 @@ $url = $protocol . $_SERVER["HTTP_HOST"] . '/';
 $namebase = "NomDeLaCompagnie";
 
 include("assets/lang/" . $lang . ".php");
+// Pour les sites multi-langues
 include("assets/lang/lang.php");
+include("assets/lang/" . $lang . "/header.php");
+include("assets/lang/" . $lang . "/" . $page . ".php");
+include("assets/lang/" . $lang . "/footer.php");
 ?>
 
 <!DOCTYPE html>
@@ -59,46 +63,46 @@ include("assets/lang/lang.php");
   <?php
 
   $titrePage = [
-    'fr' => [
-      //'header' => 'header.php',
-      //'footer' => 'footer.php',
+    'header' => '_components/header/header.php',
+    'footer' => '_components/footer/footer.php',
 
-      'accueil' => 'views/accueil.php',
+    'accueil' => 'views/accueil.php',
 
-      'a-propos' => 'views/a-propos.php',
-      'a-propos-avantages' => 'views/a-propos.php',
-      'a-propos-deroulement' => 'views/a-propos.php',
+    'a-propos' => 'views/a-propos.php',
+    'a-propos-avantages' => 'views/a-propos.php',
+    'a-propos-deroulement' => 'views/a-propos.php',
 
-      'exemples' => 'views/exemples.php',
+    'traduction' => 'views/traduction.php',
+
+    'exemples' => 'views/exemples.php',
 
 
-      // LES _COMPONENTS
-      //'about' => '_components/about/about.php',
-      'components-avantages' => '_components/avantages/avantages.php',
-      'components-actionbox' => '_components/actionbox/actionbox.php',
-      'components-bloc-texte' => '_components/bloc-texte/bloc-texte.php',
-      'components-contact' => '_components/contact/contact.php',
-      'components-four-sections' => '_components/four-sections/four-sections.php',
-      'components-modules' => '_components/modules/modules.php',
-      'components-partenaires' => '_components/partenaires/partenaires.php',
-      'components-services' => '_components/services/services.php',
-      'components-sliders' => '_components/sliders/sliders.php',
-      'components-temoignages' => '_components/temoignages/temoignages.php',
+    // LES _COMPONENTS
+    //'about' => '_components/about/about.php',
+    'components-avantages' => '_components/avantages/avantages.php',
+    'components-actionbox' => '_components/actionbox/actionbox.php',
+    'components-bloc-texte' => '_components/bloc-texte/bloc-texte.php',
+    'components-contact' => '_components/contact/contact.php',
+    'components-four-sections' => '_components/four-sections/four-sections.php',
+    'components-modules' => '_components/modules/modules.php',
+    'components-partenaires' => '_components/partenaires/partenaires.php',
+    'components-services' => '_components/services/services.php',
+    'components-sliders' => '_components/sliders/sliders.php',
+    'components-temoignages' => '_components/temoignages/temoignages.php',
 
-      // SEO
-      'seo' => null
-    ]
+    // SEO
+    'seo' => null
   ];
 
-  include('_components/header/header.php');
+  include($titrePage['header']);
 
-  include($titrePage[$lang][$page]);
+  include($titrePage[$page]);
 
-  include('_components/footer/footer.php');
+  include($titrePage['footer']);
 
   //Pour les Cookies si nécessaire
   //Ne pas oublier le gtag
-  include('_components/cookies/cookies.php')
+  include('_components/cookies/cookies.php');
 
   ?>
 

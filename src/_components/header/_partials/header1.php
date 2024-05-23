@@ -35,36 +35,44 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 col-md-12">
-          <!-- menu start -->
           <nav id="menu" class="mega-menu">
-            <!-- menu list items container -->
             <section class="menu-list-items">
               <!-- menu logo -->
               <ul class="menu-logo">
                 <li>
-                  <a href="<?= $url . $meta['accueil'][3] ?>"><img src="/assets/images/logo.webp"
-                                                                   alt="Logo de <?= $namebase ?>"></a>
+                  <a href="<?= $url . $meta['accueil'][3] ?>">
+                    <img src="/assets/images/logo.webp" alt="Logo de <?= $namebase ?>"></a>
                 </li>
               </ul>
-              <!-- menu links -->
 
+              <!-- menu links -->
               <div class="menu-bar">
                 <ul class="menu-links">
 
-                  <li <?php if ($_GET["page"] === "accueil"): ?> class="active" <?php endif; ?>><a
-                      href="<?= $url . $meta['accueil'][3] ?>">Accueil</a></li>
+                  <li <?php if ($_GET["page"] === "accueil"): ?> class="active" <?php endif; ?>>
+                    <a href="<?= $url . $meta['accueil'][3] ?>">
+                      <?= $meta['header']['menu']['accueil'] ?>
+                    </a></li>
 
                   <li <?php if (in_array($_GET["about"], ["about", "avantages", "deroulement", "about"])): ?> class="active" <?php endif; ?>>
-                    <a href="#">About<i class="fa fa-angle-down fa-indicator"></i></a>
+                    <a href="#"><?= $meta['header']['menu']['a-propos'] ?><i class="fa fa-angle-down fa-indicator"></i></a>
                     <ul class="drop-down-multilevel left-side">
-                      <li <?php if ($_GET["page"] === "about"): ?> class="active" <?php endif; ?>><a
-                          href="<?= $url . $meta['about'][3] ?>">About</a></li>
-                      <li <?php if ($_GET["page"] === "a-propos-avantages"): ?> class="active" <?php endif; ?>><a
-                          href="<?= $url . $meta['a-propos-avantages'][3] ?>">Avantages</a></li>
-                      <li <?php if ($_GET["page"] === "a-propos-deroulement"): ?> class="active" <?php endif; ?>><a
-                          href="<?= $url . $meta['a-propos-deroulement'][3] ?>">Déroulement</a></li>
-                      <li <?php if ($_GET["page"] === "about"): ?> class="active" <?php endif; ?>><a
-                          href="<?= $url . $meta['about'][3] ?>">FAQ</a></li>
+                      <li <?php if ($_GET["page"] === "about"): ?> class="active" <?php endif; ?>>
+                        <a href="<?= $url . $meta['about'][3] ?>">
+                          <?= $meta['header']['menu']['a-propos'] ?>
+                        </a></li>
+                      <li <?php if ($_GET["page"] === "a-propos-avantages"): ?> class="active" <?php endif; ?>>
+                        <a href="<?= $url . $meta['a-propos-avantages'][3] ?>">
+                          <?= $meta['header']['menu']['a-propos-avantages'] ?>
+                        </a></li>
+                      <li <?php if ($_GET["page"] === "a-propos-deroulement"): ?> class="active" <?php endif; ?>>
+                        <a href="<?= $url . $meta['a-propos-deroulement'][3] ?>">
+                          <?= $meta['header']['menu']['a-propos-deroulement'] ?>
+                        </a></li>
+                      <li <?php if ($_GET["page"] === "about"): ?> class="active" <?php endif; ?>>
+                        <a href="<?= $url . $meta['about'][3] ?>">
+                          FAQ
+                        </a></li>
                     </ul>
                   </li>
 
@@ -80,37 +88,60 @@
                     "components-services",
                     "components-sliders",
                     "components-temoignages"
-                  ])): ?> class="active" <?php endif; ?>><a href="#">Components<i
+                  ])): ?> class="active" <?php endif; ?>>
+                    <a href="#"><?= $meta['header']['menu']['components'] ?><i
                         class="fa fa-angle-down fa-indicator"></i></a>
                     <ul class="drop-down-multilevel left-side">
-                      <li <?php if ($_GET["page"] === "components-avantages"): ?> class="active" <?php endif; ?>><a
-                          href="<?= $url . $meta['components-avantages'][3] ?>">Avantages</a></li>
-                      <li <?php if ($_GET["page"] === "components-actionbox"): ?> class="active" <?php endif; ?>><a
-                          href="<?= $url . $meta['components-actionbox'][3] ?>">ActionBox</a></li>
-                      <li <?php if ($_GET["page"] === "components-bloc-texte"): ?> class="active" <?php endif; ?>><a
-                          href="<?= $url . $meta['components-bloc-texte'][3] ?>">Bloc-texte</a></li>
-                      <li <?php if ($_GET["page"] === "components-contact"): ?> class="active" <?php endif; ?>><a
-                          href="<?= $url . $meta['components-contact'][3] ?>">Contact</a></li>
-                      <li <?php if ($_GET["page"] === "components-four-sections"): ?> class="active" <?php endif; ?>><a
-                          href="<?= $url . $meta['components-four-sections'][3] ?>">Four-sections</a></li>
-                      <li <?php if ($_GET["page"] === "components-modules"): ?> class="active" <?php endif; ?>><a
-                          href="<?= $url . $meta['components-modules'][3] ?>">Modules</a></li>
-                      <li <?php if ($_GET["page"] === "components-partenaires"): ?> class="active" <?php endif; ?>><a
-                          href="<?= $url . $meta['components-partenaires'][3] ?>">Partenaires</a></li>
-                      <li <?php if ($_GET["page"] === "components-services"): ?> class="active" <?php endif; ?>><a
-                          href="<?= $url . $meta['components-services'][3] ?>">Services</a></li>
-                      <li <?php if ($_GET["page"] === "components-sliders"): ?> class="active" <?php endif; ?>><a
-                          href="<?= $url . $meta['components-sliders'][3] ?>">Sliders</a></li>
-                      <li <?php if ($_GET["page"] === "components-temoignages"): ?> class="active" <?php endif; ?>><a
-                          href="<?= $url . $meta['components-temoignages'][3] ?>">Témoignages</a></li>
+                      <li <?php if ($_GET["page"] === "components-avantages"): ?> class="active" <?php endif; ?>>
+                        <a href="<?= $url . $meta['components-avantages'][3] ?>">
+                          <?= $meta['header']['menu']['components-avantages'] ?>
+                        </a></li>
+                      <li <?php if ($_GET["page"] === "components-actionbox"): ?> class="active" <?php endif; ?>>
+                        <a href="<?= $url . $meta['components-actionbox'][3] ?>">
+                          <?= $meta['header']['menu']['components-actionbox'] ?>
+                        </a></li>
+                      <li <?php if ($_GET["page"] === "components-bloc-texte"): ?> class="active" <?php endif; ?>>
+                        <a href="<?= $url . $meta['components-bloc-texte'][3] ?>">
+                          <?= $meta['header']['menu']['components-bloc-texte'] ?>
+                        </a></li>
+                      <li <?php if ($_GET["page"] === "components-contact"): ?> class="active" <?php endif; ?>>
+                        <a href="<?= $url . $meta['components-contact'][3] ?>">
+                          Contact
+                        </a></li>
+                      <li <?php if ($_GET["page"] === "components-four-sections"): ?> class="active" <?php endif; ?>>
+                        <a href="<?= $url . $meta['components-four-sections'][3] ?>">
+                          <?= $meta['header']['menu']['components-four-sections'] ?>
+                        </a></li>
+                      <li <?php if ($_GET["page"] === "components-modules"): ?> class="active" <?php endif; ?>>
+                        <a href="<?= $url . $meta['components-modules'][3] ?>">
+                          Modules
+                        </a></li>
+                      <li <?php if ($_GET["page"] === "components-partenaires"): ?> class="active" <?php endif; ?>>
+                        <a href="<?= $url . $meta['components-partenaires'][3] ?>">
+                          <?= $meta['header']['menu']['components-partenaires'] ?>
+                        </a></li>
+                      <li <?php if ($_GET["page"] === "components-services"): ?> class="active" <?php endif; ?>>
+                        <a href="<?= $url . $meta['components-services'][3] ?>">
+                          Services
+                        </a></li>
+                      <li <?php if ($_GET["page"] === "components-sliders"): ?> class="active" <?php endif; ?>>
+                        <a href="<?= $url . $meta['components-sliders'][3] ?>">
+                          Sliders
+                        </a></li>
+                      <li <?php if ($_GET["page"] === "components-temoignages"): ?> class="active" <?php endif; ?>>
+                        <a href="<?= $url . $meta['components-temoignages'][3] ?>">
+                          <?= $meta['header']['menu']['components-temoignages'] ?>
+                        </a></li>
                     </ul>
                   </li>
 
-                  <li <?php if ($_GET["page"] === "exemples"): ?> class="active" <?php endif; ?>><a
-                      href="<?= $url . $meta['exemples'][3] ?>">Exemples</a></li>
+                  <li <?php if ($_GET["page"] === "exemples"): ?> class="active" <?php endif; ?>>
+                    <a href="<?= $url . $meta['exemples'][3] ?>">
+                      <?= $meta['header']['menu']['exemples'] ?>
+                    </a></li>
 
                   <!--Permet de changer de langue-->
-                  <!--<li><a href="<?php /*= $meta[$page]['en'] */?>">EN</a></li>-->
+                  <li><a href="<?= $meta[$page][$meta['header']['switch']] ?>"><?= $meta['header']['switch'] ?></a></li>
 
                 </ul>
               </div>
@@ -120,7 +151,6 @@
       </div>
     </div>
   </div>
-  <!-- menu end -->
 </header>
 
 <!--=================================

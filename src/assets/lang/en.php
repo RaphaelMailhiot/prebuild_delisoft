@@ -13,15 +13,10 @@ $meta['a-propos'][1] ="$descriptionbaseen";
 $meta['a-propos'][2] ="$keywordsbaseen, à propos,";
 $meta['a-propos'][3] ="en/about";
 
-$meta['services'][0] ="Services - $namebase";
-$meta['services'][1] ="$descriptionbaseen";
-$meta['services'][2] ="$keywordsbaseen, services,";
-$meta['services'][3] ="en/services";
-
-$meta['realisations'][0] ="Achievements - $namebase";
-$meta['realisations'][1] ="$descriptionbaseen";
-$meta['realisations'][2] ="$keywordsbaseen, réalisations,";
-$meta['realisations'][3] ="en/achievements";
+$meta['traduction'][0] ="Translation - $namebase";
+$meta['traduction'][1] ="Translation";
+$meta['traduction'][2] ="$keywordsbaseen, translation";
+$meta['traduction'][3] ="translation";
 
 $meta['contact'][0] ="Contact - $namebase";
 $meta['contact'][1] ="Contact an employee of our expert team now.";

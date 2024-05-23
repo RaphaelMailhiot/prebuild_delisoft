@@ -9,11 +9,8 @@ $meta['accueil']['en'] = "/en/";
 $meta['a-propos']['fr'] = "/a-propos";
 $meta['a-propos']['en'] = "/en/about";
 
-$meta['services']['fr'] = "/services";
-$meta['services']['en'] = "/en/services";
-
-$meta['realisations']['fr'] = "/realisations";
-$meta['realisations']['en'] = "/en/realisations";
+$meta['traduction']['fr'] = "/traduction";
+$meta['traduction']['en'] = "/en/translation";
 
 $meta['contact']['fr'] = "/contact";
 $meta['contact']['en'] = "/en/contact";
