@@ -24,20 +24,20 @@
   <section class="accueil2-services">
     <div class="row">
       <div class="col-md-3">
-        <img src="/assets/images/placeholder/accueil/" alt="">
+        <img src="/assets/images/placeholder/accueil/accueil2-service-icone-1.svg" alt="Examen chiropratique">
         <p class="seo-h4">Examen chiropratique</p>
       </div>
       <div class="col-md-3">
-        <img src="/assets/images/placeholder/accueil/" alt="">
-        <p class="seo-h4">Examen chiropratique</p>
+        <img src="/assets/images/placeholder/accueil/accueil2-service-icone-2.svg" alt="Chiropratique conventionnelle">
+        <p class="seo-h4">Chiropratique conventionnelle</p>
       </div>
       <div class="col-md-3">
-        <img src="/assets/images/placeholder/accueil/" alt="">
-        <p class="seo-h4">Examen chiropratique</p>
+        <img src="/assets/images/placeholder/accueil/accueil2-service-icone-3.svg" alt="Chiropratique sportive">
+        <p class="seo-h4">Chiropratique sportive</p>
       </div>
       <div class="col-md-3">
-        <img src="/assets/images/placeholder/accueil/" alt="">
-        <p class="seo-h4">Examen chiropratique</p>
+        <img src="/assets/images/placeholder/accueil/accueil2-service-icone-4.svg" alt="Chiropratique pédiatrique">
+        <p class="seo-h4">Chiropratique pédiatrique</p>
       </div>
     </div>
   </section>
