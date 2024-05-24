@@ -1,4 +1,4 @@
-<section class="action-box theme-bg full-width">
+<section class="actionbox1 action-box theme-bg full-width">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 col-md-12 position-relative">

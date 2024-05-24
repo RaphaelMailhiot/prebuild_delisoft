@@ -1,4 +1,4 @@
-<section class="services-4 page-section-ptb gray-bg">
+<section class="services-4 page-section-ptb">
   <div class="container">
     <div class="swiper" data-component="Carousel" data-carousel="three">
       <div class="swiper-wrapper">

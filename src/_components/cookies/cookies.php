@@ -3,4 +3,4 @@
     'en' => ['While using this site, you accept the use of cookies', 'Refuse','Accept']
 ];
 
-include "_partials/cookies2.php";
+include "_partials/cookies1.php";
