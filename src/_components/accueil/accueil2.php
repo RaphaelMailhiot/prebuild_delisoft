@@ -46,10 +46,10 @@
   </section>
 
   <!--Centre chiropratique-->
-  <section class="page-section-ptb accueil2-centre">
+  <section class="page-section-ptb">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-md-5 order-switch">
+        <div class="col-md-5 order-md-switch">
           <img class="img-fluid" src="/assets/images/placeholder/accueil/accueil2-centre-img.webp" alt="Placeholder">
         </div>
         <div class="col-md-7">

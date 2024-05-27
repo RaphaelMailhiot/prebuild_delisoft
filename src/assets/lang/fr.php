@@ -50,6 +50,16 @@ $meta['accueil-3'][1] ="$descriptionbase";
 $meta['accueil-3'][2] ="$keywordsbase";
 $meta['accueil-3'][3] ="accueil/3";
 
+$meta['accueil-4'][0] ="Accueil 4 - $namebase";
+$meta['accueil-4'][1] ="$descriptionbase";
+$meta['accueil-4'][2] ="$keywordsbase";
+$meta['accueil-4'][3] ="accueil/4";
+
+$meta['accueil-5'][0] ="Accueil 5 - $namebase";
+$meta['accueil-5'][1] ="$descriptionbase";
+$meta['accueil-5'][2] ="$keywordsbase";
+$meta['accueil-5'][3] ="accueil/5";
+
 
 // LES PAGES D'EXEMPLES
 $meta['components-avantages'][0] ="Avantages - $namebase";

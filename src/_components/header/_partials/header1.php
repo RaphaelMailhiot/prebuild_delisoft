@@ -52,7 +52,9 @@
                   <li <?php if (in_array($_GET["page"], [
                     "accueil1",
                     "accueil2",
-                    "accueil3"
+                    "accueil3",
+                    "accueil4",
+                    "accueil5"
                   ])): ?> class="active" <?php endif; ?>>
                     <a href="#"><?= $meta['header']['menu']['accueil'] ?><i
                         class="fa fa-angle-down fa-indicator"></i></a>
@@ -68,6 +70,14 @@
                       <li <?php if ($_GET["page"] === "accueil-3"): ?> class="active" <?php endif; ?>>
                         <a href="<?= $url . $meta['accueil-3'][3] ?>">
                           <?= $meta['header']['menu']['accueil-3'] ?>
+                        </a></li>
+                      <li <?php if ($_GET["page"] === "accueil-4"): ?> class="active" <?php endif; ?>>
+                        <a href="<?= $url . $meta['accueil-4'][3] ?>">
+                          <?= $meta['header']['menu']['accueil-4'] ?>
+                        </a></li>
+                      <li <?php if ($_GET["page"] === "accueil-5"): ?> class="active" <?php endif; ?>>
+                        <a href="<?= $url . $meta['accueil-5'][3] ?>">
+                          <?= $meta['header']['menu']['accueil-5'] ?>
                         </a></li>
                     </ul>
                   </li>

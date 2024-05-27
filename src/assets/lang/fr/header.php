@@ -7,6 +7,8 @@ $meta['header']['menu']['accueil'] = "Accueil";
 $meta['header']['menu']['accueil-1'] = "Accueil 1";
 $meta['header']['menu']['accueil-2'] = "Accueil 2";
 $meta['header']['menu']['accueil-3'] = "Accueil 3";
+$meta['header']['menu']['accueil-4'] = "Accueil 4";
+$meta['header']['menu']['accueil-5'] = "Accueil 5";
 
 // À propos
 $meta['header']['menu']['a-propos'] = "À propos";

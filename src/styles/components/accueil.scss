@@ -292,22 +292,6 @@
         }
     }
 
-    .accueil2-centre {
-
-        .order-switch {
-
-            @media screen and (max-width: 768px) {
-                order: 2;
-
-                img {
-                    max-height: 400px;
-                    width: 100%;
-                    object-fit: cover;
-                }
-            }
-        }
-    }
-
     .accueil2-services {
         background: $gray-bg;
     }
@@ -342,4 +326,51 @@
 // accueil3 (LKB360)
 .accueil3 {
 
+    $theme-color: #00b0cf;
+    $theme-secondary: #50327a;
+
+    .theme-color {
+        color: $theme-color;
+    }
+
+    .theme-secondary {
+        color: $theme-secondary;
+    }
+
+    .theme-bg {
+        background-color: $theme-color;
+    }
+
+    .button {
+        background-color: $theme-color !important;
+        border-color: $theme-color !important;
+
+        &:hover {
+            background-color: $text-black !important;
+            border-color: $text-black !important;
+        }
+    }
+
+    .partenaires1 {
+        .seo-h1 {
+            color: $black;
+
+            span {
+                background: none;
+                padding: 0 !important;
+                color: $theme-color !important;
+            }
+        }
+    }
+
+    .accueil23-temoignages {
+
+        .testimonial-info::before {
+            color: $theme-color;
+        }
+
+        .author-info span {
+            color: $theme-color;
+        }
+    }
 }

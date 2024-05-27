@@ -71,6 +71,8 @@ include("assets/lang/" . $lang . "/footer.php");
     'accueil-1' => '_components/accueil/accueil1.php',
     'accueil-2' => '_components/accueil/accueil2.php',
     'accueil-3' => '_components/accueil/accueil3.php',
+    'accueil-4' => '_components/accueil/accueil4.php',
+    'accueil-5' => '_components/accueil/accueil5.php',
 
     'a-propos' => 'views/a-propos.php',
     'a-propos-avantages' => 'views/a-propos.php',

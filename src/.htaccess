@@ -46,6 +46,8 @@ RewriteRule ^en/exemples$ index.php?lang=en&page=exemples
 RewriteRule ^accueil/1$ index.php?lang=fr&page=accueil-1
 RewriteRule ^accueil/2$ index.php?lang=fr&page=accueil-2
 RewriteRule ^accueil/3$ index.php?lang=fr&page=accueil-3
+RewriteRule ^accueil/4$ index.php?lang=fr&page=accueil-4
+RewriteRule ^accueil/5$ index.php?lang=fr&page=accueil-5
 
 
 # LES _COMPONENTS

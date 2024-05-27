@@ -1,4 +1,4 @@
-<section class="partenaires1 page-section-ptb gray-bg">
+<section class="partenaires1 page-section-ptb">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
