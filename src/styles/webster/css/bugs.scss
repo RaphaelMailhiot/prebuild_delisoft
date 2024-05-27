@@ -98,6 +98,11 @@
     }
 }
 
+// Pour les animations de swiperjs
+.swiper-slide {
+    overflow: hidden;
+}
+
 // Peut être supprimé
 .divider {
     background: $theme-color;

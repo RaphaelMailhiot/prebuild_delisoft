@@ -12,7 +12,7 @@ export default class Carousel {
     // Options par défaut pour la librairie Swiper
     this.defaultOptions = {
       slidesPerView: 1,
-      spaceBetween: 24,
+      spaceBetween: 0,
       loop: true,
       pagination: {
         el: this.element.querySelector('.swiper-pagination'),
@@ -28,6 +28,10 @@ export default class Carousel {
       },
     };
 
+    this.spaceBetween = {
+      spaceBetween: 24,
+    }
+
     this.init();
   }
 
@@ -42,6 +46,7 @@ export default class Carousel {
     if (this.element.dataset.carousel === 'two') {
       options = {
         ...this.defaultOptions,
+        ...this.spaceBetween,
         ...{
           slidesPerView: 1,
           breakpoints: {
@@ -54,6 +59,7 @@ export default class Carousel {
     } else if (this.element.dataset.carousel === 'three') {
       options = {
         ...this.defaultOptions,
+        ...this.spaceBetween,
         ...{
           slidesPerView: 1,
           breakpoints: {
@@ -69,6 +75,7 @@ export default class Carousel {
     } else if (this.element.dataset.carousel === 'four') {
       options = {
         ...this.defaultOptions,
+        ...this.spaceBetween,
         ...{
           slidesPerView: 1,
           breakpoints: {
@@ -87,6 +94,7 @@ export default class Carousel {
     } else if (this.element.dataset.carousel === 'five') {
       options = {
         ...this.defaultOptions,
+        ...this.spaceBetween,
         ...{
           slidesPerView: 1,
           breakpoints: {

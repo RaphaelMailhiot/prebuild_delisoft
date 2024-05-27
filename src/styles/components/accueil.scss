@@ -374,3 +374,125 @@
         }
     }
 }
+
+// accueil4 (visionere4)
+.accueil4 {
+
+    $theme-color: #00ae41;
+    $theme-secondary: #323e48;
+
+    .theme-color {
+        color: $theme-color;
+    }
+
+    .theme-secondary-color {
+        color: $theme-secondary;
+    }
+
+    .theme-bg {
+        background-color: $theme-color;
+    }
+
+    .theme-secondary-bg {
+        background-color: $theme-secondary;
+    }
+
+    .button {
+        background-color: $theme-color !important;
+        border-color: $theme-color !important;
+        border-radius: 0;
+
+        &:hover {
+            background-color: $text-black !important;
+            border-color: $text-black !important;
+        }
+    }
+
+    .accueil4-slider {
+        height: 700px;
+
+        .swiper {
+            height: 100%;
+
+            .swiper-slide {
+                position: relative;
+
+                .bg-img {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    height: 100%;
+                    width: 100%;
+
+                    img {
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+                        z-index: 2;
+                    }
+
+                    &::after {
+                        content: "";
+                        height: 100%;
+                        width: 100%;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        z-index: 3;
+                        background: linear-gradient(90deg, rgba(48, 62, 72, 0.5) 0%, rgba(48, 62, 72, 0.5) 0%, rgba(48, 62, 72, 0) 100%, rgba(48, 62, 72, 0) 100%);
+                    }
+                }
+            }
+
+            .swiper-button-prev, .swiper-button-next {
+                &::after {
+                    color: $white;
+                }
+            }
+
+            .container {
+                height: 100%;
+            }
+        }
+
+        .slide1 {
+
+            .container {
+                display: flex;
+                align-items: center;
+
+                .accueil4-slide1-text {
+                    display: flex;
+                    flex-direction: column;
+                    position: relative;
+                    z-index: 4;
+
+                    p {
+                        margin: 0;
+                        font-size: $fs-50;
+                        font-weight: $fw-7;
+                    }
+                }
+            }
+        }
+
+        .slide2 {
+
+            .accueil4-slide2-text {
+                width: 50%;
+                height: 100%;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                position: relative;
+                z-index: 4;
+
+                .seo-h1 {
+                    font-size: $fs-50;
+                }
+            }
+        }
+    }
+}
