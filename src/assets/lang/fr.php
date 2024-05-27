@@ -1,72 +1,53 @@
 <?php
 
-$descriptionbasefr = "CeciEstLaDescriptionDeBase";
-$keywordsbasefr = "CeuxCiSontLesKeywordsDeBase";
+$descriptionbase = "CeciEstLaDescriptionDeBase";
+$keywordsbase = "CeuxCiSontLesKeywordsDeBase";
 
 $meta['all'][0] ="All - $namebase";
-$meta['all'][1] ="$descriptionbaseen";
-$meta['all'][2] ="$keywordsbaseen";
+$meta['all'][1] ="$descriptionbase";
+$meta['all'][2] ="$keywordsbase";
 $meta['all'][3] ="";
 
 $meta['a-propos'][0] ="À propos - $namebase";
-$meta['a-propos'][1] ="$descriptionbasefr";
-$meta['a-propos'][2] ="$keywordsbasefr, à propos,";
+$meta['a-propos'][1] ="$descriptionbase";
+$meta['a-propos'][2] ="$keywordsbase, à propos,";
 $meta['a-propos'][3] ="a-propos";
 
 $meta['a-propos-avantages'][0] ="Avantages - $namebase";
-$meta['a-propos-avantages'][1] ="$descriptionbasefr";
-$meta['a-propos-avantages'][2] ="$keywordsbasefr, avantages,";
+$meta['a-propos-avantages'][1] ="$descriptionbase";
+$meta['a-propos-avantages'][2] ="$keywordsbase, avantages,";
 $meta['a-propos-avantages'][3] ="a-propos/avantages";
 
 $meta['a-propos-deroulement'][0] ="Déroulement - $namebase";
-$meta['a-propos-deroulement'][1] ="$descriptionbasefr";
-$meta['a-propos-deroulement'][2] ="$keywordsbasefr, déroulement,";
+$meta['a-propos-deroulement'][1] ="$descriptionbase";
+$meta['a-propos-deroulement'][2] ="$keywordsbase, déroulement,";
 $meta['a-propos-deroulement'][3] ="a-propos/deroulement";
 
 $meta['traduction'][0] ="Traduction - $namebase";
 $meta['traduction'][1] ="Traduction";
-$meta['traduction'][2] ="$keywordsbasefr, traduction";
+$meta['traduction'][2] ="$keywordsbase, traduction";
 $meta['traduction'][3] ="traduction";
 
 $meta['exemples'][0] ="Exemples - $namebase";
 $meta['exemples'][1] ="Exemples";
-$meta['exemples'][2] ="$keywordsbasefr, exemples";
+$meta['exemples'][2] ="$keywordsbase, exemples";
 $meta['exemples'][3] ="exemples";
-
-
-$province=$_GET['province'];
-$town=$_GET['town'];
-$service=$_GET['service'];
-$townclean = str_replace('-', ' ', $town);
-$serviceclean = str_replace('-', ' ', $service);
-$valueclean = str_replace('-', ' ', $value);
-
-
-if ($page == "seo-1") {
-    $titre = "SEO " . $town . "- $namebase";
-    $description = "SEO à " . $town . " $namebase. $descriptionbasefr";
-    $keywords = "$keywordsbasefr, $namebase" . $town . ",";
-} else {
-    $titre = $meta[$page][0];
-    $description = $meta[$page][1];
-    $keywords = $meta[$page][2];
-}
 
 
 // LES PAGES D'ACCUEIL
 $meta['accueil-1'][0] ="Accueil 1 - $namebase";
-$meta['accueil-1'][1] ="$descriptionbaseen";
-$meta['accueil-1'][2] ="$keywordsbaseen";
+$meta['accueil-1'][1] ="$descriptionbase";
+$meta['accueil-1'][2] ="$keywordsbase";
 $meta['accueil-1'][3] ="accueil/1";
 
 $meta['accueil-2'][0] ="Accueil 2 - $namebase";
-$meta['accueil-2'][1] ="$descriptionbaseen";
-$meta['accueil-2'][2] ="$keywordsbaseen";
+$meta['accueil-2'][1] ="$descriptionbase";
+$meta['accueil-2'][2] ="$keywordsbase";
 $meta['accueil-2'][3] ="accueil/2";
 
 $meta['accueil-3'][0] ="Accueil 3 - $namebase";
-$meta['accueil-3'][1] ="$descriptionbaseen";
-$meta['accueil-3'][2] ="$keywordsbaseen";
+$meta['accueil-3'][1] ="$descriptionbase";
+$meta['accueil-3'][2] ="$keywordsbase";
 $meta['accueil-3'][3] ="accueil/3";
 
 
@@ -120,3 +101,23 @@ $meta['components-temoignages'][0] ="Témoignages - $namebase";
 $meta['components-temoignages'][1] ="Exemples";
 $meta['components-temoignages'][2] ="components-temoignages";
 $meta['components-temoignages'][3] ="components/temoignages";
+
+
+// SEO
+$province=$_GET['province'];
+$town=$_GET['town'];
+$service=$_GET['service'];
+$townclean = str_replace('-', ' ', $town);
+$serviceclean = str_replace('-', ' ', $service);
+$valueclean = str_replace('-', ' ', $value);
+
+
+if ($page == "seo-1") {
+    $titre = "SEO " . $town . "- $namebase";
+    $description = "SEO à " . $town . " $namebase. $descriptionbase";
+    $keywords = "$keywordsbase, $namebase" . $town . ",";
+} else {
+    $titre = $meta[$page][0];
+    $description = $meta[$page][1];
+    $keywords = $meta[$page][2];
+}

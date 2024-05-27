@@ -1,4 +1,4 @@
-<section class="services-4 page-section-ptb">
+<div class="services-4">
   <div class="container">
     <div class="swiper" data-component="Carousel" data-carousel="three">
       <div class="swiper-wrapper">
@@ -28,4 +28,4 @@
       </div>
     </div>
   </div>
-</section>
+</div>
