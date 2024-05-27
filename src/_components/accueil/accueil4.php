@@ -78,17 +78,34 @@
 
   ?>
 
-  <section class="page-section-ptb theme-secondary-bg">
+  <section class="page-section-ptb accueil4-actions theme-secondary-bg">
     <div class="container">
       <p class="seo-h6 text-center text-white">Service de gestion et conseil</p>
-      <p class="seo-h4 text-center text-white">Nos <span
+      <p class="seo-h2 text-center text-white">Nos <span
           class="pl-15 pr-15 theme-bg theme-secondary-color">actions</span> en processus d’amélioration continue</p>
-      <div class="row">
-        <div class="col-md-4">
-
+      <div class="row text-center mt-30">
+        <div class="col-md-4 col-sm-6">
+          <img src="/assets/images/placeholder/accueil/accueil4-actions-icone1.svg" alt="Placeholder">
+          <p class="seo-h4 theme-color">Accompagnement</p>
         </div>
-        <div class="col-md-4"></div>
-        <div class="col-md-4"></div>
+        <div class="col-md-4 col-sm-6">
+          <img src="/assets/images/placeholder/accueil/accueil4-actions-icone2.svg" alt="Placeholder">
+          <p class="seo-h4 theme-color">Optimisation</p>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <img src="/assets/images/placeholder/accueil/accueil4-actions-icone3.svg" alt="Placeholder">
+          <p class="seo-h4 theme-color">Consolidation</p>
+        </div>
       </div>
     </div>
   </section>
+
+  <?php
+
+  /*--Services--*/
+  include "_components/services/_partials/services1.php";
+
+  /*--Partenaires--*/
+  include "_components/partenaires/_partials/partenaires1.php";
+
+  ?>
