@@ -509,13 +509,22 @@
 // accueil5 (Assainiteck)
 .accueil5 {
     $theme-color: #ff6b00;
+    $theme-secondary: #54565b;
 
     .theme-color {
         color: $theme-color;
     }
 
+    .theme-secondary-color {
+        color: $theme-secondary;
+    }
+
     .theme-bg {
         background-color: $theme-color;
+    }
+
+    .theme-secondary-bg {
+        background-color: $theme-secondary;
     }
 
     .button {
@@ -531,12 +540,26 @@
                 background-color: $theme-color !important;
                 border-color: $theme-color !important;
             }
+
+            &.white {
+                border: 2px solid $white !important;
+
+                &:hover {
+                    background-color: $white !important;
+                    border-color: $white !important;
+                    color: $theme-color;
+                }
+            }
         }
 
         &:hover {
             background-color: $text-black !important;
             border-color: $text-black !important;
         }
+    }
+
+    .bg-overlay-theme-90::before {
+        background: $theme-color;
     }
 
     p:not(.seo-h1, .seo-h2, .seo-h3, .seo-h4, .seo-h5, .seo-h6) {
@@ -562,6 +585,15 @@
     }
 
     .services-5 {
-        background: #000;
+        background: url("../assets/images/placeholder/accueil/accueil5-services-bg.svg") $theme-secondary no-repeat;
+    }
+
+    .accueil5-urgence {
+        background: url("../assets/images/placeholder/accueil/accueil5-urgence-bg.webp") no-repeat center;
+        background-size: cover;
+
+        .button {
+            margin-bottom: 0;
+        }
     }
 }

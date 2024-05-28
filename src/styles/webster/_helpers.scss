@@ -322,8 +322,8 @@ section { background: #ffffff; }
  .bg-overlay-white-70:before { background: rgba(255, 255, 255, 0.7); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
  .bg-overlay-white-80:before { background: rgba(255, 255, 255, 0.8); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
  .bg-overlay-white-90:before { background: rgba(255, 255, 255, 0.9); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
- .bg-overlay-theme-20:before { background: rgba(132,186,63, 0.2); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
- .bg-overlay-theme-50:before { background: rgba(132,186,63, 0.5); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
- .bg-overlay-theme-70:before { background: rgba(132,186,63, 0.7); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
- .bg-overlay-theme-90:before { background: rgba(132,186,63, 0.9); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
+ .bg-overlay-theme-20:before { background: $theme-color; content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; opacity: .2; }
+ .bg-overlay-theme-50:before { background: $theme-color; content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; opacity: .5; }
+ .bg-overlay-theme-70:before { background: $theme-color; content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; opacity: .7; }
+ .bg-overlay-theme-90:before { background: $theme-color; content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; opacity: .9; }
  .bg-overlay-black-10, .bg-overlay-black-20, .bg-overlay-black-30, .bg-overlay-black-40, .bg-overlay-black-50, .bg-overlay-black-60, .bg-overlay-black-70, .bg-overlay-black-80, .bg-overlay-black-90, .bg-overlay-white-10, .bg-overlay-white-20, .bg-overlay-white-30, .bg-overlay-white-40, .bg-overlay-white-50, .bg-overlay-white-60, .bg-overlay-white-70, .bg-overlay-white-80, .bg-overlay-white-90, .bg-overlay-theme-20, .bg-overlay-theme-50, .bg-overlay-theme-70, .bg-overlay-theme-90 { position: relative; }
