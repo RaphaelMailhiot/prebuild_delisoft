@@ -64,7 +64,7 @@
               <div class="masonry-item">
                 <div class="portfolio-item">
                   <img src="/assets/images/placeholder/accueil/accueil5-realisations-<?= $i ?>.webp" alt="Placeholder">
-                  <a class="popup portfolio-img"
+                  <a aria-label="Voir l'image en plus gros" class="popup portfolio-img"
                      href="/assets/images/placeholder/accueil/accueil5-realisations-<?= $i ?>.webp"><i
                       class="fa fa-arrows-alt"></i></a>
                 </div>
