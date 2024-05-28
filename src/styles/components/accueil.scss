@@ -397,6 +397,10 @@
         background-color: $theme-secondary;
     }
 
+    .gray-bg {
+        background: #dee8e7;
+    }
+
     .button {
         background-color: $theme-color !important;
         border-color: $theme-color !important;
@@ -496,6 +500,13 @@
         }
     }
 
+    .four-sections-3 {
+
+        .bnt-arrow-simple {
+            color: $theme-color;
+        }
+    }
+
     .accueil4-actions {
 
         img {
@@ -566,6 +577,16 @@
         font-size: $fs-16;
     }
 
+    .slider3 {
+
+        .slider3__titre {
+
+            span {
+                color: $theme-color;
+            }
+        }
+    }
+
     .accueil5-before-img {
         position: relative;
 
@@ -586,6 +607,10 @@
 
     .services-5 {
         background: url("../assets/images/placeholder/accueil/accueil5-services-bg.svg") $theme-secondary no-repeat;
+
+        .portfolio-item:hover.image-text::before {
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, $theme-color 100%) !important;
+        }
     }
 
     .accueil5-urgence {
@@ -594,6 +619,12 @@
 
         .button {
             margin-bottom: 0;
+        }
+    }
+
+    .avantages-3 {
+        .list-arrow li::after {
+            color: $theme-color;
         }
     }
 }

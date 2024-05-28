@@ -23,7 +23,7 @@ export default class Carousel {
         prevEl: '.swiper-button-prev',
       },
       autoplay: {
-        delay: 3000,
+        delay: 5000,
         disableOnInteraction: true,
       },
     };

@@ -1,4 +1,4 @@
-<section class="services-1 page-section-ptb gray-bg">
+<section class="services-1 page-section-ptb">
   <div class="container">
 
     <div class="row justify-content-center mb-30 xs-mb-0">
@@ -17,7 +17,7 @@
         <div class="col-lg-4 col-md-6 mb-24">
           <a href="#">
             <div class="portfolio-item image-text">
-              <img src="/assets/images/placeholder/image-placeholder.webp" alt="Palceholder">
+              <img src="/assets/images/placeholder/services1-img.webp" alt="Palceholder">
               <div class="portfolio-overlay">
                 <div class="seo-h5 text-uppercase text-white mb-0">Titre</div>
                 <div class="formations-arrow"><i class="ti-arrow-right"></i></div>

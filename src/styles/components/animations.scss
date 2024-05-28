@@ -1,0 +1,136 @@
+/* ==========================================================================
+   animations / sliders
+   ========================================================================== */
+
+.animation-bg-zoom-out {
+    animation: bg-zoom-out 12s ease forwards;
+}
+
+@keyframes bg-zoom-out {
+    from {
+        background-size: 110%;
+    }
+    to {
+        background-size: 100%;
+    }
+}
+
+.swiper-slide-active {
+    .animation-slider-img-zoom-out {
+        animation: img-zoom-out 15s ease forwards;
+    }
+
+    .animation-slider-img-zoom-in {
+        animation: img-zoom-in 15s ease forwards;
+    }
+
+    .animation-slider-texte-appear {
+        animation: texte-appear 1s ease forwards;
+    }
+
+    .animation-slider-texte-appear-reverse {
+        animation: texte-appear-reverse 1s ease forwards;
+    }
+
+    .animation-slider-from-bottom {
+        animation: from-bottom 1s ease forwards;
+        overflow: hidden;
+    }
+}
+
+@keyframes img-zoom-out {
+    from {
+        scale: 110%;
+    }
+    to {
+        scale: 100%;
+    }
+}
+
+@keyframes img-zoom-in {
+    from {
+        scale: 100%;
+    }
+    to {
+        scale: 110%;
+    }
+}
+
+@keyframes texte-appear {
+    from {
+        opacity: 50%;
+        scale: 135%;
+    }
+    to {
+        opacity: 100%;
+        scale: 100%;
+    }
+}
+
+@keyframes texte-appear-reverse {
+    from {
+        opacity: 50%;
+        scale: 75%;
+    }
+    to {
+        opacity: 100%;
+        scale: 100%;
+    }
+}
+
+.animation-from-bottom {
+    animation: from-bottom 3s ease forwards;
+    overflow: hidden;
+}
+
+@keyframes from-bottom {
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+.animation-text-left {
+    animation: text-left 1.5s ease forwards;
+}
+
+@keyframes text-left {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    30% {
+        opacity: 0.5;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+// Dans le sliders4
+@keyframes drop {
+    0% {
+        transform: translateY(-16px);
+        opacity: 0.5;
+    }
+
+    30% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+}

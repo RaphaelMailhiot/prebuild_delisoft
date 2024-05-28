@@ -1,5 +1,5 @@
 <section class="avantages-3 page-section-pt clearfix parallax jarallax" data-speed="0.6"
-         data-img-src="/assets/images/placeholder/background-placeholder.webp" data-component="Jarallax">
+         data-img-src="/assets/images/placeholder/avantages-3-bg.webp" data-component="Jarallax">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 col-md-6 align-self-end order-switch">
@@ -13,14 +13,14 @@
           iusto magni neque nihil temporibus! Dolorem dolores laboriosam perspiciatis repudiandae.</p>
         <div class="row mt-30">
           <div class="col-sm-6">
-            <ul class="list list-unstyled list-hand">
+            <ul class="list list-arrow">
               <li>Lorem ipsum.</li>
               <li>Lorem ipsum.</li>
               <li>Lorem ipsum.</li>
             </ul>
           </div>
           <div class="col-sm-6">
-            <ul class="list list-unstyled list-hand">
+            <ul class="list list-arrow">
               <li>Lorem ipsum.</li>
               <li>Lorem ipsum.</li>
               <li>Lorem ipsum.</li>
