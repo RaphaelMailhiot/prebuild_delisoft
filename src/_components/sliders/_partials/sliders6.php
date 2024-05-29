@@ -9,7 +9,7 @@
         <div class="container sliders6-textes">
           <div class="row">
             <div class="col-md-6 align-content-end">
-              <img class="img-fluid animation-slider-from-bottom" src="/assets/images/placeholder/sliders6-s1-img1.webp"
+              <img class="animation-slider-from-bottom img-couple" src="/assets/images/placeholder/sliders6-s1-img1.webp"
                    alt="Couple qui à choisit Club Gazon">
             </div>
             <div class="col-lg-6 col-md-12 sliders6-textes slide1-texte">
