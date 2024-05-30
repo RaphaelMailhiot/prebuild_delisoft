@@ -1,0 +1,43 @@
+.media {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.contact1 {
+
+    .page-title {
+        background-image: url("../assets/images/placeholder/contact1-hero-bg.webp");
+    }
+}
+
+.contact1-info {
+    @media screen and (max-width: 768px) {
+        .col-img {
+            height: 400px;
+        }
+    }
+}
+
+.contact3-bg {
+    background: $theme-color url("../assets/images/placeholder/contact3-bg.svg") no-repeat -30% 115%;
+    background-size: 500px;
+}
+
+.contact3-form-img {
+
+    @media screen and (max-width: 991px) {
+
+        display: none;
+    }
+}
+
+.contact4 {
+
+    .page-title {
+        background-image: url("../assets/images/placeholder/contact4-hero-bg.webp");
+    }
+}
