@@ -2,7 +2,7 @@
 $page = $_GET["page"];
 $lang = $_GET["lang"];
 
-$protocol = "http://";
+$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
 $url = $protocol . $_SERVER["HTTP_HOST"] . '/';
 
 // TODO Mettre le nom du site
