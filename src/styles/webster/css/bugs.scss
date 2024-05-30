@@ -79,6 +79,26 @@
     }
 }
 
+// SEO
+.carousel-ville {
+    background-color: $carousel-ville-bg;
+    border-top: solid 1px $carousel-ville-border;
+    border-bottom: solid 1px $carousel-ville-border;
+
+    .swiper-wrapper {
+        align-items: center;
+    }
+    
+    a {
+        color: $carousel-ville-color;
+        text-align: center;
+
+        &:hover {
+            color: $carousel-ville-color;
+        }
+    }
+}
+
 // Pour les bouttons
 .button {
     margin-bottom: 24px;

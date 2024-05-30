@@ -8,6 +8,9 @@ $url = $protocol . $_SERVER["HTTP_HOST"] . '/';
 // TODO Mettre le nom du site
 $namebase = "NomDeLaCompagnie";
 
+// TODO Est-ce que il y a du seo
+$seo = true;
+
 include("assets/lang/" . $lang . ".php");
 // Pour les sites multi-langues
 include("assets/lang/lang.php");
@@ -102,6 +105,8 @@ include("assets/lang/" . $lang . "/footer.php");
   include($titrePage['header']);
 
   include($titrePage[$page]);
+
+  if ($seo) {include('assets/seo/module-ville.php');}
 
   include($titrePage['footer']);
 
