@@ -15,6 +15,19 @@
     }
 }
 
+.animation-bg-zoom-out-auto {
+    animation: bg-zoom-out-auto 12s ease forwards;
+}
+
+@keyframes bg-zoom-out-auto {
+    from {
+        background-size: auto 110%;
+    }
+    to {
+        background-size: auto 100%;
+    }
+}
+
 .swiper-slide-active {
     .animation-slider-img-zoom-out {
         animation: img-zoom-out 15s ease forwards;

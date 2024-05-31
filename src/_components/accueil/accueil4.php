@@ -31,7 +31,7 @@
         <div class="swiper-slide slide2">
           <div class="bg-img">
             <img class="img-fluid animation-slider-img-zoom-out"
-                 src="/assets/images/placeholder/accueil/accueil4-slider2-bg.webp" alt="Placeholder">
+                 src="/assets/images/placeholder/accueil/accueil4-slider2-bg.webp" alt="Placeholder" loading="lazy">
           </div>
           <div class="container">
             <div class="accueil4-slide2-text">
@@ -85,15 +85,15 @@
           class="pl-15 pr-15 theme-bg theme-secondary-color">actions</span> en processus d’amélioration continue</p>
       <div class="row text-center mt-30">
         <div class="col-md-4 col-sm-6">
-          <img src="/assets/images/placeholder/accueil/accueil4-actions-icone1.svg" alt="Placeholder">
+          <img src="/assets/images/placeholder/accueil/accueil4-actions-icone1.svg" alt="Placeholder" loading="lazy">
           <p class="seo-h4 theme-color">Accompagnement</p>
         </div>
         <div class="col-md-4 col-sm-6">
-          <img src="/assets/images/placeholder/accueil/accueil4-actions-icone2.svg" alt="Placeholder">
+          <img src="/assets/images/placeholder/accueil/accueil4-actions-icone2.svg" alt="Placeholder" loading="lazy">
           <p class="seo-h4 theme-color">Optimisation</p>
         </div>
         <div class="col-md-4 col-sm-6">
-          <img src="/assets/images/placeholder/accueil/accueil4-actions-icone3.svg" alt="Placeholder">
+          <img src="/assets/images/placeholder/accueil/accueil4-actions-icone3.svg" alt="Placeholder" loading="lazy">
           <p class="seo-h4 theme-color">Consolidation</p>
         </div>
       </div>

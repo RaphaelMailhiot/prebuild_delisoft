@@ -36,6 +36,9 @@ RewriteRule ^en/about/benefits$ index.php?lang=en&page=a-propos-avantages
 RewriteRule ^a-propos/deroulement$ index.php?lang=fr&page=a-propos-deroulement
 RewriteRule ^en/about/progress index.php?lang=en&page=a-propos-deroulement
 
+RewriteRule ^a-propos/faq$ index.php?lang=fr&page=a-propos-faq
+RewriteRule ^en/about/faq index.php?lang=en&page=a-propos-faq
+
 RewriteRule ^traduction$ index.php?lang=fr&page=traduction
 RewriteRule ^en/translation$ index.php?lang=en&page=traduction
 

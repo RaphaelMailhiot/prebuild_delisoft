@@ -17,7 +17,7 @@ export function serve(cb) {
     ghostMode: false,
     notify: false,
     browser: browsers,
-    host: "10.10.50.214",
+    //host: "10.10.50.214",
   });
   cb();
 }

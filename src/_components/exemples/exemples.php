@@ -12,6 +12,11 @@
         <input type="radio" id="exemple2" name="exemples" value="exemples2" />
         <label for="exemple2">Exemple 2</label>
       </div>
+
+      <div>
+        <input type="radio" id="exemple-random" name="exemples" value="exemples-random" />
+        <label for="exemple-random">Exemple Random</label>
+      </div>
     </fieldset>
   </div>
 
@@ -43,6 +48,8 @@ foreach ($files as $file) {
     radio.addEventListener("change", function() {
       if (this.checked) {
         exemples.forEach(element => {
+          console.log(element.id);
+          console.log(this.value);
           if (element.id === this.value) {
             console.log(element);
             element.style.display = "block";

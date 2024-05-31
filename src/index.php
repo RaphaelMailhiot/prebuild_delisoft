@@ -42,12 +42,31 @@ include("assets/lang/" . $lang . "/footer.php");
   <!-- Styles -->
   <link rel="stylesheet" href="/styles/main.css" />
 
-  <!-- jquery -->
-  <!--s'il y a un bug mettre la version 3.6.0-->
-  <script src="/jquery/jquery-3.7.1.min.js"></script>
-
   <!-- scripts -->
   <script src="/scripts/main.js" defer></script>
+
+  <?php
+
+  /*preload les images lourdes du slider aide la performance*/
+  switch ($page) {
+    case "accueil-1":
+      echo('<link rel="preload" href="' . $url . 'assets/images/placeholder/sliders6-s1-bg.webp" as="image">');
+      break;
+    case "accueil-2":
+      echo('<link rel="preload" href="' . $url . 'assets/images/placeholder/accueil/accueil2-slider-bg.webp" as="image">');
+      break;
+    case "accueil-3":
+      echo('<link rel="preload" href="' . $url . 'assets/images/placeholder/sliders5-bg.webp" as="image">');
+      break;
+    case "accueil-4":
+      echo('<link rel="preload" href="' . $url . 'assets/images/placeholder/accueil/accueil4-slider1-bg.webp" as="image">');
+      break;
+    case "accueil-5":
+      echo('<link rel="preload" href="' . $url . 'assets/images/placeholder/sliders3-bg.webp" as="image">');
+      break;
+  }
+
+  ?>
 
   <!-- slider revolution -->
   <!-- SI VOUS NE L'UTILISEZ PAS METTRE EN COMMENTAIRE -->
@@ -80,6 +99,7 @@ include("assets/lang/" . $lang . "/footer.php");
     'a-propos' => 'views/a-propos.php',
     'a-propos-avantages' => 'views/a-propos.php',
     'a-propos-deroulement' => 'views/a-propos.php',
+    'a-propos-faq' => 'views/a-propos.php',
 
     'exemples' => 'views/exemples.php',
 
@@ -122,6 +142,9 @@ include("assets/lang/" . $lang . "/footer.php");
 
 <!--=================================
  jquery -->
+
+<!--s'il y a un bug mettre la version 3.6.0-->
+<script src="/jquery/jquery-3.7.1.min.js"></script>
 
 <!-- plugins-jquery -->
 <script src="/jquery/plugins-jquery.js"></script>

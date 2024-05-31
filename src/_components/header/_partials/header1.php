@@ -97,8 +97,8 @@
                         <a href="<?= $url . $meta['a-propos-deroulement'][3] ?>">
                           <?= $meta['header']['menu']['a-propos-deroulement'] ?>
                         </a></li>
-                      <li <?php if ($_GET["page"] === "about"): ?> class="active" <?php endif; ?>>
-                        <a href="<?= $url . $meta['about'][3] ?>">
+                      <li <?php if ($_GET["page"] === "a-propos-faq"): ?> class="active" <?php endif; ?>>
+                        <a href="<?= $url . $meta['a-propos-faq'][3] ?>">
                           FAQ
                         </a></li>
                     </ul>

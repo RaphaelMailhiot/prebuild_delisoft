@@ -26,9 +26,21 @@ Afin de démarrer le stack de développement, utilisez les commandes suivantes d
 | `npm start`           | Génère un environnement de développement, démarre un serveur web et va attendre des changements de fichiers |
 | `npm run build`       | Compile production code                                                                                     |
 
+## Performances des images
+
+- Utiliser des images compressées
+- Mettre les images en .webp avec [WebP Converter](https://webpconverter.com/)
+- Mettre loading="lazy" sur les images off-screen
+- Preload les grosses images du slider dans le head
+```
+<link rel="preload" href="`Mettre le URL`" as="image">
+```
+
 <br><br><br><hr>
 Préparé à partir de timtools v1.3
 <br>
 qui a été créé par : Matthieu Parent et Jean-François Leblanc
+<br>
+et du thème Webster par potenzaglobalsolutions
 <br>
 Adapté par Raphaël Mailhiot

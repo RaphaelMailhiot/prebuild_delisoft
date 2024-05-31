@@ -1,4 +1,4 @@
-<section class="slider3 animation-bg-zoom-out">
+<section class="slider3 animation-bg-zoom-out-auto">
   <div class="container slider3__container">
     <div class="slider3__info">
       <p class="seo-h1 slider3__titre text-left animation-text-left"><span>Extraction d'amiante</span><br>et moisissure</p>

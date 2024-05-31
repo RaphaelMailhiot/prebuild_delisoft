@@ -23,6 +23,11 @@ $meta['a-propos-deroulement'][1] ="$descriptionbase";
 $meta['a-propos-deroulement'][2] ="$keywordsbase, déroulement,";
 $meta['a-propos-deroulement'][3] ="a-propos/deroulement";
 
+$meta['a-propos-faq'][0] ="FAQ - $namebase";
+$meta['a-propos-faq'][1] ="$descriptionbase";
+$meta['a-propos-faq'][2] ="$keywordsbase, faq,";
+$meta['a-propos-faq'][3] ="a-propos/faq";
+
 $meta['traduction'][0] ="Traduction - $namebase";
 $meta['traduction'][1] ="Traduction";
 $meta['traduction'][2] ="$keywordsbase, traduction";
