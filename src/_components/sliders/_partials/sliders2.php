@@ -12,7 +12,7 @@
           <a href="#" class="button">Call to action</a>
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-lg-6">
         <img class="img-fluid animation-from-bottom" src="/assets/images/placeholder/sliders2-placeholder.webp" alt="Placeholder">
       </div>
     </div>
