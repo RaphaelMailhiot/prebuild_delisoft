@@ -4,6 +4,7 @@ $lang = $_GET["lang"];
 
 $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
 $url = $protocol . $_SERVER["HTTP_HOST"] . '/';
+$wpUrl = "http://z-prebuild.temoignagevideo.com/api/";
 
 // TODO Mettre le nom du site
 $namebase = "NomDeLaCompagnie";
@@ -41,6 +42,10 @@ include("assets/lang/" . $lang . "/footer.php");
 
   <!-- Styles -->
   <link rel="stylesheet" href="/styles/main.css" />
+  <?php if ($page === "single-post") {
+    echo '<link rel="stylesheet" href="' . $wpUrl . 'wp-content/themes/twentytwentyfour/style.css">';
+  }
+  ?>
 
   <!-- scripts -->
   <script src="/scripts/main.js" defer></script>
@@ -105,6 +110,10 @@ include("assets/lang/" . $lang . "/footer.php");
 
     'traduction' => 'views/traduction.php',
 
+    'blogue' => '_components/wp/blogue.php',
+    'boutique' => '_components/wp/boutique.php',
+    'single-post' => '_components/wp/single-post.php',
+
     // LES _COMPONENTS
     //'about' => '_components/about/about.php',
     'components-avantages' => '_components/avantages/avantages.php',
@@ -126,7 +135,9 @@ include("assets/lang/" . $lang . "/footer.php");
 
   include($titrePage[$page]);
 
-  if ($seo) {include('assets/seo/module-ville.php');}
+  if ($seo) {
+    include('assets/seo/module-ville.php');
+  }
 
   include($titrePage['footer']);
 

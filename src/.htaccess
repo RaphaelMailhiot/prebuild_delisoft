@@ -65,6 +65,12 @@ RewriteRule ^components/services$ index.php?lang=fr&page=components-services
 RewriteRule ^components/sliders$ index.php?lang=fr&page=components-sliders
 RewriteRule ^components/temoignages$ index.php?lang=fr&page=components-temoignages
 
+# WordPress
+RewriteRule ^blogue$ index.php?lang=fr&page=blogue
+RewriteRule ^boutique$ index.php?lang=fr&page=boutique
+
+RewriteRule ^blogue/([a-z-A-Z0-9]+)$	index.php?lang=fr&page=single-post	[L]
+
 #SEO
 RewriteRule ^([a-z-A-Z0-9]+)/([a-z-A-Z0-9]+)$	index.php?lang=fr&page=seo-1&town=$1	[L]
 

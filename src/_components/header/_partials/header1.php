@@ -168,6 +168,20 @@
                     </ul>
                   </li>
 
+                  <li <?php if (in_array($_GET["wp"], ["blogue", "boutique"])): ?> class="active" <?php endif; ?>>
+                    <a href="#">WordPress<i class="fa fa-angle-down fa-indicator"></i></a>
+                    <ul class="drop-down-multilevel left-side">
+                      <li <?php if ($_GET["wp"] === "blogue"): ?> class="active" <?php endif; ?>>
+                        <a href="<?= $url . $meta['blogue'][3] ?>">
+                          Blogue
+                        </a></li>
+                      <li <?php if ($_GET["page"] === "boutique"): ?> class="active" <?php endif; ?>>
+                        <a href="<?= $url . $meta['boutique'][3] ?>">
+                          Boutique
+                        </a></li>
+                    </ul>
+                  </li>
+
                   <li <?php if ($_GET["page"] === "exemples"): ?> class="active" <?php endif; ?>>
                     <a href="<?= $url . $meta['exemples'][3] ?>">
                       <?= $meta['header']['menu']['exemples'] ?>

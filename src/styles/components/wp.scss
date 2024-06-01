@@ -1,0 +1,29 @@
+.single-post {
+    .wp-block-image {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &.size-full img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+    .is-layout-flex {
+        display: flex;
+    }
+
+    @media (min-width: 782px) {
+        .wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column {
+            flex-basis: 0;
+            flex-grow: 1;
+        }
+    }
+
+    @media (max-width: 781px) {
+        .wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column {
+            flex-basis: 100% !important;
+        }
+    }
+}
