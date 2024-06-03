@@ -1,4 +1,4 @@
-<main class="faq">
+<main class="about-faq">
 
   <!--Hero-->
   <section class="page-title bg-overlay-black-40 jarallax">

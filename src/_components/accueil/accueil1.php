@@ -101,7 +101,7 @@
 
   <!--Recherche experts-->
   <section class="page-section-ptb accueil1-recherche-section gray-bg">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row mb-24">
         <div class="col-lg-9 col-md-7 align-self-center">
           <div class="d-flex align-items-center">

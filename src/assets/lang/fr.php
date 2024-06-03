@@ -8,10 +8,31 @@ $meta['all'][1] = "$descriptionbase";
 $meta['all'][2] = "$keywordsbase";
 $meta['all'][3] = "";
 
-$meta['a-propos'][0] = "À propos - $namebase";
-$meta['a-propos'][1] = "$descriptionbase";
-$meta['a-propos'][2] = "$keywordsbase, à propos,";
-$meta['a-propos'][3] = "a-propos";
+// LES PAGES À PROPOS
+$meta['a-propos-1'][0] = "À propos - $namebase";
+$meta['a-propos-1'][1] = "$descriptionbase";
+$meta['a-propos-1'][2] = "$keywordsbase, à propos,";
+$meta['a-propos-1'][3] = "a-propos/1";
+
+$meta['a-propos-2'][0] = "À propos - $namebase";
+$meta['a-propos-2'][1] = "$descriptionbase";
+$meta['a-propos-2'][2] = "$keywordsbase, à propos,";
+$meta['a-propos-2'][3] = "a-propos/2";
+
+$meta['a-propos-3'][0] = "À propos - $namebase";
+$meta['a-propos-3'][1] = "$descriptionbase";
+$meta['a-propos-3'][2] = "$keywordsbase, à propos,";
+$meta['a-propos-3'][3] = "a-propos/3";
+
+$meta['a-propos-4'][0] = "À propos - $namebase";
+$meta['a-propos-4'][1] = "$descriptionbase";
+$meta['a-propos-4'][2] = "$keywordsbase, à propos,";
+$meta['a-propos-4'][3] = "a-propos/4";
+
+$meta['a-propos-5'][0] = "À propos - $namebase";
+$meta['a-propos-5'][1] = "$descriptionbase";
+$meta['a-propos-5'][2] = "$keywordsbase, à propos,";
+$meta['a-propos-5'][3] = "a-propos/5";
 
 $meta['a-propos-avantages'][0] = "Avantages - $namebase";
 $meta['a-propos-avantages'][1] = "$descriptionbase";
@@ -28,11 +49,13 @@ $meta['a-propos-faq'][1] = "$descriptionbase";
 $meta['a-propos-faq'][2] = "$keywordsbase, faq,";
 $meta['a-propos-faq'][3] = "a-propos/faq";
 
+// TRADUCTION
 $meta['traduction'][0] = "Traduction - $namebase";
 $meta['traduction'][1] = "Traduction";
 $meta['traduction'][2] = "$keywordsbase, traduction";
 $meta['traduction'][3] = "traduction";
 
+// EXEMPLES
 $meta['exemples'][0] = "Exemples - $namebase";
 $meta['exemples'][1] = "Exemples";
 $meta['exemples'][2] = "$keywordsbase, exemples";
@@ -117,8 +140,8 @@ $meta['components-temoignages'][1] = "Exemples";
 $meta['components-temoignages'][2] = "components-temoignages";
 $meta['components-temoignages'][3] = "components/temoignages";
 
-// WordPress
 
+// WordPress
 $meta['blogue'][0] = "Blogue - $namebase";
 $meta['blogue'][1] = "Blogue";
 $meta['blogue'][2] = "blogue";
@@ -135,6 +158,7 @@ if ($page === "single-post") {
     $keywords = "Article";
 }
 
+
 // SEO
 $province = $_GET['province'];
 $town = $_GET['town'];
@@ -142,7 +166,6 @@ $service = $_GET['service'];
 $townclean = str_replace('-', ' ', $town);
 $serviceclean = str_replace('-', ' ', $service);
 $valueclean = str_replace('-', ' ', $value);
-
 
 if ($page == "seo-1") {
     $titre = "SEO " . $town . "- $namebase";

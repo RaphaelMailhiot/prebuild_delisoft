@@ -27,8 +27,12 @@ ErrorDocument 404 UrlDuSite
 RewriteRule ^$ index.php?lang=fr&page=all
 RewriteRule ^en/$ index.php?lang=en&page=all
 
-RewriteRule ^a-propos$ index.php?lang=fr&page=a-propos
-RewriteRule ^en/about$ index.php?lang=en&page=a-propos
+# À PROPOS
+RewriteRule ^a-propos/1$ index.php?lang=fr&page=a-propos-1
+RewriteRule ^a-propos/2$ index.php?lang=fr&page=a-propos-2
+RewriteRule ^a-propos/3$ index.php?lang=fr&page=a-propos-3
+RewriteRule ^a-propos/4$ index.php?lang=fr&page=a-propos-4
+RewriteRule ^a-propos/5$ index.php?lang=fr&page=a-propos-5
 
 RewriteRule ^a-propos/avantages$ index.php?lang=fr&page=a-propos-avantages
 RewriteRule ^en/about/benefits$ index.php?lang=en&page=a-propos-avantages
@@ -39,13 +43,16 @@ RewriteRule ^en/about/progress index.php?lang=en&page=a-propos-deroulement
 RewriteRule ^a-propos/faq$ index.php?lang=fr&page=a-propos-faq
 RewriteRule ^en/about/faq index.php?lang=en&page=a-propos-faq
 
-RewriteRule ^traduction$ index.php?lang=fr&page=traduction
-RewriteRule ^en/translation$ index.php?lang=en&page=traduction
 
+# EXEMPLES
 RewriteRule ^exemples$ index.php?lang=fr&page=exemples
 RewriteRule ^en/exemples$ index.php?lang=en&page=exemples
 
-# LES ACCUEIL
+# TRADUCTION
+RewriteRule ^traduction$ index.php?lang=fr&page=traduction
+RewriteRule ^en/translation$ index.php?lang=en&page=traduction
+
+# ACCUEIL
 RewriteRule ^accueil/1$ index.php?lang=fr&page=accueil-1
 RewriteRule ^accueil/2$ index.php?lang=fr&page=accueil-2
 RewriteRule ^accueil/3$ index.php?lang=fr&page=accueil-3
@@ -67,12 +74,12 @@ RewriteRule ^components/temoignages$ index.php?lang=fr&page=components-temoignag
 
 # WordPress
 RewriteRule ^blogue$ index.php?lang=fr&page=blogue
+RewriteRule ^blogue/([a-z-A-Z0-9]+)$ index.php?lang=fr&page=single-post [L]
+
 RewriteRule ^boutique$ index.php?lang=fr&page=boutique
 
-RewriteRule ^blogue/([a-z-A-Z0-9]+)$	index.php?lang=fr&page=single-post	[L]
-
 #SEO
-RewriteRule ^([a-z-A-Z0-9]+)/([a-z-A-Z0-9]+)$	index.php?lang=fr&page=seo-1&town=$1	[L]
+RewriteRule ^([a-z-A-Z0-9]+)/([a-z-A-Z0-9]+)$ index.php?lang=fr&page=seo-1&town=$1 [L]
 
 
 

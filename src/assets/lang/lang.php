@@ -3,8 +3,8 @@
 // Mettre les pages pour le changement de langue
 // Les "/" au début est super important
 
-$meta['accueil']['fr'] = "/";
-$meta['accueil']['en'] = "/en/";
+$meta['all']['fr'] = "/";
+$meta['all']['en'] = "/en/";
 
 $meta['a-propos']['fr'] = "/a-propos";
 $meta['a-propos']['en'] = "/en/about";

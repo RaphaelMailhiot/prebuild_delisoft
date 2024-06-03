@@ -101,7 +101,11 @@ include("assets/lang/" . $lang . "/footer.php");
     'accueil-4' => '_components/accueil/accueil4.php',
     'accueil-5' => '_components/accueil/accueil5.php',
 
-    'a-propos' => 'views/a-propos.php',
+    'a-propos-1' => 'views/a-propos.php',
+    'a-propos-2' => 'views/a-propos.php',
+    'a-propos-3' => 'views/a-propos.php',
+    'a-propos-4' => 'views/a-propos.php',
+    'a-propos-5' => 'views/a-propos.php',
     'a-propos-avantages' => 'views/a-propos.php',
     'a-propos-deroulement' => 'views/a-propos.php',
     'a-propos-faq' => 'views/a-propos.php',
@@ -115,7 +119,6 @@ include("assets/lang/" . $lang . "/footer.php");
     'single-post' => '_components/wp/single-post.php',
 
     // LES _COMPONENTS
-    //'about' => '_components/about/about.php',
     'components-avantages' => '_components/avantages/avantages.php',
     'components-actionbox' => '_components/actionbox/actionbox.php',
     'components-bloc-texte' => '_components/bloc-texte/bloc-texte.php',
@@ -128,7 +131,7 @@ include("assets/lang/" . $lang . "/footer.php");
     'components-temoignages' => '_components/temoignages/temoignages.php',
 
     // SEO
-    'seo' => null
+    'seo-1' => null
   ];
 
   include($titrePage['header']);

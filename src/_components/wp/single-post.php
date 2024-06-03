@@ -1,5 +1,10 @@
 <?php
 
+/*
+ * NE PAS MODIFIER SOUS AUCUN PRÉTEXTE,
+ * SAUF SI VOUS SAVEZ CE QUE VOUS FAITES
+ * */
+
 /*Pour get les infos des articles Wordpress*/
 include "assets/models/articles-wp.php";
 $articles = Articles::getInstance();
