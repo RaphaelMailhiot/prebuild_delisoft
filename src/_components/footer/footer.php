@@ -5,11 +5,11 @@
                 <div class="footer-useful-link footer-hedding">
                     <h6 class="text-white mb-30 mt-10 text-uppercase">Navigation</h6>
                     <ul>
-                        <li><a href="<?= $url . $meta['accueil'][3] ?>">Accueil</a></li>
-                        <li><a href="<?= $url . $meta['a-propos'][3] ?>">À propos</a></li>
-                        <li><a href="<?= $url . $meta['services'][3] ?>">Services</a></li>
-                        <li><a href="<?= $url . $meta['realisations'][3] ?>">Réalisations</a></li>
-                        <li><a href="<?= $url . $meta['contact'][3] ?>">Contact</a></li>
+                        <li><a href="<?= $url . $meta['accueil'][$lang] ?>">Accueil</a></li>
+                        <li><a href="<?= $url . $meta['a-propos'][$lang] ?>">À propos</a></li>
+                        <li><a href="<?= $url . $meta['services'][$lang] ?>">Services</a></li>
+                        <li><a href="<?= $url . $meta['realisations'][$lang] ?>">Réalisations</a></li>
+                        <li><a href="<?= $url . $meta['contact'][$lang] ?>">Contact</a></li>
                     </ul>
                 </div>
             </div>

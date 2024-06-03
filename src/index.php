@@ -116,6 +116,11 @@ include("assets/lang/" . $lang . "/footer.php");
     'services-4' => 'views/services.php',
     'services-5' => 'views/services.php',
 
+    'contact-1' => 'views/contact.php',
+    'contact-2' => 'views/contact.php',
+    'contact-3' => 'views/contact.php',
+    'contact-4' => 'views/contact.php',
+
     'exemples' => 'views/exemples.php',
 
     'traduction' => 'views/traduction.php',
@@ -125,16 +130,15 @@ include("assets/lang/" . $lang . "/footer.php");
     'single-post' => 'views/single-post.php',
 
     // LES _COMPONENTS
-    'components-avantages' => '_components/avantages/avantages.php',
-    'components-actionbox' => '_components/actionbox/actionbox.php',
-    'components-bloc-texte' => '_components/bloc-texte/bloc-texte.php',
-    'components-contact' => '_components/contact/contact.php',
-    'components-four-sections' => '_components/four-sections/four-sections.php',
-    'components-modules' => '_components/modules/modules.php',
-    'components-partenaires' => '_components/partenaires/partenaires.php',
-    'components-services' => '_components/services/services.php',
-    'components-sliders' => '_components/sliders/sliders.php',
-    'components-temoignages' => '_components/temoignages/temoignages.php',
+    'components-avantages' => '_components/section/avantages/avantages.php',
+    'components-actionbox' => '_components/section/actionbox/actionbox.php',
+    'components-bloc-texte' => '_components/section/bloc-texte/bloc-texte.php',
+    'components-four-sections' => '_components/section/four-sections/four-sections.php',
+    'components-modules' => '_components/section/modules/modules.php',
+    'components-partenaires' => '_components/section/partenaires/partenaires.php',
+    'components-services' => '_components/section/services/services.php',
+    'components-sliders' => '_components/section/sliders/sliders.php',
+    'components-temoignages' => '_components/section/temoignages/temoignages.php',
 
     // SEO
     'seo-1' => null

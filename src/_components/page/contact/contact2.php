@@ -9,7 +9,7 @@
             <h1 class="text-white text-uppercase">Contact</h1>
           </div>
           <ul class="page-breadcrumb">
-            <li><a href="<?= $url . $meta['accueil'][3] ?>"><i class="fa fa-home"></i> Accueil</a> <i class="fa fa-angle-double-right"></i></li>
+            <li><a href="<?= $url . $meta['accueil'][$lang] ?>"><i class="fa fa-home"></i> Accueil</a> <i class="fa fa-angle-double-right"></i></li>
             <li><span>Contact</span></li>
           </ul>
         </div>

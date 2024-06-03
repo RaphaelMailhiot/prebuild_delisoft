@@ -40,7 +40,7 @@
               <!-- menu logo -->
               <ul class="menu-logo">
                 <li>
-                  <a href="<?= $url . $meta['accueil'][3] ?>">
+                  <a href="<?= $url . $meta['accueil'][$lang] ?>">
                     <img src="/assets/images/logo.webp" alt="Logo de <?= $namebase ?>"></a>
                 </li>
               </ul>
@@ -59,7 +59,7 @@
                     <ul class="drop-down-multilevel left-side">
                       <?php for ($i = 1; $i <= 5; $i++) : ?>
                         <li <?php if ($_GET["page"] === "accueil-" . $i): ?> class="active" <?php endif; ?>>
-                          <a href="<?= $url . $meta['accueil-' . $i][3] ?>">
+                          <a href="<?= $url . $meta['accueil-' . $i][$lang] ?>">
                             <?= $meta['header']['menu']['accueil-' . $i] ?>
                           </a></li>
                       <?php endfor; ?>
@@ -81,21 +81,21 @@
                           <?php for ($j = 1; $j <= 5; $j++) : ?>
                             <li <?php if ($_GET["page"] === "a-propos-" . $j): ?> class="active" <?php endif; ?>>
                               <a
-                                href="<?= $url . $meta['a-propos-' . $j][3] ?>"><?= $meta['header']['menu']['a-propos'] ?> <?= $j ?></a>
+                                href="<?= $url . $meta['a-propos-' . $j][$lang] ?>"><?= $meta['header']['menu']['a-propos'] ?> <?= $j ?></a>
                             </li>
                           <?php endfor; ?>
                         </ul>
                       </li>
                       <li <?php if ($_GET["page"] === "a-propos-avantages"): ?> class="active" <?php endif; ?>>
-                        <a href="<?= $url . $meta['a-propos-avantages'][3] ?>">
+                        <a href="<?= $url . $meta['a-propos-avantages'][$lang] ?>">
                           <?= $meta['header']['menu']['a-propos-avantages'] ?>
                         </a></li>
                       <li <?php if ($_GET["page"] === "a-propos-deroulement"): ?> class="active" <?php endif; ?>>
-                        <a href="<?= $url . $meta['a-propos-deroulement'][3] ?>">
+                        <a href="<?= $url . $meta['a-propos-deroulement'][$lang] ?>">
                           <?= $meta['header']['menu']['a-propos-deroulement'] ?>
                         </a></li>
                       <li <?php if ($_GET["page"] === "a-propos-faq"): ?> class="active" <?php endif; ?>>
-                        <a href="<?= $url . $meta['a-propos-faq'][3] ?>">
+                        <a href="<?= $url . $meta['a-propos-faq'][$lang] ?>">
                           FAQ
                         </a></li>
                     </ul>
@@ -111,8 +111,25 @@
                     <ul class="drop-down-multilevel left-side">
                       <?php for ($k = 1; $k <= 5; $k++) : ?>
                         <li <?php if ($_GET["page"] === "services-" . $k): ?> class="active" <?php endif; ?>>
-                          <a href="<?= $url . $meta['services-' . $k][3] ?>">
+                          <a href="<?= $url . $meta['services-' . $k][$lang] ?>">
                             Services <?= $k ?>
+                          </a></li>
+                      <?php endfor; ?>
+                    </ul>
+                  </li>
+
+                  <!--_components/contact-->
+                  <li <?php if (in_array($_GET["page"], [
+                    "contact1", "contact2",
+                    "contact3", "contact4"
+                  ])): ?> class="active" <?php endif; ?>>
+                    <a href="#">Contact<i
+                        class="fa fa-angle-down fa-indicator"></i></a>
+                    <ul class="drop-down-multilevel left-side">
+                      <?php for ($l = 1; $l <= 4; $l++) : ?>
+                        <li <?php if ($_GET["page"] === "contact-" . $l): ?> class="active" <?php endif; ?>>
+                          <a href="<?= $url . $meta['contact-' . $l][$lang] ?>">
+                            Contact <?= $l ?>
                           </a></li>
                       <?php endfor; ?>
                     </ul>
@@ -136,47 +153,47 @@
                         class="fa fa-angle-down fa-indicator"></i></a>
                     <ul class="drop-down-multilevel left-side">
                       <li <?php if ($_GET["page"] === "all"): ?> class="active" <?php endif; ?>>
-                        <a href="<?= $url . $meta['all'][3] ?>">
+                        <a href="<?= $url . $meta['all'][$lang] ?>">
                           All
                         </a></li>
                       <li <?php if ($_GET["page"] === "components-avantages"): ?> class="active" <?php endif; ?>>
-                        <a href="<?= $url . $meta['components-avantages'][3] ?>">
+                        <a href="<?= $url . $meta['components-avantages'][$lang] ?>">
                           <?= $meta['header']['menu']['components-avantages'] ?>
                         </a></li>
                       <li <?php if ($_GET["page"] === "components-actionbox"): ?> class="active" <?php endif; ?>>
-                        <a href="<?= $url . $meta['components-actionbox'][3] ?>">
+                        <a href="<?= $url . $meta['components-actionbox'][$lang] ?>">
                           <?= $meta['header']['menu']['components-actionbox'] ?>
                         </a></li>
                       <li <?php if ($_GET["page"] === "components-bloc-texte"): ?> class="active" <?php endif; ?>>
-                        <a href="<?= $url . $meta['components-bloc-texte'][3] ?>">
+                        <a href="<?= $url . $meta['components-bloc-texte'][$lang] ?>">
                           <?= $meta['header']['menu']['components-bloc-texte'] ?>
                         </a></li>
                       <li <?php if ($_GET["page"] === "components-contact"): ?> class="active" <?php endif; ?>>
-                        <a href="<?= $url . $meta['components-contact'][3] ?>">
+                        <a href="<?= $url . $meta['components-contact'][$lang] ?>">
                           Contact
                         </a></li>
                       <li <?php if ($_GET["page"] === "components-four-sections"): ?> class="active" <?php endif; ?>>
-                        <a href="<?= $url . $meta['components-four-sections'][3] ?>">
+                        <a href="<?= $url . $meta['components-four-sections'][$lang] ?>">
                           <?= $meta['header']['menu']['components-four-sections'] ?>
                         </a></li>
                       <li <?php if ($_GET["page"] === "components-modules"): ?> class="active" <?php endif; ?>>
-                        <a href="<?= $url . $meta['components-modules'][3] ?>">
+                        <a href="<?= $url . $meta['components-modules'][$lang] ?>">
                           Modules
                         </a></li>
                       <li <?php if ($_GET["page"] === "components-partenaires"): ?> class="active" <?php endif; ?>>
-                        <a href="<?= $url . $meta['components-partenaires'][3] ?>">
+                        <a href="<?= $url . $meta['components-partenaires'][$lang] ?>">
                           <?= $meta['header']['menu']['components-partenaires'] ?>
                         </a></li>
                       <li <?php if ($_GET["page"] === "components-services"): ?> class="active" <?php endif; ?>>
-                        <a href="<?= $url . $meta['components-services'][3] ?>">
+                        <a href="<?= $url . $meta['components-services'][$lang] ?>">
                           Services
                         </a></li>
                       <li <?php if ($_GET["page"] === "components-sliders"): ?> class="active" <?php endif; ?>>
-                        <a href="<?= $url . $meta['components-sliders'][3] ?>">
+                        <a href="<?= $url . $meta['components-sliders'][$lang] ?>">
                           Sliders
                         </a></li>
                       <li <?php if ($_GET["page"] === "components-temoignages"): ?> class="active" <?php endif; ?>>
-                        <a href="<?= $url . $meta['components-temoignages'][3] ?>">
+                        <a href="<?= $url . $meta['components-temoignages'][$lang] ?>">
                           <?= $meta['header']['menu']['components-temoignages'] ?>
                         </a></li>
                     </ul>
@@ -187,11 +204,11 @@
                     <a href="#">WP<i class="fa fa-angle-down fa-indicator"></i></a>
                     <ul class="drop-down-multilevel left-side">
                       <li <?php if ($_GET["wp"] === "blogue"): ?> class="active" <?php endif; ?>>
-                        <a href="<?= $url . $meta['blogue'][3] ?>">
+                        <a href="<?= $url . $meta['blogue'][$lang] ?>">
                           Blogue
                         </a></li>
                       <li <?php if ($_GET["page"] === "boutique"): ?> class="active" <?php endif; ?>>
-                        <a href="<?= $url . $meta['boutique'][3] ?>">
+                        <a href="<?= $url . $meta['boutique'][$lang] ?>">
                           Boutique
                         </a></li>
                     </ul>
@@ -199,18 +216,18 @@
 
                   <!--_components/exemples-->
                   <li <?php if ($_GET["page"] === "exemples"): ?> class="active" <?php endif; ?>>
-                    <a href="<?= $url . $meta['exemples'][3] ?>">
+                    <a href="<?= $url . $meta['exemples'][$lang] ?>">
                       <?= $meta['header']['menu']['exemples'] ?>
                     </a></li>
 
                   <!--views/traduction-->
                   <li <?php if ($_GET["page"] === "traduction"): ?> class="active" <?php endif; ?>>
-                    <a href="<?= $url . $meta['traduction'][3] ?>">
+                    <a href="<?= $url . $meta['traduction'][$lang] ?>">
                       <?= $meta['header']['menu']['traduction'] ?>
                     </a></li>
 
                   <!--Permet de changer de langue-->
-                  <li><a href="<?= $meta[$page][$meta['header']['switch']] ?>"><?= $meta['header']['switch'] ?></a></li>
+                  <li><a href="<?= $url . $meta[$page][$meta['header']['switch']] ?>"><?= $meta['header']['switch'] ?></a></li>
 
                 </ul>
               </div>
