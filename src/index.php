@@ -95,11 +95,11 @@ include("assets/lang/" . $lang . "/footer.php");
 
     'all' => 'views/all.php',
 
-    'accueil-1' => '_components/accueil/accueil1.php',
-    'accueil-2' => '_components/accueil/accueil2.php',
-    'accueil-3' => '_components/accueil/accueil3.php',
-    'accueil-4' => '_components/accueil/accueil4.php',
-    'accueil-5' => '_components/accueil/accueil5.php',
+    'accueil-1' => 'views/accueil.php',
+    'accueil-2' => 'views/accueil.php',
+    'accueil-3' => 'views/accueil.php',
+    'accueil-4' => 'views/accueil.php',
+    'accueil-5' => 'views/accueil.php',
 
     'a-propos-1' => 'views/a-propos.php',
     'a-propos-2' => 'views/a-propos.php',
@@ -110,13 +110,19 @@ include("assets/lang/" . $lang . "/footer.php");
     'a-propos-deroulement' => 'views/a-propos.php',
     'a-propos-faq' => 'views/a-propos.php',
 
+    'services-1' => 'views/services.php',
+    'services-2' => 'views/services.php',
+    'services-3' => 'views/services.php',
+    'services-4' => 'views/services.php',
+    'services-5' => 'views/services.php',
+
     'exemples' => 'views/exemples.php',
 
     'traduction' => 'views/traduction.php',
 
-    'blogue' => '_components/wp/blogue.php',
+    'blogue' => 'views/blogue.php',
     'boutique' => '_components/wp/boutique.php',
-    'single-post' => '_components/wp/single-post.php',
+    'single-post' => 'views/single-post.php',
 
     // LES _COMPONENTS
     'components-avantages' => '_components/avantages/avantages.php',

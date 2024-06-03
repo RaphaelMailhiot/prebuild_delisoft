@@ -43,6 +43,12 @@ RewriteRule ^en/about/progress index.php?lang=en&page=a-propos-deroulement
 RewriteRule ^a-propos/faq$ index.php?lang=fr&page=a-propos-faq
 RewriteRule ^en/about/faq index.php?lang=en&page=a-propos-faq
 
+# SERVICES
+RewriteRule ^services/1$ index.php?lang=fr&page=services-1
+RewriteRule ^services/2$ index.php?lang=fr&page=services-2
+RewriteRule ^services/3$ index.php?lang=fr&page=services-3
+RewriteRule ^services/4$ index.php?lang=fr&page=services-4
+RewriteRule ^services/5$ index.php?lang=fr&page=services-5
 
 # EXEMPLES
 RewriteRule ^exemples$ index.php?lang=fr&page=exemples
