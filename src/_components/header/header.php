@@ -146,10 +146,6 @@
                         <a href="<?= $url . $meta['components-bloc-texte'][$lang] ?>">
                           <?= $meta['header']['menu']['components-bloc-texte'] ?>
                         </a></li>
-                      <li <?php if ($_GET["page"] === "components-contact"): ?> class="active" <?php endif; ?>>
-                        <a href="<?= $url . $meta['components-contact'][$lang] ?>">
-                          Contact
-                        </a></li>
                       <li <?php if ($_GET["page"] === "components-four-sections"): ?> class="active" <?php endif; ?>>
                         <a href="<?= $url . $meta['components-four-sections'][$lang] ?>">
                           <?= $meta['header']['menu']['components-four-sections'] ?>

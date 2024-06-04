@@ -21,7 +21,6 @@ $meta['header']['menu']['components'] = "Section";
 $meta['header']['menu']['components-avantages'] = "Avantages";
 $meta['header']['menu']['components-actionbox'] = "ActionBox";
 $meta['header']['menu']['components-bloc-texte'] = "Bloc-texte";
-//$meta['header']['menu']['components-contact'] = "Contact";
 $meta['header']['menu']['components-four-sections'] = "Quatre-sections";
 //$meta['header']['menu']['components-modules'] = "Modules";
 $meta['header']['menu']['components-partenaires'] = "Partenaires";
