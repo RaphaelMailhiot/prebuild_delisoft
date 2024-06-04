@@ -2,6 +2,47 @@
    about / components
    ========================================================================== */
 
+// about-1 (clubgazon)
+.about1 {
+
+    .page-title {
+        background-image: url(https://clubgazon.com/images/a-propos/a-propos-bg.webp);
+    }
+
+    .a-propos-card {
+        border-radius: $border-radius;
+        background: white;
+        box-shadow: 0 0 60px rgba(0, 0, 0, 20%);
+    }
+
+    .a-propos-card-img-left {
+        padding: 0 24px 0 0;
+    }
+
+    .a-propos-img-left {
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px 0 0 20px;
+    }
+
+    .a-propos-card-texte {
+        padding: 40px 40px 40px 20px;
+    }
+
+    .img-couple {
+        position: absolute;
+        width: 100%;
+        top: -100px;
+    }
+
+    .a-propos-img-fancy {
+        margin-top: -100px;
+        aspect-ratio: 1/1;
+        height: 100%;
+        border-radius: $border-radius;
+    }
+}
+
 // Page avantages -> voir bugs.scss
 
 // Page déroulement
