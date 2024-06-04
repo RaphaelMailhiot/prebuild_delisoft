@@ -13,7 +13,7 @@ Pour la traduction → assets/lang/{lang}/{page}.php
         <h2><?= $meta['translate']['hero'][2] ?></h2>
         <p><?= $meta['translate']['hero'][3] ?></p>
         <p><?= $meta['translate']['hero'][4] ?></p>
-        <a href="<?= $meta[$page][$meta['translate']['switch']] ?>" class="button"><?= $meta['translate']['hero'][5] ?></a>
+        <a href="<?= $url . $meta[$page][$meta['translate']['switch']] ?>" class="button"><?= $meta['translate']['hero'][5] ?></a>
     </div>
 </section>
 

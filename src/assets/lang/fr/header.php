@@ -17,7 +17,7 @@ $meta['header']['menu']['a-propos-deroulement'] = "Déroulement";
 //$meta['header']['menu']['a-propos-faq'] = "FAQ";
 
 // Composants
-$meta['header']['menu']['components'] = "Composants";
+$meta['header']['menu']['components'] = "Section";
 $meta['header']['menu']['components-avantages'] = "Avantages";
 $meta['header']['menu']['components-actionbox'] = "ActionBox";
 $meta['header']['menu']['components-bloc-texte'] = "Bloc-texte";

@@ -49,93 +49,71 @@
               <div class="menu-bar">
                 <ul class="menu-links">
 
-                  <!--_components/accueil-->
-                  <li <?php if (in_array($_GET["page"], [
-                    "accueil1", "accueil2", "accueil3",
-                    "accueil4", "accueil5"
-                  ])): ?> class="active" <?php endif; ?>>
-                    <a href="#"><?= $meta['header']['menu']['accueil'] ?><i
-                        class="fa fa-angle-down fa-indicator"></i></a>
-                    <ul class="drop-down-multilevel left-side">
-                      <?php for ($i = 1; $i <= 5; $i++) : ?>
-                        <li <?php if ($_GET["page"] === "accueil-" . $i): ?> class="active" <?php endif; ?>>
-                          <a href="<?= $url . $meta['accueil-' . $i][$lang] ?>">
-                            <?= $meta['header']['menu']['accueil-' . $i] ?>
-                          </a></li>
-                      <?php endfor; ?>
-                    </ul>
+                  <!--Page-->
+                  <li><a href="#">Page <i class="fa fa-angle-down fa-indicator"></i></a>
+                    <div class="drop-down grid-col-12">
+                      <div class="grid-row">
+                        <!--Accueil-->
+                        <div class="grid-col-3">
+                          <ul>
+                            <?php for ($i = 1; $i <= 5; $i++) : ?>
+                              <li <?php if ($_GET["page"] === "accueil-" . $i): ?> class="active" <?php endif; ?>>
+                                <a href="<?= $url . $meta['accueil-' . $i][$lang] ?>">
+                                  <?= $meta['header']['menu']['accueil-' . $i] ?>
+                                </a></li>
+                            <?php endfor; ?>
+                          </ul>
+                        </div>
+                        <!--À propos-->
+                        <div class="grid-col-3">
+                          <ul>
+                            <?php for ($j = 1; $j <= 5; $j++) : ?>
+                              <li <?php if ($_GET["page"] === "a-propos-" . $j): ?> class="active" <?php endif; ?>>
+                                <a
+                                  href="<?= $url . $meta['a-propos-' . $j][$lang] ?>"><?= $meta['header']['menu']['a-propos'] ?> <?= $j ?></a>
+                              </li>
+                            <?php endfor; ?>
+                            <li <?php if ($_GET["page"] === "a-propos-avantages"): ?> class="active" <?php endif; ?>>
+                              <a href="<?= $url . $meta['a-propos-avantages'][$lang] ?>">
+                                <?= $meta['header']['menu']['a-propos-avantages'] ?>
+                              </a></li>
+                            <li <?php if ($_GET["page"] === "a-propos-deroulement"): ?> class="active" <?php endif; ?>>
+                              <a href="<?= $url . $meta['a-propos-deroulement'][$lang] ?>">
+                                <?= $meta['header']['menu']['a-propos-deroulement'] ?>
+                              </a></li>
+                            <li <?php if ($_GET["page"] === "a-propos-faq"): ?> class="active" <?php endif; ?>>
+                              <a href="<?= $url . $meta['a-propos-faq'][$lang] ?>">
+                                FAQ
+                              </a></li>
+                          </ul>
+                        </div>
+                        <!--Services-->
+                        <div class="grid-col-3">
+                          <ul>
+                            <?php for ($k = 1; $k <= 5; $k++) : ?>
+                              <li <?php if ($_GET["page"] === "services-" . $k): ?> class="active" <?php endif; ?>>
+                                <a href="<?= $url . $meta['services-' . $k][$lang] ?>">
+                                  Services <?= $k ?>
+                                </a></li>
+                            <?php endfor; ?>
+                          </ul>
+                        </div>
+                        <!--Contact-->
+                        <div class="grid-col-3">
+                          <ul>
+                            <?php for ($l = 1; $l <= 4; $l++) : ?>
+                              <li <?php if ($_GET["page"] === "contact-" . $l): ?> class="active" <?php endif; ?>>
+                                <a href="<?= $url . $meta['contact-' . $l][$lang] ?>">
+                                  Contact <?= $l ?>
+                                </a></li>
+                            <?php endfor; ?>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
                   </li>
 
-                  <!--_components/about-->
-                  <li <?php if (in_array($_GET["about"], [
-                    "a-propos-1", "a-propos-2", "a-propos-3",
-                    "a-propos-4", "a-propos-5", "avantages",
-                    "deroulement", "faq"])): ?> class="active" <?php endif; ?>>
-                    <a href="#"><?= $meta['header']['menu']['a-propos'] ?><i class="fa fa-angle-down fa-indicator"></i></a>
-                    <ul class="drop-down-multilevel left-side">
-                      <li <?php if ($_GET["page"] === "about"): ?> class="active" <?php endif; ?>>
-                        <a href="#"><?= $meta['header']['menu']['a-propos'] ?>
-                          <i class="fa fa-angle-right fa-indicator"></i>
-                        </a>
-                        <ul class="drop-down-multilevel right-side">
-                          <?php for ($j = 1; $j <= 5; $j++) : ?>
-                            <li <?php if ($_GET["page"] === "a-propos-" . $j): ?> class="active" <?php endif; ?>>
-                              <a
-                                href="<?= $url . $meta['a-propos-' . $j][$lang] ?>"><?= $meta['header']['menu']['a-propos'] ?> <?= $j ?></a>
-                            </li>
-                          <?php endfor; ?>
-                        </ul>
-                      </li>
-                      <li <?php if ($_GET["page"] === "a-propos-avantages"): ?> class="active" <?php endif; ?>>
-                        <a href="<?= $url . $meta['a-propos-avantages'][$lang] ?>">
-                          <?= $meta['header']['menu']['a-propos-avantages'] ?>
-                        </a></li>
-                      <li <?php if ($_GET["page"] === "a-propos-deroulement"): ?> class="active" <?php endif; ?>>
-                        <a href="<?= $url . $meta['a-propos-deroulement'][$lang] ?>">
-                          <?= $meta['header']['menu']['a-propos-deroulement'] ?>
-                        </a></li>
-                      <li <?php if ($_GET["page"] === "a-propos-faq"): ?> class="active" <?php endif; ?>>
-                        <a href="<?= $url . $meta['a-propos-faq'][$lang] ?>">
-                          FAQ
-                        </a></li>
-                    </ul>
-                  </li>
-
-                  <!--_components/services-->
-                  <li <?php if (in_array($_GET["page"], [
-                    "services1", "services2", "services3",
-                    "services4", "services5"
-                  ])): ?> class="active" <?php endif; ?>>
-                    <a href="#">Services<i
-                        class="fa fa-angle-down fa-indicator"></i></a>
-                    <ul class="drop-down-multilevel left-side">
-                      <?php for ($k = 1; $k <= 5; $k++) : ?>
-                        <li <?php if ($_GET["page"] === "services-" . $k): ?> class="active" <?php endif; ?>>
-                          <a href="<?= $url . $meta['services-' . $k][$lang] ?>">
-                            Services <?= $k ?>
-                          </a></li>
-                      <?php endfor; ?>
-                    </ul>
-                  </li>
-
-                  <!--_components/contact-->
-                  <li <?php if (in_array($_GET["page"], [
-                    "contact1", "contact2",
-                    "contact3", "contact4"
-                  ])): ?> class="active" <?php endif; ?>>
-                    <a href="#">Contact<i
-                        class="fa fa-angle-down fa-indicator"></i></a>
-                    <ul class="drop-down-multilevel left-side">
-                      <?php for ($l = 1; $l <= 4; $l++) : ?>
-                        <li <?php if ($_GET["page"] === "contact-" . $l): ?> class="active" <?php endif; ?>>
-                          <a href="<?= $url . $meta['contact-' . $l][$lang] ?>">
-                            Contact <?= $l ?>
-                          </a></li>
-                      <?php endfor; ?>
-                    </ul>
-                  </li>
-
-                  <!--_components-->
+                  <!--Section-->
                   <li <?php if (in_array($_GET["page"], [
                     "all",
                     "components-avantages",
@@ -227,7 +205,9 @@
                     </a></li>
 
                   <!--Permet de changer de langue-->
-                  <li><a href="<?= $url . $meta[$page][$meta['header']['switch']] ?>"><?= $meta['header']['switch'] ?></a></li>
+                  <li><a
+                      href="<?= $url . $meta[$page][$meta['header']['switch']] ?>"><?= $meta['header']['switch'] ?></a>
+                  </li>
 
                 </ul>
               </div>
