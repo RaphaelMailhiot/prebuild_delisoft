@@ -181,6 +181,10 @@
                         <a href="<?= $url . $meta['blogue'][$lang] ?>">
                           Blogue
                         </a></li>
+                      <li <?php if ($_GET["page"] === "faq"): ?> class="active" <?php endif; ?>>
+                        <a href="<?= $url . $meta['faq'][$lang] ?>">
+                          FAQ
+                        </a></li>
                       <li <?php if ($_GET["page"] === "boutique"): ?> class="active" <?php endif; ?>>
                         <a href="<?= $url . $meta['boutique'][$lang] ?>">
                           Boutique

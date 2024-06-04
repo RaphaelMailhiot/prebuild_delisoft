@@ -8,7 +8,7 @@
 /*Pour get les infos des articles Wordpress*/
 include "assets/models/articles-wp.php";
 $articles = Articles::getInstance();
-$posts = $articles->connection();
+$posts = $articles->connection('posts?_embed');
 
 /*Pour get le slug de l'article*/
 $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);

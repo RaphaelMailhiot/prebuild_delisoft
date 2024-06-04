@@ -1,5 +1,4 @@
 <?php
-$wpUrl = "http://z-prebuild.temoignagevideo.com/api/";
 
 class Articles {
     public static $wpUrl;
@@ -25,8 +24,8 @@ class Articles {
         return self::$instances[$cls];
     }
 
-    public function connection() {
-        $wpPosts = self::$wpUrl . 'wp-json/wp/v2/posts?_embed';  // Remplacez avec l'URL de votre site WordPress
+    public function connection($page) {
+        $wpPosts = self::$wpUrl . 'wp-json/wp/v2/' . $page;  // Remplacez avec l'URL de votre site WordPress
 
         // Configuration pour accepter les réponses JSON
         $options = [

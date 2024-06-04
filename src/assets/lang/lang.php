@@ -86,6 +86,8 @@ $meta['components-temoignages']['en'] = "en/components/testimonials";
 // WordPress
 $meta['blogue']['fr'] = "blogue";
 $meta['blogue']['en'] = "en/blog";
+$meta['faq']['fr'] = "faq";
+$meta['faq']['en'] = "en/faq";
 $meta['boutique']['fr'] = "boutique";
 $meta['boutique']['en'] = "en/shop";
 /*single-post → généré automatiquement*/

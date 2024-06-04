@@ -8,7 +8,7 @@
 /*Pour get les infos des articles Wordpress*/
 include "assets/models/articles-wp.php";
 $articles = Articles::getInstance();
-$posts = $articles->connection();
+$posts = $articles->connection('posts?_embed');
 
 ?>
 
@@ -36,7 +36,7 @@ $posts = $articles->connection();
 
         // Afficher les articles
         if ($posts) {
-          foreach ($posts as $post) :
+          foreach ($posts as $post) {
 
             // Va chercher les informations de l'article
             $article_info = $articles->query($post);
@@ -70,9 +70,7 @@ $posts = $articles->connection();
               </div>
             </div>
 
-          <?php endforeach; ?>
-
-        <?php } else {
+          <?php }} else {
           echo "Aucun article trouvé ou erreur de requête.";
         } ?>
 
