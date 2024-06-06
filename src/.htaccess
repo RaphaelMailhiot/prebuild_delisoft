@@ -28,100 +28,100 @@ ErrorDocument 404 UrlDuSite
 
 
 # ACCUEIL
-RewriteRule ^accueil/1$ index.php?lang=fr&page=accueil-1
-RewriteRule ^en/home/1$ index.php?lang=en&page=accueil-1
-RewriteRule ^accueil/2$ index.php?lang=fr&page=accueil-2
-RewriteRule ^en/home/2$ index.php?lang=en&page=accueil-2
-RewriteRule ^accueil/3$ index.php?lang=fr&page=accueil-3
-RewriteRule ^en/home/3$ index.php?lang=en&page=accueil-3
-RewriteRule ^accueil/4$ index.php?lang=fr&page=accueil-4
-RewriteRule ^en/home/4$ index.php?lang=en&page=accueil-4
-RewriteRule ^accueil/5$ index.php?lang=fr&page=accueil-5
-RewriteRule ^en/home/5$ index.php?lang=en&page=accueil-5
+RewriteRule ^accueil/1/?$ index.php?lang=fr&page=accueil-1
+RewriteRule ^en/home/1/?$ index.php?lang=en&page=accueil-1
+RewriteRule ^accueil/2/?$ index.php?lang=fr&page=accueil-2
+RewriteRule ^en/home/2/?$ index.php?lang=en&page=accueil-2
+RewriteRule ^accueil/3/?$ index.php?lang=fr&page=accueil-3
+RewriteRule ^en/home/3/?$ index.php?lang=en&page=accueil-3
+RewriteRule ^accueil/4/?$ index.php?lang=fr&page=accueil-4
+RewriteRule ^en/home/4/?$ index.php?lang=en&page=accueil-4
+RewriteRule ^accueil/5/?$ index.php?lang=fr&page=accueil-5
+RewriteRule ^en/home/5/?$ index.php?lang=en&page=accueil-5
 
 # À PROPOS
-RewriteRule ^a-propos/1$ index.php?lang=fr&page=a-propos-1
-RewriteRule ^en/about/1$ index.php?lang=en&page=a-propos-1
-RewriteRule ^a-propos/2$ index.php?lang=fr&page=a-propos-2
-RewriteRule ^en/about/2$ index.php?lang=en&page=a-propos-2
-RewriteRule ^a-propos/3$ index.php?lang=fr&page=a-propos-3
-RewriteRule ^en/about/3$ index.php?lang=en&page=a-propos-3
-RewriteRule ^a-propos/4$ index.php?lang=fr&page=a-propos-4
-RewriteRule ^en/about/4$ index.php?lang=en&page=a-propos-4
-RewriteRule ^a-propos/5$ index.php?lang=fr&page=a-propos-5
-RewriteRule ^en/about/5$ index.php?lang=en&page=a-propos-5
-RewriteRule ^a-propos/avantages$ index.php?lang=fr&page=a-propos-avantages
-RewriteRule ^en/about/benefits$ index.php?lang=en&page=a-propos-avantages
-RewriteRule ^a-propos/deroulement$ index.php?lang=fr&page=a-propos-deroulement
-RewriteRule ^en/about/progress index.php?lang=en&page=a-propos-deroulement
-RewriteRule ^a-propos/faq$ index.php?lang=fr&page=a-propos-faq
-RewriteRule ^en/about/faq index.php?lang=en&page=a-propos-faq
+RewriteRule ^a-propos/1/?$ index.php?lang=fr&page=a-propos-1
+RewriteRule ^en/about/1/?$ index.php?lang=en&page=a-propos-1
+RewriteRule ^a-propos/2/?$ index.php?lang=fr&page=a-propos-2
+RewriteRule ^en/about/2/?$ index.php?lang=en&page=a-propos-2
+RewriteRule ^a-propos/3/?$ index.php?lang=fr&page=a-propos-3
+RewriteRule ^en/about/3/?$ index.php?lang=en&page=a-propos-3
+RewriteRule ^a-propos/4/?$ index.php?lang=fr&page=a-propos-4
+RewriteRule ^en/about/4/?$ index.php?lang=en&page=a-propos-4
+RewriteRule ^a-propos/5/?$ index.php?lang=fr&page=a-propos-5
+RewriteRule ^en/about/5/?$ index.php?lang=en&page=a-propos-5
+RewriteRule ^a-propos/avantages/?$ index.php?lang=fr&page=a-propos-avantages
+RewriteRule ^en/about/benefits/?$ index.php?lang=en&page=a-propos-avantages
+RewriteRule ^a-propos/deroulement/?$ index.php?lang=fr&page=a-propos-deroulement
+RewriteRule ^en/about/progress/?$ index.php?lang=en&page=a-propos-deroulement
+RewriteRule ^a-propos/faq/?$ index.php?lang=fr&page=a-propos-faq
+RewriteRule ^en/about/faq/?$ index.php?lang=en&page=a-propos-faq
 
 # SERVICES
-RewriteRule ^services/1$ index.php?lang=fr&page=services-1
-RewriteRule ^en/services/1$ index.php?lang=en&page=services-1
-RewriteRule ^services/2$ index.php?lang=fr&page=services-2
-RewriteRule ^en/services/2$ index.php?lang=en&page=services-2
-RewriteRule ^services/3$ index.php?lang=fr&page=services-3
-RewriteRule ^en/services/3$ index.php?lang=en&page=services-3
-RewriteRule ^services/4$ index.php?lang=fr&page=services-4
-RewriteRule ^en/services/4$ index.php?lang=en&page=services-4
-RewriteRule ^services/5$ index.php?lang=fr&page=services-5
-RewriteRule ^en/services/5$ index.php?lang=en&page=services-5
+RewriteRule ^services/1/?$ index.php?lang=fr&page=services-1
+RewriteRule ^en/services/1/?$ index.php?lang=en&page=services-1
+RewriteRule ^services/2/?$ index.php?lang=fr&page=services-2
+RewriteRule ^en/services/2/?$ index.php?lang=en&page=services-2
+RewriteRule ^services/3/?$ index.php?lang=fr&page=services-3
+RewriteRule ^en/services/3/?$ index.php?lang=en&page=services-3
+RewriteRule ^services/4/?$ index.php?lang=fr&page=services-4
+RewriteRule ^en/services/4/?$ index.php?lang=en&page=services-4
+RewriteRule ^services/5/?$ index.php?lang=fr&page=services-5
+RewriteRule ^en/services/5/?$ index.php?lang=en&page=services-5
 
 # CONTACT
-RewriteRule ^contact/1$ index.php?lang=fr&page=contact-1
-RewriteRule ^en/contact/1$ index.php?lang=en&page=contact-1
-RewriteRule ^contact/2$ index.php?lang=fr&page=contact-2
-RewriteRule ^en/contact/2$ index.php?lang=en&page=contact-2
-RewriteRule ^contact/3$ index.php?lang=fr&page=contact-3
-RewriteRule ^en/contact/3$ index.php?lang=en&page=contact-3
-RewriteRule ^contact/4$ index.php?lang=fr&page=contact-4
-RewriteRule ^en/contact/4$ index.php?lang=en&page=contact-4
+RewriteRule ^contact/1/?$ index.php?lang=fr&page=contact-1
+RewriteRule ^en/contact/1/?$ index.php?lang=en&page=contact-1
+RewriteRule ^contact/2/?$ index.php?lang=fr&page=contact-2
+RewriteRule ^en/contact/2/?$ index.php?lang=en&page=contact-2
+RewriteRule ^contact/3/?$ index.php?lang=fr&page=contact-3
+RewriteRule ^en/contact/3/?$ index.php?lang=en&page=contact-3
+RewriteRule ^contact/4/?$ index.php?lang=fr&page=contact-4
+RewriteRule ^en/contact/4/?$ index.php?lang=en&page=contact-4
 
 # EXEMPLES
-RewriteRule ^exemples$ index.php?lang=fr&page=exemples
-RewriteRule ^en/exemples$ index.php?lang=en&page=exemples
+RewriteRule ^exemples/?$ index.php?lang=fr&page=exemples
+RewriteRule ^en/exemples/?$ index.php?lang=en&page=exemples
 
 # TRADUCTION
-RewriteRule ^traduction$ index.php?lang=fr&page=traduction
-RewriteRule ^en/translation$ index.php?lang=en&page=traduction
+RewriteRule ^traduction/?$ index.php?lang=fr&page=traduction
+RewriteRule ^en/translation/?$ index.php?lang=en&page=traduction
 
 # LES _COMPONENTS
-RewriteRule ^$ index.php?lang=fr&page=all
-RewriteRule ^en/$ index.php?lang=en&page=all
+RewriteRule ^/?$ index.php?lang=fr&page=all
+RewriteRule ^en/?$ index.php?lang=en&page=all
 
-RewriteRule ^components/avantages$ index.php?lang=fr&page=components-avantages
-RewriteRule ^en/components/benefits$ index.php?lang=en&page=components-avantages
-RewriteRule ^components/actionbox$ index.php?lang=fr&page=components-actionbox
-RewriteRule ^en/components/actionbox$ index.php?lang=en&page=components-actionbox
-RewriteRule ^components/bloc-texte$ index.php?lang=fr&page=components-bloc-texte
-RewriteRule ^en/components/text-block$ index.php?lang=en&page=components-bloc-texte
-RewriteRule ^components/four-sections$ index.php?lang=fr&page=components-four-sections
-RewriteRule ^en/components/four-sections$ index.php?lang=en&page=components-four-sections
-RewriteRule ^components/modules$ index.php?lang=fr&page=components-modules
-RewriteRule ^en/components/modules$ index.php?lang=en&page=components-modules
-RewriteRule ^components/partenaires$ index.php?lang=fr&page=components-partenaires
-RewriteRule ^en/components/partners$ index.php?lang=en&page=components-partenaires
-RewriteRule ^components/services$ index.php?lang=fr&page=components-services
-RewriteRule ^en/components/services$ index.php?lang=en&page=components-services
-RewriteRule ^components/sliders$ index.php?lang=fr&page=components-sliders
-RewriteRule ^en/components/sliders$ index.php?lang=en&page=components-sliders
-RewriteRule ^components/temoignages$ index.php?lang=fr&page=components-temoignages
-RewriteRule ^en/components/testimonials$ index.php?lang=en&page=components-temoignages
+RewriteRule ^components/avantages/?$ index.php?lang=fr&page=components-avantages
+RewriteRule ^en/components/benefits/?$ index.php?lang=en&page=components-avantages
+RewriteRule ^components/actionbox/?$ index.php?lang=fr&page=components-actionbox
+RewriteRule ^en/components/actionbox/?$ index.php?lang=en&page=components-actionbox
+RewriteRule ^components/bloc-texte/?$ index.php?lang=fr&page=components-bloc-texte
+RewriteRule ^en/components/text-block/?$ index.php?lang=en&page=components-bloc-texte
+RewriteRule ^components/four-sections/?$ index.php?lang=fr&page=components-four-sections
+RewriteRule ^en/components/four-sections/?$ index.php?lang=en&page=components-four-sections
+RewriteRule ^components/modules/?$ index.php?lang=fr&page=components-modules
+RewriteRule ^en/components/modules/?$ index.php?lang=en&page=components-modules
+RewriteRule ^components/partenaires/?$ index.php?lang=fr&page=components-partenaires
+RewriteRule ^en/components/partners/?$ index.php?lang=en&page=components-partenaires
+RewriteRule ^components/services/?$ index.php?lang=fr&page=components-services
+RewriteRule ^en/components/services/?$ index.php?lang=en&page=components-services
+RewriteRule ^components/sliders/?$ index.php?lang=fr&page=components-sliders
+RewriteRule ^en/components/sliders/?$ index.php?lang=en&page=components-sliders
+RewriteRule ^components/temoignages/?$ index.php?lang=fr&page=components-temoignages
+RewriteRule ^en/components/testimonials/?$ index.php?lang=en&page=components-temoignages
 
 # WordPress
-RewriteRule ^blogue$ index.php?lang=fr&page=blogue
-RewriteRule ^en/blog$ index.php?lang=en&page=blogue
-RewriteRule ^faq$ index.php?lang=fr&page=faq
-RewriteRule ^en/faq$ index.php?lang=en&page=faq
-RewriteRule ^boutique$ index.php?lang=fr&page=boutique
-RewriteRule ^en/shop$ index.php?lang=en&page=boutique
-RewriteRule ^blogue/([a-z-A-Z0-9]+)$ index.php?lang=fr&page=single-post [L]
-RewriteRule ^en/blog/([a-z-A-Z0-9]+)$ index.php?lang=en&page=single-post [L]
+RewriteRule ^blogue/?$ index.php?lang=fr&page=blogue
+RewriteRule ^en/blog/?$ index.php?lang=en&page=blogue
+RewriteRule ^faq/?$ index.php?lang=fr&page=faq
+RewriteRule ^en/faq/?$ index.php?lang=en&page=faq
+RewriteRule ^boutique/?$ index.php?lang=fr&page=boutique
+RewriteRule ^en/shop/?$ index.php?lang=en&page=boutique
+RewriteRule ^blogue/([a-z-A-Z0-9]+)/?$ index.php?lang=fr&page=single-post [L]
+RewriteRule ^en/blog/([a-z-A-Z0-9]+)/?$ index.php?lang=en&page=single-post [L]
 
 #SEO
-RewriteRule ^([a-z-A-Z0-9]+)/([a-z-A-Z0-9]+)$ index.php?lang=fr&page=seo-1&town=$1 [L]
+RewriteRule ^([a-z-A-Z0-9]+)/([a-z-A-Z0-9]+)/?$ index.php?lang=fr&page=seo-1&town=$1 [L]
 
 
 # Disable server signature
