@@ -42,10 +42,6 @@ include("assets/lang/" . $lang . "/footer.php");
 
   <!-- Styles -->
   <link rel="stylesheet" href="/styles/main.css" />
-  <?php if ($page === "single-post") {
-    echo '<link rel="stylesheet" href="' . $wpUrl . 'wp-content/themes/twentytwentyfour/style.css">';
-  }
-  ?>
 
   <!-- scripts -->
   <script src="/scripts/main.js" defer></script>

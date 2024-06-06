@@ -151,6 +151,10 @@ $meta['blogue'][0] = "Blogue - $namebase";
 $meta['blogue'][1] = "Blogue";
 $meta['blogue'][2] = "blogue";
 
+$meta['faq'][0] = "FAQ - $namebase";
+$meta['faq'][1] = "FAQ";
+$meta['faq'][2] = "faq";
+
 $meta['boutique'][0] = "Boutique - $namebase";
 $meta['boutique'][1] = "Boutique";
 $meta['boutique'][2] = "boutique";

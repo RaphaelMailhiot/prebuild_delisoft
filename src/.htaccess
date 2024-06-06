@@ -112,9 +112,9 @@ RewriteRule ^en/components/testimonials$ index.php?lang=en&page=components-temoi
 
 # WordPress
 RewriteRule ^blogue$ index.php?lang=fr&page=blogue
-RewriteRule ^en/blog$ index.php?lang=fr&page=blogue
+RewriteRule ^en/blog$ index.php?lang=en&page=blogue
 RewriteRule ^faq$ index.php?lang=fr&page=faq
-RewriteRule ^en/faq$ index.php?lang=fr&page=faq
+RewriteRule ^en/faq$ index.php?lang=en&page=faq
 RewriteRule ^boutique$ index.php?lang=fr&page=boutique
 RewriteRule ^en/shop$ index.php?lang=en&page=boutique
 RewriteRule ^blogue/([a-z-A-Z0-9]+)$ index.php?lang=fr&page=single-post [L]
