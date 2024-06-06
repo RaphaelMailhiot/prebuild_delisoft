@@ -37,6 +37,8 @@ $posts = $articles->connection('posts?_embed');
         // Afficher les articles
         if ($posts) {
           foreach ($posts as $post) {
+            // TODO Mettre seulement si vous utiliser les catégories pour les langues
+            if ($post['_embedded']['wp:term'][0][0]['slug'] === $lang) {
 
             // Va chercher les informations de l'article
             $article_info = $articles->query($post);
@@ -70,7 +72,7 @@ $posts = $articles->connection('posts?_embed');
               </div>
             </div>
 
-          <?php }} else {
+          <?php }}} else {
           echo "Aucun article trouvé ou erreur de requête.";
         } ?>
 

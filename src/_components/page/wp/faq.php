@@ -5,6 +5,16 @@
  * SAUF SI VOUS SAVEZ CE QUE VOUS FAITES
  * */
 
+// TODO mettre le id de la catégorie
+switch ($lang) {
+  case 'fr':
+    $faq_id = 2;
+    break;
+  case 'en':
+    $faq_id = 3;
+    break;
+}
+
 /*Pour get les infos les FAQs Wordpress (Avada)*/
 include "assets/models/articles-wp.php";
 $articles = Articles::getInstance();
@@ -49,14 +59,17 @@ $questions = $articles->connection('avada_faq');
 
         // Afficher les questions
         if ($questions) {
-        foreach ($questions as $question) { ?>
+        foreach ($questions as $question) {
+          // TODO Mettre seulement si vous utiliser les catégories pour les langues
+          if ($question['faq_category'][0] === $faq_id) {
+          ?>
           <div class="acd-group">
             <a href="#" class="acd-heading"><?= $question['title']['rendered'] ?></a>
             <div class="acd-des">
               <?= $question['content']['rendered'] ?>
             </div>
           </div>
-        <?php }} else {
+        <?php }}} else {
           echo "Aucune question trouvé ou erreur de requête.";
         } ?>
 

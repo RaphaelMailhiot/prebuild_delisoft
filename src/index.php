@@ -4,7 +4,7 @@ $lang = $_GET["lang"];
 
 $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
 $url = $protocol . $_SERVER["HTTP_HOST"] . '/';
-$wpUrl = "http://z-prebuild.temoignagevideo.com/api/";
+$wpUrl = "http://z-prebuild.temoignagevideo.com/admin/";
 
 // TODO Mettre le nom du site
 $namebase = "NomDeLaCompagnie";

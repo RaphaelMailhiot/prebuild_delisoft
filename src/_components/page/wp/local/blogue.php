@@ -6,7 +6,8 @@ include $wpUrl . "wp-load.php";
 $args = array(
   'posts_per_page' => -1, // -1 pour récupérer tous les articles
   'post_status' => 'publish', // Seulement les articles publiés
-  'post_type' => 'post' // Assurez-vous de cibler le type 'post' ou un autre type personnalisé si nécessaire
+  'post_type' => 'post', // Assurez-vous de cibler le type 'post' ou un autre type personnalisé si nécessaire
+  'category_name' => $lang // TODO mettre pour gérer les langues (mettre slug catégorie → {fr, en, etc.})
 );
 
 $posts = get_posts($args);
