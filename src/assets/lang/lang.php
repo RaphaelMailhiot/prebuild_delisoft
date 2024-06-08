@@ -84,13 +84,16 @@ $meta['components-sliders']['en'] = "en/components/sliders";
 $meta['components-temoignages']['fr'] = "components/temoignages";
 $meta['components-temoignages']['en'] = "en/components/testimonials";
 // WordPress
-$meta['blogue']['fr'] = "blogue";
-$meta['blogue']['en'] = "en/blog";
 $meta['faq']['fr'] = "faq";
 $meta['faq']['en'] = "en/faq";
 $meta['boutique']['fr'] = "boutique";
 $meta['boutique']['en'] = "en/shop";
+$meta['blogue']['fr'] = "blogue";
+$meta['blogue']['en'] = "en/blog";
 /*single-post → généré automatiquement*/
+$meta['carriere']['fr'] = "carriere";
+$meta['carriere']['en'] = "en/carreer";
+/*single-carreer → généré automatiquement*/
 // SEO
 $meta['seo1']['fr'] = "";
 $meta['seo1']['en'] = "en/";

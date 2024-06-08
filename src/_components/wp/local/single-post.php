@@ -1,7 +1,7 @@
 <?php
 
 //TODO include le fichier wp-load.php
-include $wpUrl . "wp-load.php";
+require_once $wpUrl . "wp-load.php";
 
 /*Pour get le slug de l'article*/
 $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);

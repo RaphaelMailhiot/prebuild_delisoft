@@ -1,7 +1,7 @@
 <?php
 
 //TODO include le fichier wp-load.php
-include $wpUrl . "wp-load.php";
+require_once $wpUrl . "wp-load.php";
 
 $args = array(
   'posts_per_page' => -1, // -1 pour récupérer tous les articles

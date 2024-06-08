@@ -19,20 +19,31 @@ $meta['contact'][0] ="Contact - $namebase";
 $meta['contact'][1] ="Contact an employee of our expert team now.";
 $meta['contact'][2] ="contacter, contact,";
 
-// SEO
-$province = $_GET['province'];
-$town = $_GET['town'];
-$service = $_GET['service'];
-$townclean = str_replace('-', ' ', $town);
-$serviceclean = str_replace('-', ' ', $service);
-$valueclean = str_replace('-', ' ', $value);
+switch ($page) {
+    case "single-post":
+        $titre = "Article";
+        $description = "Article";
+        $keywords = "Article";
+        break;
+    case "single-carreer":
+        $titre = "Carrière";
+        $description = "Carrière";
+        $keywords = "Carrière";
+        break;
+    case "seo-1":
+        $province = $_GET['province'];
+        $town = $_GET['town'];
+        $service = $_GET['service'];
+        $townclean = str_replace('-', ' ', $town);
+        $serviceclean = str_replace('-', ' ', $service);
+        $valueclean = str_replace('-', ' ', $value);
 
-if ($page == "seo-1") {
-    $titre = "SEO " . $category . "- $namebase";
-    $description = "SEO at " . $category . " $namebase. $descriptionbase";
-    $keywords = "$keywordsbase, $namebase" . $category . ",";
-} else {
-    $titre = $meta[$page][0];
-    $description = $meta[$page][1];
-    $keywords = $meta[$page][2];
+        $titre = "SEO " . $town . "- $namebase";
+        $description = "SEO at " . $town . " $namebase. $descriptionbase";
+        $keywords = "$keywordsbase, $namebase" . $town . ",";
+        break;
+    default:
+        $titre = $meta[$page][0];
+        $description = $meta[$page][1];
+        $keywords = $meta[$page][2];
 }

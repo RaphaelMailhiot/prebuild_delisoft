@@ -1,7 +1,7 @@
 <?php
 
 //TODO include le fichier wp-load.php
-include $wpUrl . "wp-load.php";
+require_once $wpUrl . "wp-load.php";
 
 /*Pour get les infos les FAQs Wordpress (Avada)*/
 $faq_posts = get_posts(array(

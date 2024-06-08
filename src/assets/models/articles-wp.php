@@ -1,5 +1,10 @@
 <?php
 
+/*
+ * NE PAS MODIFIER SOUS AUCUN PRÉTEXTE,
+ * SAUF SI VOUS SAVEZ CE QUE VOUS FAITES
+ * */
+
 class Articles {
     public static $wpUrl;
     private static $instances = [];

@@ -111,14 +111,18 @@ RewriteRule ^components/temoignages/?$ index.php?lang=fr&page=components-temoign
 RewriteRule ^en/components/testimonials/?$ index.php?lang=en&page=components-temoignages
 
 # WordPress
-RewriteRule ^blogue/?$ index.php?lang=fr&page=blogue
-RewriteRule ^en/blog/?$ index.php?lang=en&page=blogue
 RewriteRule ^faq/?$ index.php?lang=fr&page=faq
 RewriteRule ^en/faq/?$ index.php?lang=en&page=faq
 RewriteRule ^boutique/?$ index.php?lang=fr&page=boutique
 RewriteRule ^en/shop/?$ index.php?lang=en&page=boutique
+RewriteRule ^blogue/?$ index.php?lang=fr&page=blogue
+RewriteRule ^en/blog/?$ index.php?lang=en&page=blogue
 RewriteRule ^blogue/([a-z-A-Z0-9]+)/?$ index.php?lang=fr&page=single-post [L]
 RewriteRule ^en/blog/([a-z-A-Z0-9]+)/?$ index.php?lang=en&page=single-post [L]
+RewriteRule ^carriere/?$ index.php?lang=fr&page=carriere
+RewriteRule ^en/carreer/?$ index.php?lang=en&page=carriere
+RewriteRule ^carriere/([a-z-A-Z0-9]+)/?$ index.php?lang=fr&page=single-carreer [L]
+RewriteRule ^en/carreer/([a-z-A-Z0-9]+)/?$ index.php?lang=en&page=single-carreer [L]
 
 #SEO
 RewriteRule ^([a-z-A-Z0-9]+)/([a-z-A-Z0-9]+)/?$ index.php?lang=fr&page=seo-1&town=$1 [L]

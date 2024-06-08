@@ -125,6 +125,8 @@ include("assets/lang/" . $lang . "/footer.php");
     'boutique' => 'views/boutique.php',
     'single-post' => 'views/single-post.php',
     'faq' => 'views/faq.php',
+    'carriere' => 'views/carriere.php',
+    'single-carreer' => 'views/single-carreer.php',
 
     // LES _COMPONENTS
     'components-avantages' => '_components/section/avantages/avantages.php',
@@ -144,6 +146,8 @@ include("assets/lang/" . $lang . "/footer.php");
   include($titrePage['header']);
 
   include($titrePage[$page]);
+
+  echo $page;
 
   if ($seo) {
     include('assets/seo/module-ville.php');
