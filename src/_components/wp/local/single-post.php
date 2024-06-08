@@ -40,7 +40,7 @@ if ($posts) {
             <div class="row">
               <div class="col-lg-12">
                 <div class="page-title-name">
-                  <div class="seo-h6">Blogue</div>
+                  <div class="seo-h6 text-white">Blogue</div>
                   <h1><?= get_the_title() ?></h1>
                   <p class="mb-0"><?= $namebase ?></p>
                 </div>

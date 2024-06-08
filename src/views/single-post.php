@@ -1,3 +1,3 @@
 <?php
 
-include '_components/page/wp/single-post.php';
+include '_components/wp/single-post.php';

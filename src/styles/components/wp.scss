@@ -1,4 +1,9 @@
 .single-post {
+
+    .page-title {
+        background: $theme-color;
+    }
+
     .wp-block-image {
         display: flex;
         flex-direction: column;
@@ -25,5 +30,19 @@
         .wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column {
             flex-basis: 100% !important;
         }
+    }
+}
+
+.blogue {
+
+    .page-title {
+        background: url("../assets/images/placeholder/blogue-bg.webp");
+    }
+}
+
+.faq {
+
+    .page-title {
+        background: url("../assets/images/placeholder/faq-bg.webp");
     }
 }

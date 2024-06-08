@@ -1,3 +1,3 @@
 <?php
 
-include "_components/page/wp/blogue.php";
+include "_components/wp/blogue.php";

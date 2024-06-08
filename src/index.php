@@ -122,7 +122,7 @@ include("assets/lang/" . $lang . "/footer.php");
     'traduction' => 'views/traduction.php',
 
     'blogue' => 'views/blogue.php',
-    'boutique' => '_components/wp/boutique.php',
+    'boutique' => 'views/boutique.php',
     'single-post' => 'views/single-post.php',
     'faq' => 'views/faq.php',
 

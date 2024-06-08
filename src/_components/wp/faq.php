@@ -16,7 +16,7 @@ switch ($lang) {
 }
 
 /*Pour get les infos les FAQs Wordpress (Avada)*/
-include "assets/models/articles-wp.php";
+require_once "assets/models/articles-wp.php";
 $articles = Articles::getInstance();
 $questions = $articles->connection('avada_faq');
 

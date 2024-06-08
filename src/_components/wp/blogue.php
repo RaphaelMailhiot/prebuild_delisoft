@@ -6,7 +6,7 @@
  * */
 
 /*Pour get les infos des articles Wordpress*/
-include "assets/models/articles-wp.php";
+require_once "assets/models/articles-wp.php";
 $articles = Articles::getInstance();
 $posts = $articles->connection('posts?_embed');
 

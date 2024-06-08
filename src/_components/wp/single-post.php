@@ -6,7 +6,7 @@
  * */
 
 /*Pour get les infos des articles Wordpress*/
-include "assets/models/articles-wp.php";
+require_once "assets/models/articles-wp.php";
 $articles = Articles::getInstance();
 $posts = $articles->connection('posts?_embed');
 
@@ -36,7 +36,7 @@ if ($posts) {
       <div class="row">
         <div class="col-lg-12">
           <div class="page-title-name">
-            <div class="seo-h6">Blogue</div>
+            <div class="seo-h6 text-white">Blogue</div>
             <h1><?= $article_info['title'] ?></h1>
             <p class="mb-0"><?= $namebase ?></p>
           </div>

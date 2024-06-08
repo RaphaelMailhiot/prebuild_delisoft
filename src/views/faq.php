@@ -1,3 +1,3 @@
 <?php
 
-include '_components/page/wp/faq.php';
+include '_components/wp/faq.php';
