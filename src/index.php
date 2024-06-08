@@ -147,8 +147,6 @@ include("assets/lang/" . $lang . "/footer.php");
 
   include($titrePage[$page]);
 
-  echo $page;
-
   if ($seo) {
     include('assets/seo/module-ville.php');
   }

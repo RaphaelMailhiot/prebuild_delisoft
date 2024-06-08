@@ -26,7 +26,7 @@ $produits = $articles->connection('product?_embed');
                     <div class="swiper-slide">
                         <div class="product">
                             <div class="product-image">
-                                <img class="img-fluid mx-auto" src="<?= $produit["_embedded"]["wp:featuredmedia"][0]["link"] ?>" alt="<?= $produit["_embedded"]["wp:featuredmedia"][0]["alt_text"] ?>" loading="lazy">
+                                <img class="img-fluid mx-auto" src="<?= $produit["_embedded"]["wp:featuredmedia"][0]["link"] ?>" alt="<?= $produit["_embedded"]["wp:featuredmedia"][0]["alt_text"] ?>">
                                 <div class="product-overlay">
                                     <div class="add-to-cart">
                                         <a href="#">Voir la boutique</a>

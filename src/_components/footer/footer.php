@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-2 col-sm-6 sm-mb-30">
                 <div class="footer-useful-link footer-hedding">
-                    <h6 class="text-white mb-30 mt-10 text-uppercase">Navigation</h6>
+                    <p class="seo-h6 text-white mb-30 mt-10 text-uppercase">Navigation</p>
                     <ul>
                         <li><a href="<?= $url . $meta['accueil'][$lang] ?>">Accueil</a></li>
                         <li><a href="<?= $url . $meta['a-propos'][$lang] ?>">À propos</a></li>
@@ -15,7 +15,7 @@
             </div>
             <div class="col-lg-2 col-sm-6 sm-mb-30">
                 <div class="footer-useful-link footer-hedding">
-                    <h6 class="text-white mb-30 mt-10 text-uppercase">Liens utils</h6>
+                    <p class="seo-h6 text-white mb-30 mt-10 text-uppercase">Liens utils</p>
                     <ul>
                         <li><a href="#">Lien1</a></li>
                         <li><a href="#">Lien2</a></li>
@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6 xs-mb-30">
-                <h6 class="text-white mb-30 mt-10 text-uppercase">Contact</h6>
+                <p class="seo-h6 text-white mb-30 mt-10 text-uppercase">Contact</p>
                 <ul class="addresss-info">
                     <li><i class="fa fa-map-marker"></i>
                         <p>Adresse : 1910 Bd Édouard, Longueuil, QC J4T 1Z4</p></li>
