@@ -33,6 +33,19 @@
 .w-40 { width: 40%; }
 
 /*order-switch*/
+.order-lg-switch {
+
+    @media screen and (max-width: 991px) {
+        order: 2;
+
+        /*img {
+            max-height: 400px;
+            width: 100%;
+            object-fit: cover;
+        }*/
+    }
+}
+
 .order-md-switch {
 
     @media screen and (max-width: 768px) {
