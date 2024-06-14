@@ -94,6 +94,8 @@ $meta['blogue']['en'] = "en/blog";
 $meta['carriere']['fr'] = "carriere";
 $meta['carriere']['en'] = "en/carreer";
 /*single-carreer → généré automatiquement*/
+$meta['wp-section']['fr'] = "wp-section";
+$meta['wp-section']['en'] = "en/wp-section";
 // SEO
 $meta['seo1']['fr'] = "";
 $meta['seo1']['en'] = "en/";

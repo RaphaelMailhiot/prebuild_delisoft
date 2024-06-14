@@ -189,6 +189,10 @@
                         <a href="<?= $url . $meta['boutique'][$lang] ?>">
                           Boutique
                         </a></li>
+                      <li <?php if ($_GET["page"] === "wp-section"): ?> class="active" <?php endif; ?>>
+                        <a href="<?= $url . $meta['wp-section'][$lang] ?>">
+                          WP section
+                        </a></li>
                     </ul>
                   </li>
 

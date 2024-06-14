@@ -123,6 +123,8 @@ RewriteRule ^carriere/?$ index.php?lang=fr&page=carriere
 RewriteRule ^en/carreer/?$ index.php?lang=en&page=carriere
 RewriteRule ^carriere/([a-z-A-Z0-9]+)/?$ index.php?lang=fr&page=single-carreer [L]
 RewriteRule ^en/carreer/([a-z-A-Z0-9]+)/?$ index.php?lang=en&page=single-carreer [L]
+RewriteRule ^wp-section/?$ index.php?lang=fr&page=wp-section
+RewriteRule ^en/wp-section/?$ index.php?lang=en&page=wp-section
 
 #SEO
 RewriteRule ^([a-z-A-Z0-9]+)/([a-z-A-Z0-9]+)/?$ index.php?lang=fr&page=seo-1&town=$1 [L]

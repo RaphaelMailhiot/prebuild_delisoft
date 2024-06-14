@@ -163,6 +163,10 @@ $meta['carriere'][0] = "Carrière - $namebase";
 $meta['carriere'][1] = "Carrière";
 $meta['carriere'][2] = "carriere";
 
+$meta['wp-section'][0] = "WP section - $namebase";
+$meta['wp-section'][1] = "WP section";
+$meta['wp-section'][2] = "wp-section";
+
 switch ($page) {
     case "single-post":
         $titre = "Article";

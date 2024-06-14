@@ -127,6 +127,7 @@ include("assets/lang/" . $lang . "/footer.php");
     'faq' => 'views/faq.php',
     'carriere' => 'views/carriere.php',
     'single-carreer' => 'views/single-carreer.php',
+    'wp-section' => 'views/wp-section.php',
 
     // LES _COMPONENTS
     'components-avantages' => '_components/section/avantages/avantages.php',
