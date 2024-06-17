@@ -67,6 +67,27 @@
             border-color: $text-black !important;
         }
     }
+
+    .accueil2-temoignages {
+
+        .testimonial-info::before {
+            color: $theme-color;
+        }
+
+        .author-info span {
+            color: $theme-color;
+        }
+
+        .testimonial-stars {
+            color: $theme-color;
+            font-size: $fs-20;
+            text-align: center;
+        }
+
+        .swiper-pagination .swiper-pagination-bullet-active {
+            background: $theme-color;
+        }
+    }
 }
 
 // Page 3 (LKB360)
@@ -132,11 +153,11 @@
     }
 
     .theme-secondary-color {
-        color: $theme-secondary;
+        color: $theme-secondary !important;
     }
 
     .theme-bg {
-        background-color: $theme-color;
+        background-color: $theme-color !important;
     }
 
     .theme-secondary-bg {
@@ -155,6 +176,25 @@
         &:hover {
             background-color: $text-black !important;
             border-color: $text-black !important;
+        }
+
+        &.gray {
+            background-color: $theme-secondary !important;
+            border-color: $theme-secondary !important;
+            color: $white;
+
+            &:hover {
+                background-color: $dark-gray-bg !important;
+                border-color: $text-black !important;
+            }
+        }
+    }
+
+    .avantages-1 {
+        .theme-color {
+            ::after {
+                color: $theme-color;
+            }
         }
     }
 
@@ -248,5 +288,15 @@
         .list-arrow li::after {
             color: $theme-color;
         }
+    }
+
+    .accueil5-before-img {
+        &::before {
+            background-color: $theme-color;
+        }
+    }
+
+    .accueil5-specialistes .list ::after {
+        color: $theme-color;
     }
 }

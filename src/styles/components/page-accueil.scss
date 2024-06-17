@@ -255,27 +255,6 @@
     box-shadow: inset 0 0 0 1000px rgba(89, 128, 187, 0.8);
 }
 
-.accueil2-temoignages {
-
-    .testimonial-info::before {
-        color: $theme-color;
-    }
-
-    .author-info span {
-        color: $theme-color;
-    }
-
-    .testimonial-stars {
-        color: $theme-color;
-        font-size: $fs-20;
-        text-align: center;
-    }
-
-    .swiper-pagination .swiper-pagination-bullet-active {
-        background: $theme-color;
-    }
-}
-
 
 // Accueil 3 (LKB360)
 
