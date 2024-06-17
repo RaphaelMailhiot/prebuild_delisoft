@@ -38,11 +38,11 @@
     @media screen and (max-width: 991px) {
         order: 2;
 
-        /*img {
+        .img-cover {
             max-height: 400px;
             width: 100%;
             object-fit: cover;
-        }*/
+        }
     }
 }
 
@@ -51,7 +51,7 @@
     @media screen and (max-width: 768px) {
         order: 2;
 
-        img {
+        .img-cover {
             max-height: 400px;
             width: 100%;
             object-fit: cover;

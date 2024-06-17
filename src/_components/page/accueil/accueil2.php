@@ -50,7 +50,7 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-5 order-md-switch">
-          <img class="img-fluid" src="/assets/images/placeholder/accueil/accueil2-centre-img.webp" alt="Placeholder">
+          <img class="img-fluid img-cover" src="/assets/images/placeholder/accueil/accueil2-centre-img.webp" alt="Placeholder">
         </div>
         <div class="col-md-7">
           <p class="seo-h6 theme-color text-uppercase"><?= $namebase ?></p>

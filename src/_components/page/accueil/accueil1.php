@@ -18,7 +18,7 @@
   <section class="page-section">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 align-self-center">
+        <div class="col-md-6 align-self-center order-md-switch">
           <img class="img-fluid pt-30" src="https://clubgazon.com/images/accueil/about-img-min.jpg"
                alt="Experts paysagistes">
         </div>

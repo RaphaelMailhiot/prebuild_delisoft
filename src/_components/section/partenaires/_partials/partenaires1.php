@@ -12,7 +12,7 @@
     <div class="swiper" data-component="Carousel" data-carousel="four">
       <div class="swiper-wrapper">
         <?php for ($row = 1; $row <= 7; $row++): ?>
-          <div class="swiper-slide">
+          <div class="swiper-slide d-flex justify-content-center">
             <img class="img-fluid" src="/assets/images/placeholder/partenaires-img.webp" alt="Placeholder">
           </div>
         <?php endfor; ?>

@@ -15,7 +15,7 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-5 order-md-switch accueil5-before-img">
-          <img class="img-fluid pr-30" src="/assets/images/placeholder/accueil/accueil5-specialistes-img.webp"
+          <img class="img-fluid img-cover" src="/assets/images/placeholder/accueil/accueil5-specialistes-img.webp"
                alt="placeholder">
         </div>
         <div class="col-md-7">

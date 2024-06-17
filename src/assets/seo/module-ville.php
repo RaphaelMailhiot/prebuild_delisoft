@@ -4,10 +4,6 @@
     <div class="swiper" data-component="Carousel" data-carousel="five">
       <div class="swiper-wrapper py-2">
 
-        <div class="swiper-slide">
-          <a href="#">TEST</a>
-        </div>
-
         <?php
         include("assets/models/db.php");
         // Check connection
@@ -32,7 +28,7 @@
         } else {
           for ($i = 0; $i < 6; $i++) : ?>
             <div class="swiper-slide">
-              <a href="#">TEST</a>
+              <p class="text-center m-0"><a href="#">TEST</a></p>
             </div>
           <?php endfor;
         }

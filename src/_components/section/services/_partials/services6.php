@@ -15,7 +15,7 @@
         </div>
         <div class="row">
             <div class="col-lg-8 col-md-6 order-md-switch">
-                <img class="img-fluid h-100 w-100" src="/assets/images/placeholder/services6-img-2.webp" alt="Placeholder">
+                <img class="img-fluid img-cover h-100 w-100" src="/assets/images/placeholder/services6-img-2.webp" alt="Placeholder">
             </div>
             <div class="col-lg-4 col-md-6 col align-self-center my-4">
                 <div class="agency-02-about-content-short">
