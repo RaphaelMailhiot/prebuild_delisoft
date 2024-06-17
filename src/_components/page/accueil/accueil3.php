@@ -1,7 +1,7 @@
 <!--EXEMPLE DE PAGE D'ACCUEIL 2-->
 <!--LKB360 (https://lkb360.com/)-->
 
-<main class="accueil3">
+<main class="page3">
 
   <?php
   $namebase = "LKB360";
@@ -94,7 +94,7 @@
   ?>
 
   <!--Témoignages-->
-  <section class="page-section-pb accueil23-temoignages">
+  <section class="page-section-pb accueil3-temoignages">
     <div class="container">
       <div class="row">
         <div class="col-lg-4 col-md-5 col-sm-12">

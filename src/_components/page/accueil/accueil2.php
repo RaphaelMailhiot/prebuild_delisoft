@@ -1,7 +1,7 @@
 <!--EXEMPLE DE PAGE D'ACCUEIL 2-->
 <!--CHIROPRATIQUE PELLETIER (https://z-chirotrottier.temoignagesvideo.com/ -> https://chiropratiquepelletier.ca/)-->
 
-<main class="accueil2">
+<main class="page2">
 
   <?php $namebase = "Chiro Boucherville"; ?>
 

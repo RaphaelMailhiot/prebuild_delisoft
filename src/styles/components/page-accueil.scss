@@ -7,658 +7,420 @@
  */
 
 
-// accueil1 (Club gazon)
-.accueil1 {
+// Accueil 1 (Club gazon)
+.accueil1-services-section {
+    background: url("../assets/images/placeholder/accueil/accueil1-services-bg.webp") no-repeat;
+    background-size: cover;
 
-    $theme-color: #8dc63f;
+    section {
+        background: transparent;
 
-    .theme-color {
-        color: $theme-color;
-    }
+        &.services-4 {
+            padding: 24px;
 
-    .button {
-        background-color: $theme-color !important;
-        border-color: $theme-color !important;
-        border-radius: 50px;
-
-        &:hover {
-            background-color: $text-black !important;
-            border-color: $text-black !important;
+            &:last-child {
+                padding-top: 0;
+            }
         }
     }
 
-    i {
-        color: $theme-color !important;
+    p {
+        position: relative;
+        z-index: 1;
     }
+}
 
-    .bnt-arrow-round, .bnt-services-d {
-        background-color: $theme-color !important;
+.accueil1-calculer-section {
+    .accueil1-calculer-titre {
+        color: $white;
 
-        i {
-            color: $white !important;
+        span {
+            background: $theme-color;
+            padding: 10px;
         }
     }
 
-    .four-sections-1 {
-        padding-top: 0;
+    .accueil1-calculer-rabais {
+        color: $white;
+
+        span {
+            background: rgba(183, 33, 33, 0.9);
+            padding: 10px;
+        }
+    }
+}
+
+.accueil1-recherche-section {
+    .accueil1-recherche-icone {
+        width: 100px;
+        height: auto;
     }
 
-    .accueil1-services-section {
-        background: url("../assets/images/placeholder/accueil/accueil1-services-bg.webp") no-repeat;
+    .portfolio-overlay {
+        padding: 10px;
+        background: $theme-color;
+
+        p {
+            margin: 0;
+        }
+    }
+}
+
+.accueil1-forfaits-section {
+    .pricing-box {
+        box-shadow: 0 7px 60px rgba(0, 0, 0, 7%);
+        border-radius: 20px;
+        padding: 10px 40px 40px 40px;
+    }
+
+    .pricing-meta-box {
+        padding: 0;
+    }
+
+    .pricing-meta-title {
+        border-bottom: 1px solid #f1f1f1;
+        padding-top: 35px;
+        padding-bottom: 27px;
+        margin-bottom: 35px;
+        text-align: center;
+    }
+
+    .pricing-title {
+        font-weight: 600 !important;
+        font-size: 24px !important;
+        line-height: 1.2 !important;
+        margin: 0;
+    }
+
+    .pricing-content-box li {
+        font-size: 18px !important;
+        padding-left: 32px !important;
+        margin: 0 0 15px 0 !important;
+        font-weight: 500 !important;
+    }
+
+    .princing-price {
+        margin-top: 30px;
+        margin-bottom: 35px;
+    }
+
+    .fw-7 {
+        font-weight: 700 !important;
+    }
+}
+
+
+// Accueil 2 (Chiropratique Pelletier)
+.accueil2-slider {
+    height: 650px;
+    position: relative;
+    background: url("../assets/images/placeholder/accueil/accueil2-slider-bg.webp") no-repeat center center;
+    background-size: cover;
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100%;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+
+        @media screen and (max-width: 500px) {
+            width: 100%;
+            background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, .4) 100%);
+        }
+    }
+
+    .container {
+        height: 100%;
+        position: relative;
+        z-index: 99;
+
+        > div {
+            width: 40%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            @media screen and (max-width: 768px) {
+                width: 80%;
+            }
+            @media screen and (max-width: 500px) {
+                width: 100%;
+            }
+        }
+    }
+
+    h1 {
+        font-size: $fs-42;
+        line-height: 1.3;
+    }
+
+    .accueil2-slider-p {
+        font-size: $fs-20;
+    }
+
+    &.animation-bg-zoom-out {
+        @media screen and (max-width: 1100px) {
+            animation: unset;
+        }
+    }
+}
+
+.accueil2-quatre-services {
+    .col-md-3 {
+        position: relative;
+        background-repeat: no-repeat;
         background-size: cover;
+        padding: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
-        section {
-            background: transparent;
+        &:nth-child(1) {
+            background-image: url("../assets/images/placeholder/accueil/accueil2-service-bg-1.webp");
+        }
 
-            &.services-4 {
-                padding: 24px;
+        &:nth-child(2) {
+            background-image: url("../assets/images/placeholder/accueil/accueil2-service-bg-2.webp");
+        }
 
-                &:last-child {
-                    padding-top: 0;
-                }
+        &:nth-child(3) {
+            background-image: url("../assets/images/placeholder/accueil/accueil2-service-bg-3.webp");
+        }
+
+        &:nth-child(4) {
+            background-image: url("../assets/images/placeholder/accueil/accueil2-service-bg-4.webp");
+        }
+
+        // les impairs
+        &:nth-child(2n-1) {
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                background: rgba(208, 223, 242, 0.8);
+            }
+
+            p {
+                color: $theme-color;
+            }
+        }
+
+        // les pairs
+        &:nth-child(2n) {
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                background: rgba(89, 128, 187, 0.8);
+            }
+
+            p {
+                color: $white;
             }
         }
 
         p {
             position: relative;
-            z-index: 1;
-        }
-    }
-
-    .accueil1-calculer-section {
-        .accueil1-calculer-titre {
-            color: $white;
-
-            span {
-                background: $theme-color;
-                padding: 10px;
-            }
-        }
-
-        .accueil1-calculer-rabais {
-            color: $white;
-
-            span {
-                background: rgba(183, 33, 33, 0.9);
-                padding: 10px;
-            }
-        }
-    }
-
-    .accueil1-recherche-section {
-        .accueil1-recherche-icone {
-            width: 100px;
-            height: auto;
-        }
-
-        .portfolio-overlay {
-            padding: 10px;
-            background: $theme-color;
-
-            p {
-                margin: 0;
-            }
-        }
-    }
-
-    .accueil1-forfaits-section {
-        .pricing-box {
-            box-shadow: 0 7px 60px rgba(0, 0, 0, 7%);
-            border-radius: 20px;
-            padding: 10px 40px 40px 40px;
-        }
-
-        .pricing-meta-box {
-            padding: 0;
-        }
-
-        .pricing-meta-title {
-            border-bottom: 1px solid #f1f1f1;
-            padding-top: 35px;
-            padding-bottom: 27px;
-            margin-bottom: 35px;
             text-align: center;
-        }
-
-        .pricing-title {
-            font-weight: 600 !important;
-            font-size: 24px !important;
-            line-height: 1.2 !important;
             margin: 0;
         }
 
-        .pricing-content-box li {
-            font-size: 18px !important;
-            padding-left: 32px !important;
-            margin: 0 0 15px 0 !important;
-            font-weight: 500 !important;
-        }
-
-        .princing-price {
-            margin-top: 30px;
-            margin-bottom: 35px;
-        }
-
-        .fw-7 {
-            font-weight: 700 !important;
-        }
-    }
-
-    .actionbox1 {
-        background: $theme-color;
-
-        .button {
-            background: $white !important;
-            color: $black;
+        img {
+            position: relative;
+            max-width: 100px;
+            height: auto;
+            margin-bottom: 30px;
         }
     }
 }
 
+.accueil2-services {
+    background: $gray-bg;
+}
 
-// accueil2 (Chiropratiquepelletier)
-.accueil2 {
+.accueil2-assurances {
+    background: url("/assets/images/placeholder/avantages-2-bg.webp") no-repeat;
+    box-shadow: inset 0 0 0 1000px rgba(89, 128, 187, 0.8);
+}
 
-    $theme-color: #5980bb;
+.accueil2-temoignages {
 
-    .theme-color {
+    .testimonial-info::before {
         color: $theme-color;
     }
 
-    .button {
-        background-color: $theme-color !important;
-        border-color: $theme-color !important;
-        border-radius: 0;
-
-        &:hover {
-            background-color: $text-black !important;
-            border-color: $text-black !important;
-        }
+    .author-info span {
+        color: $theme-color;
     }
 
-    .accueil2-slider {
-        height: 650px;
-        position: relative;
-        background: url("../assets/images/placeholder/accueil/accueil2-slider-bg.webp") no-repeat center center;
-        background-size: cover;
+    .testimonial-stars {
+        color: $theme-color;
+        font-size: $fs-20;
+        text-align: center;
+    }
 
-        &::after {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 50%;
-            height: 100%;
-            background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    .swiper-pagination .swiper-pagination-bullet-active {
+        background: $theme-color;
+    }
+}
 
-            @media screen and (max-width: 500px) {
+
+// Accueil 3 (LKB360)
+
+/*Aucun style custom*/
+
+
+// Accueil 4 (Visionère4)
+.accueil4-slider {
+    height: 700px;
+
+    .swiper {
+        height: 100%;
+
+        .swiper-slide {
+            position: relative;
+
+            .bg-img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
                 width: 100%;
-                background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, .4) 100%);
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                    z-index: 2;
+                }
+
+                &::after {
+                    content: "";
+                    height: 100%;
+                    width: 100%;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: 3;
+                    background: linear-gradient(90deg, rgba(48, 62, 72, 0.5) 0%, rgba(48, 62, 72, 0.5) 0%, rgba(48, 62, 72, 0) 100%, rgba(48, 62, 72, 0) 100%);
+                }
+            }
+        }
+
+        .swiper-button-prev, .swiper-button-next {
+            &::after {
+                color: $white;
             }
         }
 
         .container {
             height: 100%;
-            position: relative;
-            z-index: 99;
-
-            > div {
-                width: 40%;
-                height: 100%;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-
-                @media screen and (max-width: 768px) {
-                    width: 80%;
-                }
-                @media screen and (max-width: 500px) {
-                    width: 100%;
-                }
-            }
-        }
-
-        h1 {
-            font-size: $fs-42;
-            line-height: 1.3;
-        }
-
-        .accueil2-slider-p {
-            font-size: $fs-20;
-        }
-
-        &.animation-bg-zoom-out {
-            @media screen and (max-width: 1100px) {
-                animation: unset;
-            }
         }
     }
 
-    .accueil2-quatre-services {
-        .col-md-3 {
-            position: relative;
-            background-repeat: no-repeat;
-            background-size: cover;
-            padding: 60px;
+    .slide1 {
+
+        .container {
             display: flex;
-            flex-direction: column;
             align-items: center;
 
-            &:nth-child(1) {
-                background-image: url("../assets/images/placeholder/accueil/accueil2-service-bg-1.webp");
-            }
-
-            &:nth-child(2) {
-                background-image: url("../assets/images/placeholder/accueil/accueil2-service-bg-2.webp");
-            }
-
-            &:nth-child(3) {
-                background-image: url("../assets/images/placeholder/accueil/accueil2-service-bg-3.webp");
-            }
-
-            &:nth-child(4) {
-                background-image: url("../assets/images/placeholder/accueil/accueil2-service-bg-4.webp");
-            }
-
-            // les impairs
-            &:nth-child(2n-1) {
-
-                &::before {
-                    content: "";
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    height: 100%;
-                    width: 100%;
-                    background: rgba(208, 223, 242, 0.8);
-                }
-
-                p {
-                    color: $theme-color;
-                }
-            }
-
-            // les pairs
-            &:nth-child(2n) {
-
-                &::before {
-                    content: "";
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    height: 100%;
-                    width: 100%;
-                    background: rgba(89, 128, 187, 0.8);
-                }
-
-                p {
-                    color: $white;
-                }
-            }
-
-            p {
-                position: relative;
-                text-align: center;
-                margin: 0;
-            }
-
-            img {
-                position: relative;
-                max-width: 100px;
-                height: auto;
-                margin-bottom: 30px;
-            }
-        }
-    }
-
-    .accueil2-services {
-        background: $gray-bg;
-    }
-
-    .accueil2-assurances {
-        background: url("/assets/images/placeholder/avantages-2-bg.webp") no-repeat;
-        box-shadow: inset 0 0 0 1000px rgba(89, 128, 187, 0.8);
-    }
-
-    .accueil2-temoignages {
-
-        .testimonial-info::before {
-            color: $theme-color;
-        }
-
-        .author-info span {
-            color: $theme-color;
-        }
-
-        .testimonial-stars {
-            color: $theme-color;
-            font-size: $fs-20;
-            text-align: center;
-        }
-
-        .swiper-pagination .swiper-pagination-bullet-active {
-            background: $theme-color;
-        }
-    }
-}
-
-// accueil3 (LKB360)
-.accueil3 {
-
-    $theme-color: #00b0cf;
-    $theme-secondary: #50327a;
-
-    .theme-color {
-        color: $theme-color;
-    }
-
-    .theme-secondary {
-        color: $theme-secondary;
-    }
-
-    .theme-bg {
-        background-color: $theme-color;
-    }
-
-    .button {
-        background-color: $theme-color !important;
-        border-color: $theme-color !important;
-
-        &:hover {
-            background-color: $text-black !important;
-            border-color: $text-black !important;
-        }
-    }
-
-    .partenaires1 {
-        .seo-h1 {
-            color: $black;
-
-            span {
-                background: none;
-                padding: 0 !important;
-                color: $theme-color !important;
-            }
-        }
-    }
-
-    .accueil23-temoignages {
-
-        .testimonial-info::before {
-            color: $theme-color;
-        }
-
-        .author-info span {
-            color: $theme-color;
-        }
-    }
-}
-
-// accueil4 (visionere4)
-.accueil4 {
-
-    $theme-color: #00ae41;
-    $theme-secondary: #323e48;
-
-    .theme-color {
-        color: $theme-color;
-    }
-
-    .theme-secondary-color {
-        color: $theme-secondary;
-    }
-
-    .theme-bg {
-        background-color: $theme-color;
-    }
-
-    .theme-secondary-bg {
-        background-color: $theme-secondary;
-    }
-
-    .gray-bg {
-        background: #dee8e7;
-    }
-
-    .button {
-        background-color: $theme-color !important;
-        border-color: $theme-color !important;
-        border-radius: 0;
-
-        &:hover {
-            background-color: $text-black !important;
-            border-color: $text-black !important;
-        }
-    }
-
-    .accueil4-slider {
-        height: 700px;
-
-        .swiper {
-            height: 100%;
-
-            .swiper-slide {
-                position: relative;
-
-                .bg-img {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    height: 100%;
-                    width: 100%;
-
-                    img {
-                        height: 100%;
-                        width: 100%;
-                        object-fit: cover;
-                        z-index: 2;
-                    }
-
-                    &::after {
-                        content: "";
-                        height: 100%;
-                        width: 100%;
-                        position: absolute;
-                        top: 0;
-                        left: 0;
-                        z-index: 3;
-                        background: linear-gradient(90deg, rgba(48, 62, 72, 0.5) 0%, rgba(48, 62, 72, 0.5) 0%, rgba(48, 62, 72, 0) 100%, rgba(48, 62, 72, 0) 100%);
-                    }
-                }
-            }
-
-            .swiper-button-prev, .swiper-button-next {
-                &::after {
-                    color: $white;
-                }
-            }
-
-            .container {
-                height: 100%;
-            }
-        }
-
-        .slide1 {
-
-            .container {
-                display: flex;
-                align-items: center;
-
-                .accueil4-slide1-text {
-                    display: flex;
-                    flex-direction: column;
-                    position: relative;
-                    z-index: 4;
-
-                    p {
-                        margin: 0;
-                        font-size: $fs-50;
-                        font-weight: $fw-7;
-                    }
-
-                    @media screen and (max-width: 1000px) {
-                        padding-left: 20px;
-                    }
-                    @media screen and (max-width: 768px) {
-                        padding-left: 40px;
-                    }
-                }
-            }
-        }
-
-        .slide2 {
-
-            .accueil4-slide2-text {
-                width: 50%;
-                height: 100%;
-
+            .accueil4-slide1-text {
                 display: flex;
                 flex-direction: column;
-                justify-content: center;
-
                 position: relative;
                 z-index: 4;
 
-                .seo-h1 {
+                p {
+                    margin: 0;
                     font-size: $fs-50;
+                    font-weight: $fw-7;
                 }
 
                 @media screen and (max-width: 1000px) {
-                    width: 60%;
                     padding-left: 20px;
                 }
                 @media screen and (max-width: 768px) {
-                    width: 80%;
                     padding-left: 40px;
                 }
             }
         }
     }
 
-    .four-sections-3 {
+    .slide2 {
 
-        .bnt-arrow-simple {
-            color: $theme-color;
-        }
-    }
+        .accueil4-slide2-text {
+            width: 50%;
+            height: 100%;
 
-    .accueil4-actions {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
 
-        img {
-            width: 90px;
-            height: auto;
-            margin-bottom: 24px;
+            position: relative;
+            z-index: 4;
+
+            .seo-h1 {
+                font-size: $fs-50;
+            }
+
+            @media screen and (max-width: 1000px) {
+                width: 60%;
+                padding-left: 20px;
+            }
+            @media screen and (max-width: 768px) {
+                width: 80%;
+                padding-left: 40px;
+            }
         }
     }
 }
 
-// accueil5 (Assainiteck)
-.accueil5 {
-    $theme-color: #ff6b00;
-    $theme-secondary: #54565b;
+.accueil4-actions {
 
-    .theme-color {
-        color: $theme-color;
+    img {
+        width: 90px;
+        height: auto;
+        margin-bottom: 24px;
     }
+}
 
-    .theme-secondary-color {
-        color: $theme-secondary;
-    }
 
-    .theme-bg {
+// Accueil 5 (Assainiteck)
+.accueil5-before-img {
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        width: 40%;
+        height: 60%;
+        bottom: -15px;
+        left: 12px;
         background-color: $theme-color;
     }
 
-    .theme-secondary-bg {
-        background-color: $theme-secondary;
+    img {
+        mix-blend-mode: multiply;
     }
+}
+
+.accueil5-urgence {
+    background: url("../assets/images/placeholder/accueil/accueil5-urgence-bg.webp") no-repeat center;
+    background-size: cover;
 
     .button {
-        background-color: $theme-color !important;
-        border-color: $theme-color !important;
-        border-radius: 0;
-
-        &.button-border {
-            background-color: rgba(0, 0, 0, 0) !important;
-            border: 2px solid;
-
-            &:hover {
-                background-color: $theme-color !important;
-                border-color: $theme-color !important;
-            }
-
-            &.white {
-                border: 2px solid $white !important;
-
-                &:hover {
-                    background-color: $white !important;
-                    border-color: $white !important;
-                    color: $theme-color;
-                }
-            }
-        }
-
-        &:hover {
-            background-color: $text-black !important;
-            border-color: $text-black !important;
-        }
-    }
-
-    .bg-overlay-theme-90::before {
-        background: $theme-color;
-    }
-
-    p:not(.seo-h1, .seo-h2, .seo-h3, .seo-h4, .seo-h5, .seo-h6) {
-        font-size: $fs-16;
-    }
-
-    .slider3 {
-
-        .slider3__titre {
-
-            span {
-                color: $theme-color;
-            }
-        }
-    }
-
-    .accueil5-before-img {
-        position: relative;
-
-        &::before {
-            content: "";
-            position: absolute;
-            width: 40%;
-            height: 60%;
-            bottom: -15px;
-            left: 12px;
-            background-color: $theme-color;
-        }
-
-        img {
-            mix-blend-mode: multiply;
-        }
-    }
-
-    .services-5 {
-        background: url("../assets/images/placeholder/accueil/accueil5-services-bg.svg") $theme-secondary no-repeat;
-
-        .portfolio-item:hover.image-text::before {
-            background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, $theme-color 100%) !important;
-        }
-    }
-
-    .accueil5-urgence {
-        background: url("../assets/images/placeholder/accueil/accueil5-urgence-bg.webp") no-repeat center;
-        background-size: cover;
-
-        .button {
-            margin-bottom: 0;
-        }
-    }
-
-    .avantages-3 {
-        .list-arrow li::after {
-            color: $theme-color;
-        }
+        margin-bottom: 0;
     }
 }

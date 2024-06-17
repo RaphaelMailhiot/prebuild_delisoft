@@ -30,7 +30,6 @@
 
 //@import 'elements/icons';
 //@import 'elements/modal';
-
 //@import 'tools/cover';
 //@import 'utilities/accessibility';
 
@@ -49,6 +48,7 @@
 @import 'components/wp';
 
 // PAGES
+@import 'components/page'; //Pour les couleurs des pages
 @import 'components/page-about';
 @import 'components/page-accueil';
 @import 'components/page-contact';

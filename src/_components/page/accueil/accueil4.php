@@ -1,7 +1,7 @@
 <!--EXEMPLE DE PAGE D'ACCUEIL 4-->
 <!--Visionere4 (https://visionere4.com/)-->
 
-<main class="accueil4">
+<main class="page4">
 
   <?php $namebase = "Firme visionère"; ?>
 

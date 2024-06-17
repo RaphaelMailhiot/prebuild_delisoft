@@ -1,0 +1,252 @@
+/* ==========================================================================
+   page / Style pour les pages (gestion couleur)
+   ========================================================================== */
+
+// Page 1 (Club gazon)
+.page1 {
+
+    $theme-color: #8dc63f;
+
+    .theme-color {
+        color: $theme-color;
+    }
+
+    .button {
+        background-color: $theme-color !important;
+        border-color: $theme-color !important;
+        border-radius: 50px;
+
+        &:hover {
+            background-color: $text-black !important;
+            border-color: $text-black !important;
+        }
+    }
+
+    i {
+        color: $theme-color !important;
+    }
+
+    .bnt-arrow-round, .bnt-services-d {
+        background-color: $theme-color !important;
+
+        i {
+            color: $white !important;
+        }
+    }
+
+    .four-sections-1 {
+        padding-top: 0;
+    }
+
+    .actionbox1 {
+        background: $theme-color;
+
+        .button {
+            background: $white !important;
+            color: $black;
+        }
+    }
+}
+
+// Page 2 (Chiropratique Pelletier)
+.page2 {
+
+    $theme-color: #5980bb;
+
+    .theme-color {
+        color: $theme-color;
+    }
+
+    .button {
+        background-color: $theme-color !important;
+        border-color: $theme-color !important;
+        border-radius: 0;
+
+        &:hover {
+            background-color: $text-black !important;
+            border-color: $text-black !important;
+        }
+    }
+}
+
+// Page 3 (LKB360)
+.page3 {
+
+    $theme-color: #00b0cf;
+    $theme-secondary: #50327a;
+
+    .theme-color {
+        color: $theme-color;
+    }
+
+    .theme-secondary {
+        color: $theme-secondary;
+    }
+
+    .theme-bg {
+        background-color: $theme-color;
+    }
+
+    .button {
+        background-color: $theme-color !important;
+        border-color: $theme-color !important;
+
+        &:hover {
+            background-color: $text-black !important;
+            border-color: $text-black !important;
+        }
+    }
+
+    .partenaires1 {
+        .seo-h1 {
+            color: $black;
+
+            span {
+                background: none;
+                padding: 0 !important;
+                color: $theme-color !important;
+            }
+        }
+    }
+
+    .accueil3-temoignages {
+
+        .testimonial-info::before {
+            color: $theme-color;
+        }
+
+        .author-info span {
+            color: $theme-color;
+        }
+    }
+}
+
+// Page 4 (Visionère4)
+.page4 {
+
+    $theme-color: #00ae41;
+    $theme-secondary: #323e48;
+
+    .theme-color {
+        color: $theme-color;
+    }
+
+    .theme-secondary-color {
+        color: $theme-secondary;
+    }
+
+    .theme-bg {
+        background-color: $theme-color;
+    }
+
+    .theme-secondary-bg {
+        background-color: $theme-secondary;
+    }
+
+    .gray-bg {
+        background: #dee8e7;
+    }
+
+    .button {
+        background-color: $theme-color !important;
+        border-color: $theme-color !important;
+        border-radius: 0;
+
+        &:hover {
+            background-color: $text-black !important;
+            border-color: $text-black !important;
+        }
+    }
+
+    .four-sections-3 {
+
+        .bnt-arrow-simple {
+            color: $theme-color;
+        }
+    }
+}
+
+// Page 5 (Assainiteck)
+.page5 {
+    $theme-color: #ff6b00;
+    $theme-secondary: #54565b;
+
+    .theme-color {
+        color: $theme-color;
+    }
+
+    .theme-secondary-color {
+        color: $theme-secondary;
+    }
+
+    .theme-bg {
+        background-color: $theme-color;
+    }
+
+    .theme-secondary-bg {
+        background-color: $theme-secondary;
+    }
+
+    .button {
+        background-color: $theme-color !important;
+        border-color: $theme-color !important;
+        border-radius: 0;
+
+        &.button-border {
+            background-color: rgba(0, 0, 0, 0) !important;
+            border: 2px solid;
+
+            &:hover {
+                background-color: $theme-color !important;
+                border-color: $theme-color !important;
+            }
+
+            &.white {
+                border: 2px solid $white !important;
+
+                &:hover {
+                    background-color: $white !important;
+                    border-color: $white !important;
+                    color: $theme-color;
+                }
+            }
+        }
+
+        &:hover {
+            background-color: $text-black !important;
+            border-color: $text-black !important;
+        }
+    }
+
+    .bg-overlay-theme-90::before {
+        background: $theme-color;
+    }
+
+    p:not(.seo-h1, .seo-h2, .seo-h3, .seo-h4, .seo-h5, .seo-h6) {
+        font-size: $fs-16;
+    }
+
+    .slider3 {
+
+        .slider3__titre {
+
+            span {
+                color: $theme-color;
+            }
+        }
+    }
+
+    .services-5 {
+        background: url("../assets/images/placeholder/accueil/accueil5-services-bg.svg") $theme-secondary no-repeat;
+
+        .portfolio-item:hover.image-text::before {
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, $theme-color 100%) !important;
+        }
+    }
+
+    .avantages-3 {
+        .list-arrow li::after {
+            color: $theme-color;
+        }
+    }
+}

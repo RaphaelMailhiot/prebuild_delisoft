@@ -1,7 +1,7 @@
 <!--EXEMPLE DE PAGE D'ACCUEIL 1-->
 <!--CLUB GAZON (https://clubgazon.com/)-->
 
-<main class="accueil1">
+<main class="page1">
 
   <?php
   $namebase = "Club gazon";

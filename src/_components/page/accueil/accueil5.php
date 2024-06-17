@@ -1,7 +1,7 @@
 <!--EXEMPLE DE PAGE D'ACCUEIL 5-->
 <!--Assainiteck (https://assainiteck.ca/)-->
 
-<main class="accueil5">
+<main class="page5">
 
   <?php
   $namebase = "Assainiteck";

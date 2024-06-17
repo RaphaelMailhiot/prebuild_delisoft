@@ -5,11 +5,11 @@
                 <div class="footer-useful-link footer-hedding">
                     <p class="seo-h6 text-white mb-30 mt-10 text-uppercase">Navigation</p>
                     <ul>
-                        <li><a href="<?= $url . $meta['accueil'][$lang] ?>">Accueil</a></li>
-                        <li><a href="<?= $url . $meta['a-propos'][$lang] ?>">À propos</a></li>
-                        <li><a href="<?= $url . $meta['services'][$lang] ?>">Services</a></li>
-                        <li><a href="<?= $url . $meta['realisations'][$lang] ?>">Réalisations</a></li>
-                        <li><a href="<?= $url . $meta['contact'][$lang] ?>">Contact</a></li>
+                        <li><a href="<?= $url . $meta['accueil-1'][$lang] ?>">Accueil</a></li>
+                        <li><a href="<?= $url . $meta['a-propos-avantages'][$lang] ?>">À propos</a></li>
+                        <li><a href="<?= $url . $meta['services-1'][$lang] ?>">Services</a></li>
+                        <li><a href="<?= $url . $meta['wp-section'][$lang] ?>">WordPress</a></li>
+                        <li><a href="<?= $url . $meta['contact-1'][$lang] ?>">Contact</a></li>
                     </ul>
                 </div>
             </div>
