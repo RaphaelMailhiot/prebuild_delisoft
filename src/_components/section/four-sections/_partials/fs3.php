@@ -3,7 +3,7 @@
     <div class="row">
 
       <?php for ($i = 1; $i <= 4; $i++) : ?>
-        <div class="col-lg-3 col-md-6 text-center">
+        <div class="col-lg-3 col-md-6 text-center mb-24">
           <div class="a-boxes h-100 gray-bg">
             <div class="feature-text">
               <div class="feature-icon">

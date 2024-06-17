@@ -32,6 +32,20 @@
         background: url(../assets/images/placeholder/service2-bg.webp) no-repeat;
         background-size: cover;
     }
+
+    .row-images {
+
+        img {
+
+            @media screen and (max-width: 576px) {
+                object-fit: cover;
+                max-height: 400px;
+                width: 100%;
+            }
+        }
+    }
+
+
 }
 
 // services-3 (force-legal)

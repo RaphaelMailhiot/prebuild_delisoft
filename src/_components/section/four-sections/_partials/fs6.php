@@ -1,7 +1,7 @@
 <section class="four-sections-6 page-section-ptb gray-bg">
   <div class="container">
     <div class="row">
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0 sm-mb-30">
+      <div class="col-lg-3 col-sm-6 mb-24">
         <a href="#">
           <img class="img-fluid width2" src="/assets/images/placeholder/image-placeholder.webp" alt="Placeholder">
         </a>
@@ -19,7 +19,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0 sm-mb-30">
+      <div class="col-lg-3 col-sm-6 mb-24">
         <a href="#">
           <img class="img-fluid width2" src="/assets/images/placeholder/image-placeholder.webp" alt="Placeholder">
         </a>
@@ -37,7 +37,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0 sm-mb-30">
+      <div class="col-lg-3 col-sm-6 mb-24">
         <a href="#">
           <img class="img-fluid width2" src="/assets/images/placeholder/image-placeholder.webp" alt="Placeholder">
         </a>
@@ -55,7 +55,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0 sm-mb-30">
+      <div class="col-lg-3 col-sm-6 mb-24">
         <a href="#">
           <img class="img-fluid width2" src="/assets/images/placeholder/image-placeholder.webp" alt="Placeholder">
         </a>

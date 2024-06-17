@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <div class="row">
 
-      <div class="col-lg-3 col-md-6 pl-15 pr-15 sm-mb-40 xs-mb-30">
+      <div class="col-lg-3 col-sm-6 mb-24">
         <a href="#">
           <div class="call-action-box">
             <img class="img-fluid border-radius" src="/assets/images/placeholder/image-placeholder.webp"
@@ -21,7 +21,7 @@
         </a>
       </div>
 
-      <div class="col-lg-3 col-md-6 pl-15 pr-15 sm-mb-40 xs-mb-30">
+      <div class="col-lg-3 col-sm-6 mb-24">
         <a href="#">
           <div class="call-action-box">
             <img class="img-fluid border-radius" src="/assets/images/placeholder/image-placeholder.webp"
@@ -40,7 +40,7 @@
         </a>
       </div>
 
-      <div class="col-lg-3 col-md-6 pl-15 pr-15 sm-mb-40 xs-mb-30">
+      <div class="col-lg-3 col-sm-6 mb-24">
         <a href="#">
           <div class="call-action-box">
             <img class="img-fluid border-radius" src="/assets/images/placeholder/image-placeholder.webp"
@@ -59,7 +59,7 @@
         </a>
       </div>
 
-      <div class="col-lg-3 col-md-6 pl-15 pr-15 sm-mb-40 xs-mb-30">
+      <div class="col-lg-3 col-sm-6 mb-24">
         <a href="#">
           <div class="call-action-box">
             <img class="img-fluid border-radius" src="/assets/images/placeholder/image-placeholder.webp"

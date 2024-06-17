@@ -14,7 +14,7 @@
     <div class="row justify-content-center mb-30 xs-mb-0">
 
       <?php for ($i = 0; $i < 6; $i++) : ?>
-        <div class="col-lg-4 col-md-6 mb-24">
+        <div class="col-md-4 col-sm-6 mb-24">
           <a href="#">
             <div class="portfolio-item image-text">
               <img src="/assets/images/placeholder/services1-img.webp" alt="Palceholder">
