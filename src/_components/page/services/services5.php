@@ -39,7 +39,7 @@ $services5url = "https://assainiteck.ca/";
             <li>Transport des déchets vers des sites d'élimination autorisés</li>
             <li>Émission de certificats de conformité</li>
           </ul>
-          <a class="button" href="https://assainiteck.ca/contact">Contactez nous</a>
+          <a class="button" href="#">Contactez nous</a>
         </div>
       </div>
     </div>
