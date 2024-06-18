@@ -1,3 +1,11 @@
+<?php
+
+/*Pour éviter de télécharger les images (ne pas mettre inline css dans le code final svp)*/
+$about5url = "https://assainiteck.ca/";
+
+?>
+
+
 <section class="text-center mt-100">
   <h1>About 5</h1>
 

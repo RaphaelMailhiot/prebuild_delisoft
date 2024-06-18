@@ -1,5 +1,6 @@
 <?php
 
+/*Pour éviter de télécharger les images (ne pas mettre inline css dans le code final svp)*/
 $services5url = "https://assainiteck.ca/";
 
 ?>

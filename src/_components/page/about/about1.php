@@ -1,3 +1,10 @@
+<?php
+
+/*Pour éviter de télécharger les images (ne pas mettre inline css dans le code final svp)*/
+$about1url = "https://clubgazon.com/";
+
+?>
+
 <main class="about1">
 
   <!--Hero-->
@@ -20,7 +27,7 @@
       <div class="row a-propos-card">
         <div class="col-lg-7 col-md-6 a-propos-card-img-left xs-pr-0 position-relative">
           <img class="img-fluid img-couple" src="/assets/images/placeholder/sliders6-s1-img1.webp" alt="Placeholder">
-          <img class="img-fluid a-propos-img-left" src="https://clubgazon.com/images/a-propos/pourquoi-nous-choisir.webp"
+          <img class="img-fluid a-propos-img-left" src="<?= $about1url ?>images/a-propos/pourquoi-nous-choisir.webp"
                alt="Placeholder">
         </div>
         <div class="col-lg-5 col-md-6 a-propos-card-texte">
@@ -59,7 +66,7 @@
         </div>
 
         <div class="col-lg-6 col-md-6">
-          <img class="img-fluid border-radius" src="https://clubgazon.com/images/a-propos/groupe-expert.webp" alt="placeholder">
+          <img class="img-fluid border-radius" src="<?= $about1url ?>images/a-propos/groupe-expert.webp" alt="placeholder">
         </div>
       </div>
     </div>
@@ -70,7 +77,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-md-6 a-propos-card-img-left xs-padding-base">
-          <img class="a-propos-img-fancy" src="https://clubgazon.com/images/a-propos/meilleurs-produits.webp" alt="placeholder">
+          <img class="a-propos-img-fancy" src="<?= $about1url ?>images/a-propos/meilleurs-produits.webp" alt="placeholder">
         </div>
 
         <div class="col-lg-6 col-md-6 align-self-center pl-20 a-propos-fancy xs-mt-30">
@@ -96,7 +103,7 @@
 
         </div>
         <div class="col-lg-6 col-md-12">
-          <img class="img-fluid border-radius" src="https://clubgazon.com/images/a-propos/services-personnalises.webp" alt="placeholder">
+          <img class="img-fluid border-radius" src="<?= $about1url ?>images/a-propos/services-personnalises.webp" alt="placeholder">
         </div>
       </div>
 
@@ -108,7 +115,7 @@
     <div class="container">
       <div class="row service-container">
         <div class="col-lg-6 col-md-6">
-          <img class="img-fluid border-radius" src="https://clubgazon.com/images/a-propos/service-conseil-hors-pairs.webp" alt="Placeholder">
+          <img class="img-fluid border-radius" src="<?= $about1url ?>images/a-propos/service-conseil-hors-pairs.webp" alt="Placeholder">
         </div>
 
         <div class="col-lg-6 col-md-6 align-self-center pl-60 xs-padding-base sm-pl-30 xs-mt-30">
@@ -138,7 +145,7 @@
             des normes de qualité élevées.</p>
         </div>
         <div class="col-lg-6 col-md-6 a-propos-card-img-right xs-padding-base xs-mt-10">
-          <img class="img-fluid border-radius" src="https://clubgazon.com/images/a-propos/programmes-entretien.webp" alt="Placeholder">
+          <img class="img-fluid border-radius" src="<?= $about1url ?>images/a-propos/programmes-entretien.webp" alt="Placeholder">
         </div>
       </div>
     </div>

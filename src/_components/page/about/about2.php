@@ -1,5 +1,6 @@
 <?php
 
+/*Pour éviter de télécharger les images (ne pas mettre inline css dans le code final svp)*/
 $about2url = "https://z-chirotrottier.temoignagesvideo.com/";
 
 ?>
