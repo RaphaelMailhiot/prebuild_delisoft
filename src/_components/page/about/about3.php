@@ -53,9 +53,10 @@ $about3url = "https://lkb360.com/";
   <!--Pourquoi faire affaire-->
   <section class="page-section-ptb">
     <div class="container">
-      <div class="row">
 
-        <p class="seo-h2 mb-30">Pourquoi faire <span class="theme-color">affaire</span> avec nous ?</p>
+      <p class="seo-h2 mb-30">Pourquoi faire <span class="theme-color">affaire</span> avec nous ?</p>
+
+      <div class="row">
 
         <!--Les boucles sont là pour alléger la lecture du code-->
         <?php for ($i = 1; $i <= 3; $i++) : ?>
@@ -73,9 +74,6 @@ $about3url = "https://lkb360.com/";
           </div>
         <?php endfor; ?>
 
-      </div>
-      <div class="text-center">
-        <a href="#" class="button x-small">Nos services</a>
       </div>
     </div>
   </section>
@@ -201,5 +199,10 @@ $about3url = "https://lkb360.com/";
       </div>
     </div>
   </section>
+
+  <?php
+  /*Action box*/
+  include "_components/section/actionbox/_partials/actionbox1.php";
+  ?>
 
 </main>

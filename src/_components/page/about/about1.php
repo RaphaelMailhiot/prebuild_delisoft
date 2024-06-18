@@ -5,10 +5,10 @@ $about1url = "https://clubgazon.com/";
 
 ?>
 
-<main class="about1">
+<main class="page1 about1">
 
   <!--Hero-->
-  <section class="page-title bg-overlay-black-40 parallax a-propos-bg">
+  <section class="page-title bg-overlay-black-40 parallax a-propos-bg" style="url(<?= $about1url ?>images/a-propos/a-propos-bg.webp)">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">

@@ -368,6 +368,10 @@
 
 .accueil4-actions {
 
+    &.theme-secondary-bg {
+        background-color: #323e48 !important;
+    }
+
     img {
         width: 90px;
         height: auto;

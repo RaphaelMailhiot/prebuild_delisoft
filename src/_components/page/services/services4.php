@@ -7,7 +7,7 @@ $services4url = "https://visionere4.com/";
 
 <main class="page4">
 
-  <section class="page-section-ptb bg-overlay-black-50 jarallax page-services4-hero" data-speed="0.6"
+  <section class="page-services4-hero page-section-ptb bg-overlay-black-50 jarallax" data-speed="0.6"
            style="background-image: url(<?= $services4url ?>images/formations/formations-titlebar-bg-min.jpg);">
     <div class="container">
       <div class="row justify-content-center mb-30">
