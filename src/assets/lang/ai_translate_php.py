@@ -1,6 +1,8 @@
 import os
 import openai
 
+#VOIR LE README.md pour les infos
+
 # Remplacez 'votre_cle_api' par votre clé API OpenAI
 openai.api_key = 'API_KEY'
 

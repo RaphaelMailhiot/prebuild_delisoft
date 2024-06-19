@@ -36,6 +36,15 @@ Afin de démarrer le stack de développement, utilisez les commandes suivantes d
 <link rel="preload" href="`Mettre le URL`" as="image">
 ```
 
+## AI translate
+
+- Installer la dernière version de Python 3.12
+- Dans le terminal, faire les commandes : 
+```
+python -m pip install openai==0.28
+python src/assets/lang/ai_translate_php.py
+```
+
 <br><br><br><hr>
 Préparé à partir de timtools v1.3
 <br>
