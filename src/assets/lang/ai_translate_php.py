@@ -37,7 +37,7 @@ def translate_file(source_file, target_file, target_language=newLang):
                 key = parts[0]
                 value = parts[1].strip().strip(';').strip('\'"')
                 translated_value = translate_text(value, target_language)
-                translated_line = f"{key} = '{translated_value}';\n"
+                translated_line = f'{key} = "{translated_value}";\n'
                 translated_content.append(translated_line)
             else:
                 translated_content.append(line)
