@@ -13,6 +13,10 @@
 
     .a-propos-card-img-left {
         padding: 0 24px 0 0;
+
+        @media screen and (max-width: 768px) {
+            padding: 0 12px;
+        }
     }
 
     .a-propos-img-left {
@@ -25,10 +29,26 @@
         padding: 40px 40px 40px 20px;
     }
 
-    .img-couple {
-        position: absolute;
-        width: 100%;
-        top: -100px;
+    .img-couple-container {
+
+        .img-couple {
+            position: absolute;
+            width: 100%;
+            top: -100px;
+
+            @media screen and (max-width: 991px) {
+                top: unset;
+                bottom: 0;
+            }
+
+            @media screen and (max-width: 768px) {
+                top: 10px;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            overflow: hidden;
+        }
     }
 
     .a-propos-img-fancy {
@@ -36,6 +56,13 @@
         aspect-ratio: 1/1;
         height: 100%;
         border-radius: $border-radius;
+
+        @media screen and (max-width: 1200px) {
+            margin: 40px 0;
+            aspect-ratio: auto;
+            height: auto;
+            max-width: 100%;
+        }
     }
 }
 

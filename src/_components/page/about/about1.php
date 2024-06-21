@@ -8,7 +8,8 @@ $about1url = "https://clubgazon.com/";
 <main class="page1 about1">
 
   <!--Hero-->
-  <section class="page-title bg-overlay-black-40 parallax a-propos-bg" style="url(<?= $about1url ?>images/a-propos/a-propos-bg.webp)">
+  <section class="page-title bg-overlay-black-40 parallax a-propos-bg"
+           style="background-image: url(<?= $about1url ?>images/a-propos/a-propos-bg.webp);">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -25,7 +26,7 @@ $about1url = "https://clubgazon.com/";
   <section class="page-section-ptb xs-padding-base">
     <div class="container xs-pt-40">
       <div class="row a-propos-card">
-        <div class="col-lg-7 col-md-6 a-propos-card-img-left xs-pr-0 position-relative">
+        <div class="col-lg-7 col-md-6 a-propos-card-img-left xs-pr-0 position-relative img-couple-container">
           <img class="img-fluid img-couple" src="/assets/images/placeholder/sliders6-s1-img1.webp" alt="Placeholder">
           <img class="img-fluid a-propos-img-left" src="<?= $about1url ?>images/a-propos/pourquoi-nous-choisir.webp"
                alt="Placeholder">
@@ -57,16 +58,19 @@ $about1url = "https://clubgazon.com/";
       <div class="row">
         <div class="col-lg-6 col-md-6 align-self-center pr-20 xs-mb-20">
           <p class="seo-h2 mb-30 xs-mb-10 text-white">Un groupe d'experts pour mieux vous servir</p>
-          <p class="text-white">Nos experts dans le domaine de l'entretien de pelouse, possèdent des connaissances approfondies en
+          <p class="text-white">Nos experts dans le domaine de l'entretien de pelouse, possèdent des connaissances
+            approfondies en
             horticulture, des pratiques respectueuses de l'environnement, et une compréhension précise des
             besoins spécifiques de chaque type de pelouse.</p>
-          <p class="text-white">Notre engagement envers la satisfaction du client, la personnalisation de nos services et
+          <p class="text-white">Notre engagement envers la satisfaction du client, la personnalisation de nos services
+            et
             l'utilisation de techniques modernes pour assurer une pelouse saine et esthétique fait de nous un
             chef de file dans le domaine.</p>
         </div>
 
         <div class="col-lg-6 col-md-6">
-          <img class="img-fluid border-radius" src="<?= $about1url ?>images/a-propos/groupe-expert.webp" alt="placeholder">
+          <img class="img-fluid border-radius" src="<?= $about1url ?>images/a-propos/groupe-expert.webp"
+               alt="placeholder">
         </div>
       </div>
     </div>
@@ -77,7 +81,8 @@ $about1url = "https://clubgazon.com/";
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-md-6 a-propos-card-img-left xs-padding-base">
-          <img class="a-propos-img-fancy" src="<?= $about1url ?>images/a-propos/meilleurs-produits.webp" alt="placeholder">
+          <img class="a-propos-img-fancy" src="<?= $about1url ?>images/a-propos/meilleurs-produits.webp"
+               alt="placeholder">
         </div>
 
         <div class="col-lg-6 col-md-6 align-self-center pl-20 a-propos-fancy xs-mt-30">
@@ -103,7 +108,8 @@ $about1url = "https://clubgazon.com/";
 
         </div>
         <div class="col-lg-6 col-md-12">
-          <img class="img-fluid border-radius" src="<?= $about1url ?>images/a-propos/services-personnalises.webp" alt="placeholder">
+          <img class="img-fluid border-radius" src="<?= $about1url ?>images/a-propos/services-personnalises.webp"
+               alt="placeholder">
         </div>
       </div>
 
@@ -115,15 +121,18 @@ $about1url = "https://clubgazon.com/";
     <div class="container">
       <div class="row service-container">
         <div class="col-lg-6 col-md-6">
-          <img class="img-fluid border-radius" src="<?= $about1url ?>images/a-propos/service-conseil-hors-pairs.webp" alt="Placeholder">
+          <img class="img-fluid border-radius" src="<?= $about1url ?>images/a-propos/service-conseil-hors-pairs.webp"
+               alt="Placeholder">
         </div>
 
         <div class="col-lg-6 col-md-6 align-self-center pl-60 xs-padding-base sm-pl-30 xs-mt-30">
           <h2 class="mb-30 xs-mb-10 text-white">Un service conseil hors pairs</h2>
-          <p class="text-white">Nous possédons une compréhension approfondie des besoins particuliers de chaque pelouse, et offrons
+          <p class="text-white">Nous possédons une compréhension approfondie des besoins particuliers de chaque pelouse,
+            et offrons
             des conseils adaptés à leur contexte.</p>
 
-          <p class="text-white">La disponibilité, la réactivité et la capacité à anticiper les besoins émergents font partie
+          <p class="text-white">La disponibilité, la réactivité et la capacité à anticiper les besoins émergents font
+            partie
             intégrante de ce service. En outre, un engagement à surpasser les attentes contribuent à établir une
             relation de confiance avec les clients.</p>
         </div>
@@ -145,7 +154,8 @@ $about1url = "https://clubgazon.com/";
             des normes de qualité élevées.</p>
         </div>
         <div class="col-lg-6 col-md-6 a-propos-card-img-right xs-padding-base xs-mt-10">
-          <img class="img-fluid border-radius" src="<?= $about1url ?>images/a-propos/programmes-entretien.webp" alt="Placeholder">
+          <img class="img-fluid border-radius" src="<?= $about1url ?>images/a-propos/programmes-entretien.webp"
+               alt="Placeholder">
         </div>
       </div>
     </div>
