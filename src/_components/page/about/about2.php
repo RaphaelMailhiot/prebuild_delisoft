@@ -35,9 +35,8 @@ $about2url = "https://z-chirotrottier.temoignagesvideo.com/";
             santé.</p>
           <p>Après des études en science de l'activité physique avec une concentration en kinésiologie et une mineure en
             massokinésiothérapie en 2014, j'ai réalisé que je devais approfondir mes connaissances pour mieux prendre
-            soin
-            de mes patients. J'ai donc poursuivi un doctorat en chiropratique de 2014 à 2019, tout en participant à une
-            mission humanitaire en Bolivie en 2018.</p>
+            soin de mes patients. J'ai donc poursuivi un doctorat en chiropratique de 2014 à 2019, tout en participant à
+            une mission humanitaire en Bolivie en 2018.</p>
           <p>Parallèlement, j'ai été membre de l'équipe de natation de l'UQTR de 2011 à 2014 et je continue à nager en
             tant que loisir. En dehors des piscines, je suis sauveteur océanique et propriétaire de SN Hawaii, une
             entreprise qui forme les jeunes sauveteurs québécois au brevet national option océanique sur les îles du
@@ -59,8 +58,7 @@ $about2url = "https://z-chirotrottier.temoignagesvideo.com/";
         <div class="col-sm-12 text-center">
           <blockquote class="blockquote quote mb-0">
             Notre but est d’optimiser votre santé et de vous fournir les outils nécessaires pour atteindre votre
-            bien-être
-            maximal. Au plaisir de vous rencontrer et de vous faire du bien !
+            bien-être maximal. Au plaisir de vous rencontrer et de vous faire du bien !
           </blockquote>
         </div>
       </div>
@@ -103,7 +101,7 @@ $about2url = "https://z-chirotrottier.temoignagesvideo.com/";
 
   <!--6 photos équipe-->
   <section class="page-section-ptb"
-           style="background-image:url(<?= $about2url ?>images/bg-dark-spine.jpg);background-repeat:no-repeat;background-size:cover;background-position: center left">
+           style="background:url(<?= $about2url ?>images/bg-dark-spine.jpg) no-repeat center left; background-size:cover;">
     <div class="container">
       <div class="row mb-30 equipe">
         <div class="section-title text-center">
@@ -115,12 +113,11 @@ $about2url = "https://z-chirotrottier.temoignagesvideo.com/";
       <div class="row">
         <div class="col-lg-4 col-md-6 col-sm-6 mb-24">
           <div class="team team-hover team-overlay rounded text-center m-0">
-            <div class="team-photo"><img class="img-fluid"
-                                         src="<?= $about2url ?>images/team/placeholder.jpg"
-                                         alt="Chiro Boucherville" style="box-sizing:border-box"></div>
+            <div class="team-photo">
+              <img class="img-fluid" src="<?= $about2url ?>images/team/placeholder.jpg" alt="Chiro Boucherville"></div>
             <div class="team-description">
               <div class="team-info">
-                <h5 class="text-white">Rebecca Torchon</h5>
+                <p class="seo-h5 text-white text-uppercase">Rebecca Torchon</p>
                 <span class="text-white">Assistante</span>
               </div>
             </div>
@@ -128,12 +125,11 @@ $about2url = "https://z-chirotrottier.temoignagesvideo.com/";
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6 mb-24">
           <div class="team team-hover team-overlay rounded text-center m-0">
-            <div class="team-photo"><img class="img-fluid"
-                                         src="<?= $about2url ?>images/team/team1.jpg"
-                                         alt="Chiro Boucherville" style="box-sizing:border-box"></div>
+            <div class="team-photo">
+              <img class="img-fluid" src="<?= $about2url ?>images/team/team1.jpg" alt="Chiro Boucherville"></div>
             <div class="team-description">
               <div class="team-info">
-                <h5 class="text-white">Mireille Scotto</h5>
+                <p class="seo-h5 text-white text-uppercase">Mireille Scotto</p>
                 <span class="text-white">Assistante</span>
               </div>
             </div>
@@ -142,12 +138,11 @@ $about2url = "https://z-chirotrottier.temoignagesvideo.com/";
 
         <div class="col-lg-4 col-md-6 col-sm-6 mb-24">
           <div class="team team-hover team-overlay rounded text-center m-0">
-            <div class="team-photo"><img class="img-fluid"
-                                         src="<?= $about2url ?>images/team/team3.jpg"
-                                         alt="Chiro Boucherville" style="box-sizing:border-box"></div>
+            <div class="team-photo">
+              <img class="img-fluid" src="<?= $about2url ?>images/team/team3.jpg" alt="Chiro Boucherville"></div>
             <div class="team-description">
               <div class="team-info">
-                <h5 class="text-white">Diane Tremblay</h5>
+                <p class="seo-h5 text-white text-uppercase">Diane Tremblay</p>
                 <span class="text-white">Massothérapeute</span>
               </div>
             </div>
@@ -156,12 +151,11 @@ $about2url = "https://z-chirotrottier.temoignagesvideo.com/";
 
         <div class="col-lg-4 col-md-6 col-sm-6 mb-24">
           <div class="team team-hover team-overlay rounded text-center m-0">
-            <div class="team-photo"><img class="img-fluid"
-                                         src="<?= $about2url ?>images/team/placeholder.jpg"
-                                         alt="Chiro Boucherville" style="box-sizing:border-box"></div>
+            <div class="team-photo">
+              <img class="img-fluid" src="<?= $about2url ?>images/team/placeholder.jpg" alt="Chiro Boucherville"></div>
             <div class="team-description">
               <div class="team-info">
-                <h5 class="text-white">Nathalie Vallée</h5>
+                <p class="seo-h5 text-white text-uppercase">Nathalie Vallée</p>
                 <span class="text-white">Massothérapeute</span>
               </div>
             </div>
@@ -172,11 +166,11 @@ $about2url = "https://z-chirotrottier.temoignagesvideo.com/";
           <div class="team team-hover team-overlay rounded text-center m-0">
             <div class="team-photo">
               <img class="img-fluid" src="<?= $about2url ?>images/team/team2.jpg"
-                   alt="Chiropraticienne" style="box-sizing:border-box">
+                   alt="Chiropraticienne">
             </div>
             <div class="team-description">
               <div class="team-info">
-                <h5 class="text-white">Chanel Imbeau</h5>
+                <p class="seo-h5 text-white text-uppercase">Chanel Imbeau</p>
                 <span class="text-white">Chiropraticienne</span>
               </div>
             </div>
@@ -187,10 +181,10 @@ $about2url = "https://z-chirotrottier.temoignagesvideo.com/";
             <div class="team-photo">
               <img class="img-fluid"
                    src="<?= $about2url ?>images/team/team5.jpg"
-                   alt="Chiro Boucherville" style="box-sizing:border-box"></div>
+                   alt="Chiro Boucherville"></div>
             <div class="team-description">
               <div class="team-info">
-                <h5 class="text-white">Jonathan Trottier St-Pierre</h5>
+                <p class="seo-h5 text-white text-uppercase">Jonathan Trottier St-Pierre</p>
                 <span class="text-white">Chiropraticien propriétaire</span>
               </div>
             </div>
@@ -200,7 +194,7 @@ $about2url = "https://z-chirotrottier.temoignagesvideo.com/";
   </section>
 
   <section class="action-box pattern full-width services-cta"
-           style="background: url(<?= $about2url ?>images/bg/bg-spine-pen.png); background-repeat:no-repeat;background-size:cover;background-position:90%;">
+           style="background: url(<?= $about2url ?>images/bg/bg-spine-pen.png) no-repeat 90%; background-size: cover">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 col-md-12 position-relative">

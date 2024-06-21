@@ -19,8 +19,8 @@ export default class Carousel {
         type: "bullets"
       },
       navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev"
+        nextEl: this.element.querySelector(".swiper-button-next"),
+        prevEl: this.element.querySelector(".swiper-button-prev")
       },
       autoplay: {
         delay: 5000,

@@ -7,7 +7,8 @@ $services2url = "https://z-chirotrottier.temoignagesvideo.com/";
 
 <main class="page2">
 
-  <section class="page-title bg-overlay-black-40 parallax" style="background: url(<?= $services2url ?>images/bg/bg-pediatrique.jpg);">
+  <section class="page-title bg-overlay-black-40 parallax"
+           style="background: url(<?= $services2url ?>images/bg/bg-pediatrique.jpg);">
     <div class="container">
       <div class="page-title-name">
         <h1>Chiropratique pédiatrique</h1>
@@ -42,14 +43,60 @@ $services2url = "https://z-chirotrottier.temoignagesvideo.com/";
     </div>
   </section>
 
-  <?php
+  <!--Nos Services-->
+  <section class="page-section-ptb gray-bg">
+    <div class="services-4 no-radius">
+      <div class="container">
+        <div class="swiper" data-component="Carousel" data-carousel="three">
+          <div class="swiper-wrapper">
 
-  /*Nos Services*/
-  include "_components/section/services/_partials/services4.php";
+            <?php for ($j = 0; $j < 6; $j++) : ?>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="service-box-s">
+                    <div class="service-info">
+                      <p class="seo-h5">Titre</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="bnt-arrow-holder position-relative">
+                      <div class="bnt-arrow-d-round">
+                        <div class="bnt-services-d">
+                          <i class="ti-arrow-top-right"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <img class="img-fluid" src="/assets/images/placeholder/accueil/accueil2-service.webp"
+                         alt="Placeholder">
+                  </div>
+                </a>
+              </div>
+            <?php endfor; ?>
 
-  /*CTA*/
-  include "_components/section/actionbox/_partials/actionbox1.php";
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  ?>
+  <!--CTA-->
+  <section class="action-box pattern full-width services-cta"
+           style="background: url(<?= $services2url ?>images/bg/bg-spine-pen.png) no-repeat 90%; background-size: cover">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 position-relative">
+          <div class="action-box-text text-white">
+            <h3 class="text-white">Centre chiropratique familial Trottier</h3>
+            <p class="text-white">Appelez dès maintenant afin de profiter d'un service exceptionnel et répondre à tous
+              vos
+              besoins.</p>
+          </div>
+          <div class="action-box-button">
+            <a class="button bnt-menu-contact" href="tel:4506414455">Prendre un rendez-vous <i class="ti-mobile"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 </main>

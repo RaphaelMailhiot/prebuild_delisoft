@@ -46,7 +46,7 @@ $about4url = "https://visionere4.com/";
         <div class="col-lg-8 col-md-7 pl-20 xs-pl-15 align-self-center xs-mt-30">
           <div class="section-title mb-30">
             <h6 class="subtitle theme-color-dark">Firme VisionÈre</h6>
-            <h1 class="title theme-color">Notre <span class="theme-bg text-white pl-15 pr-15">histoire</span></h1>
+            <h1 class="title theme-color">Notre <span class="theme-secondary-bg text-white pl-15 pr-15">histoire</span></h1>
           </div>
           <p>Firme VisionÈre a été fondée par deux femmes déterminées possédant 25 ans d’expérience chacune dans leurs
             domaines respectifs, soit la Santé, Sécurité, Environnement et Qualité dans les chantiers de construction,
@@ -76,7 +76,7 @@ $about4url = "https://visionere4.com/";
 
   /*https://visionere4.com/a-propos/*/
   /*Ajouter background-image et changer de bord*/
-  include "_components/section/bloc-texte/_partials/bloc-texte1.php";
+  include "_components/section/bloc-texte/_partials/bloc-texte3.php";
 
   ?>
 

@@ -102,6 +102,13 @@
                           <p class="seo-h5">Titre</p>
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         </div>
+                        <div class="bnt-arrow-holder position-relative">
+                          <div class="bnt-arrow-d-round">
+                            <div class="bnt-services-d">
+                              <i class="ti-arrow-top-right"></i>
+                            </div>
+                          </div>
+                        </div>
                         <img class="img-fluid" src="/assets/images/placeholder/accueil/accueil2-service.webp"
                              alt="Placeholder">
                       </div>

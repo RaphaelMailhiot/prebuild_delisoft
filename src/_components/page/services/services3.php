@@ -1,7 +1,7 @@
 <?php
 
 /*Pour éviter de télécharger les images (ne pas mettre inline css dans le code final svp)*/
-$services2url = "https://lkb360.com/";
+$services3url = "https://lkb360.com/";
 
 ?>
 
@@ -10,7 +10,7 @@ $services2url = "https://lkb360.com/";
 
   <!--Hero-->
   <section class="page-title bg-overlay-black-60 parallax"
-           style="background-image: url(<?= $about3url ?>images/bg/Abt-pt-01.jpg)">
+           style="background-image: url(<?= $services3url ?>images/bg/Srv-pt-01.jpg)">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -63,7 +63,7 @@ $services2url = "https://lkb360.com/";
           <div class="col-md-4 col-sm-6 mb-24">
             <div class="feature-text left-icon round theme-icon">
               <div class="feature-icon">
-                <img class="img-fluid" src="<?= $services2url ?>images/0<?= $i ?>.jpg"
+                <img class="img-fluid" src="<?= $services3url ?>images/0<?= $i ?>.jpg"
                      alt="Placeholder">
               </div>
               <div class="feature-info">
@@ -98,7 +98,7 @@ $services2url = "https://lkb360.com/";
           </div>
         </div>
         <div class="col-md-6 col-sm-12 col-img">
-          <img class="img-fluid new-split-section-image" src="<?= $services2url ?>images/abt02.jpg"
+          <img class="img-fluid new-split-section-image" src="<?= $services3url ?>images/abt02.jpg"
                alt="Placeholder">
         </div>
       </div>
