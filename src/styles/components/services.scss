@@ -60,6 +60,11 @@
     .service-info {
         margin-bottom: 16px;
         padding: 0 25px;
+
+        > img {
+            width: 3em;
+            height: 3em;
+        }
     }
 
     .service-box-s {

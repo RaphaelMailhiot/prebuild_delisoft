@@ -9,10 +9,91 @@
   /*--Slider--*/
   include "_components/section/sliders/_partials/sliders6.php";
 
-  /*--Quatre services--*/
-  include "_components/section/four-sections/_partials/fs1.php";
-
   ?>
+
+  <!--Quatre services (Copier-coller de fs1.php)-->
+  <section class="four-sections-1 page-section-ptb gray-bg">
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="col-lg-3 col-sm-6 mb-24">
+          <a href="#">
+            <div class="call-action-box">
+              <img class="img-fluid border-radius" src="/assets/images/placeholder/accueil/accueil1-fs1.webp"
+                   alt="Placeholder">
+              <div class="fs1-info fs1-img-1">
+                <div class="icon-bnt">
+                  <img src="/assets/images/placeholder/accueil/accueil1-fs-icon1.svg" alt="Placeholder">
+                  <div class="bnt-arrow-round">
+                    <i class="ti-arrow-top-right"></i>
+                  </div>
+                </div>
+                <p class="theme-color-gray mt-20 mb-0 seo-h4">Titre</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, praesentium.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 mb-24">
+          <a href="#">
+            <div class="call-action-box">
+              <img class="img-fluid border-radius" src="/assets/images/placeholder/accueil/accueil1-fs2.webp"
+                   alt="Placeholder">
+              <div class="fs1-info fs1-img-1">
+                <div class="icon-bnt">
+                  <img src="/assets/images/placeholder/accueil/accueil1-fs-icon2.svg" alt="Placeholder">
+                  <div class="bnt-arrow-round">
+                    <i class="ti-arrow-top-right"></i>
+                  </div>
+                </div>
+                <p class="theme-color-gray mt-20 mb-0 seo-h4">Titre</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, praesentium.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 mb-24">
+          <a href="#">
+            <div class="call-action-box">
+              <img class="img-fluid border-radius" src="/assets/images/placeholder/accueil/accueil1-fs3.webp"
+                   alt="Placeholder">
+              <div class="fs1-info fs1-img-1">
+                <div class="icon-bnt">
+                  <img src="/assets/images/placeholder/accueil/accueil1-fs-icon3.svg" alt="Placeholder">
+                  <div class="bnt-arrow-round">
+                    <i class="ti-arrow-top-right"></i>
+                  </div>
+                </div>
+                <p class="theme-color-gray mt-20 mb-0 seo-h4">Titre</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, praesentium.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 mb-24">
+          <a href="#">
+            <div class="call-action-box">
+              <img class="img-fluid border-radius" src="/assets/images/placeholder/accueil/accueil1-fs4.webp"
+                   alt="Placeholder">
+              <div class="fs1-info fs1-img-1">
+                <div class="icon-bnt">
+                  <img src="/assets/images/placeholder/accueil/accueil1-fs-icon4.webp" alt="Placeholder">
+                  <div class="bnt-arrow-round">
+                    <i class="ti-arrow-top-right"></i>
+                  </div>
+                </div>
+                <p class="theme-color-gray mt-20 mb-0 seo-h4">Titre</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, praesentium.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!--À propos-->
   <section class="page-section">
@@ -58,9 +139,40 @@
       <p class="seo-h6 text-center text-white"><?= $namebase ?></p>
       <p class="seo-h2 text-center text-white">Nos services</p>
 
-      <?php include "_components/section/services/_partials/services4.php" ?>
+      <!--Boucle pour alléger le visuel (Copier-coller de services4.php)-->
+      <?php for ($j = 0; $j < 2; $j++) : ?>
+      <div class="services-4">
+        <div class="container">
+          <div class="swiper" data-component="Carousel" data-carousel="three">
+            <div class="swiper-wrapper">
 
-      <?php include "_components/section/services/_partials/services4.php" ?>
+              <?php for ($k = 0; $k < 6; $k++) : ?>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="service-box-s bg-images">
+                      <div class="service-info">
+                        <img src="/assets/images/placeholder/accueil/accueil1-service-icon.svg" alt="Placeholder">
+                        <p class="seo-h4 theme-color-gray mb-0">Titre</p>
+                      </div>
+                      <div class="bnt-arrow-holder position-relative">
+                        <div class="bnt-arrow-d-round">
+                          <div class="bnt-services-d">
+                            <i class="ti-arrow-top-right"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <img class="img-fluid border-radius" src="/assets/images/placeholder/accueil/accueil1-service.webp"
+                           alt="Placeholder">
+                    </div>
+                  </a>
+                </div>
+              <?php endfor; ?>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <?php endfor; ?>
 
     </div>
   </section>
@@ -121,7 +233,7 @@
         <div class="swiper-wrapper">
 
           <!--Les boucles sont là pour montrer plus de slide-->
-          <?php for ($j = 0; $j <= 4; $j++) : ?>
+          <?php for ($l = 0; $l <= 4; $l++) : ?>
             <div class="swiper-slide">
               <div class="portfolio-item border-radius">
                 <img src="https://clubgazon.com/images/accueil/produit3-min.jpg" alt="Produits contre vers blancs">
