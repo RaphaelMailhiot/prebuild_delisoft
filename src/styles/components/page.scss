@@ -104,6 +104,10 @@
     .swiper-button-prev::after, .swiper-button-next::after {
         color: $theme-color;
     }
+
+    .blockquote-section blockquote.quote:before {
+        color: $theme-color;
+    }
 }
 
 // Page 3 (LKB360)
