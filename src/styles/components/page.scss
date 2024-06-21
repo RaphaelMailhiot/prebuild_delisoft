@@ -68,6 +68,18 @@
         }
     }
 
+    .accueil2-quatre-services {
+        .col-md-3 {
+            // les impairs
+            &:nth-child(2n-1) {
+
+                p {
+                    color: $theme-color;
+                }
+            }
+        }
+    }
+
     .accueil2-temoignages {
 
         .testimonial-info::before {
@@ -87,6 +99,10 @@
         .swiper-pagination .swiper-pagination-bullet-active {
             background: $theme-color;
         }
+    }
+
+    .swiper-button-prev::after, .swiper-button-next::after {
+        color: $theme-color;
     }
 }
 

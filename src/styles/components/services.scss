@@ -57,6 +57,12 @@
 .services-4 {
     margin: 24px 0;
 
+    &.no-radius {
+        .service-box-s {
+            border-radius: unset !important;
+        }
+    }
+
     .service-info {
         margin-bottom: 16px;
         padding: 0 25px;

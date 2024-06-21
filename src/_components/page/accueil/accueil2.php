@@ -50,7 +50,8 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-5 order-md-switch">
-          <img class="img-fluid img-cover" src="/assets/images/placeholder/accueil/accueil2-centre-img.webp" alt="Placeholder">
+          <img class="img-fluid img-cover" src="/assets/images/placeholder/accueil/accueil2-centre-img.webp"
+               alt="Placeholder">
         </div>
         <div class="col-md-7">
           <p class="seo-h6 theme-color text-uppercase"><?= $namebase ?></p>
@@ -86,9 +87,37 @@
       <p class="seo-h6 text-center theme-color"><?= $namebase ?></p>
       <p class="seo-h2 text-center">Nos services</p>
 
-      <?php include "_components/section/services/_partials/services4.php" ?>
+      <!--Boucle pour alléger le visuel (Copier-coller de services4.php)-->
+      <?php for ($i = 0; $i < 2; $i++) : ?>
+        <div class="services-4 no-radius">
+          <div class="container">
+            <div class="swiper" data-component="Carousel" data-carousel="three">
+              <div class="swiper-wrapper">
 
-      <?php include "_components/section/services/_partials/services4.php" ?>
+                <?php for ($j = 0; $j < 6; $j++) : ?>
+                  <div class="swiper-slide">
+                    <a href="#">
+                      <div class="service-box-s">
+                        <div class="service-info">
+                          <p class="seo-h5">Titre</p>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                        <img class="img-fluid" src="/assets/images/placeholder/accueil/accueil2-service.webp"
+                             alt="Placeholder">
+                      </div>
+                    </a>
+                  </div>
+                <?php endfor; ?>
+
+              </div>
+
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+
+            </div>
+          </div>
+        </div>
+      <?php endfor; ?>
 
     </div>
   </section>
@@ -117,7 +146,7 @@
         <div class="swiper-wrapper">
 
           <!--Les boucles sont là pour montrer plus de slide-->
-          <?php for ($i = 0; $i < 6; $i++) : ?>
+          <?php for ($k = 0; $k < 6; $k++) : ?>
             <div class="swiper-slide">
               <div class="testimonial bottom_pos">
                 <div class="testimonial-info">
