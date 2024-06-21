@@ -69,6 +69,9 @@ include("assets/lang/" . $lang . "/footer.php");
 
   ?>
 
+  <!--s'il y a un bug mettre la version 3.6.0-->
+  <script src="/jquery/jquery-3.7.1.min.js"></script>
+
   <!-- slider revolution -->
   <!-- SI VOUS NE L'UTILISEZ PAS METTRE EN COMMENTAIRE -->
   <!--<link rel="stylesheet" type="text/css" media="all"
@@ -166,9 +169,6 @@ include("assets/lang/" . $lang . "/footer.php");
 
 <!--=================================
  jquery -->
-
-<!--s'il y a un bug mettre la version 3.6.0-->
-<script src="/jquery/jquery-3.7.1.min.js"></script>
 
 <!-- plugins-jquery -->
 <script src="/jquery/plugins-jquery.js"></script>
