@@ -6840,7 +6840,7 @@ canvas {
     margin-left: 0;
   }
 }
-@media all and (-ms-high-contrast:none) {
+@media all and (forced-colors:none) {
   .st-menu {
     position: absolute;
   }

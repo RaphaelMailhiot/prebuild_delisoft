@@ -1672,7 +1672,7 @@ canvas{-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none}
     .sidebar,footer,.admin-header,header,.page-title,#back-to-top,.action-box{display:none!important}
     .content-wrapper{width:100%!important;margin-left:0}
 }
-@media all and (-ms-high-contrast: none) {
+@media all and (forced-colors: none) {
     .st-menu{position:absolute}
     img.bottom-img{top:0}
     .search-cart{display:table}
