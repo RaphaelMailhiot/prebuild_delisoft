@@ -88,6 +88,8 @@ include("assets/lang/" . $lang . "/footer.php");
 
   <?php
 
+  echo "TEST";
+
   $titrePage = [
     'header' => '_components/header/header.php',
     'footer' => '_components/footer/footer.php',
