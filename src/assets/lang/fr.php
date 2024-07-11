@@ -186,9 +186,9 @@ switch ($page) {
         $serviceclean = str_replace('-', ' ', $service);
         $valueclean = str_replace('-', ' ', $value);
 
-        $titre = "SEO " . $town . "- $namebase";
-        $description = "SEO à " . $town . " $namebase. $descriptionbase";
-        $keywords = "$keywordsbase, $namebase" . $town . ",";
+        $titre = $serviceclean." ".$townclean." - $namebase";
+        $description = $serviceclean." ".$townclean." $namebase. $descriptionbase" ;
+        $keywords = "$keywordsbase, $namebase".$town.",";
         break;
     default:
         $titre = $meta[$page][0];

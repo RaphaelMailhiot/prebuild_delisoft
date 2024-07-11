@@ -144,7 +144,7 @@ include("assets/lang/" . $lang . "/footer.php");
     'components-temoignages' => '_components/section/temoignages/temoignages.php',
 
     // SEO
-    'seo-1' => null
+    'seo-1' => 'assets/seo/seo-1.php'
   ];
 
   include($titrePage['header']);

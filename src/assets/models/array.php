@@ -5,10 +5,16 @@ switch ($lang) {
         $array1 = array(
             "seo_fr",
             "seo_fr",
+            "seo_fr",
+            "seo_fr",
+            "seo_fr",
             "seo_fr"
         );
 
         $array2 = array(
+            "seo_fr",
+            "seo_fr",
+            "seo_fr",
             "seo_fr",
             "seo_fr",
             "seo_fr"
@@ -18,10 +24,16 @@ switch ($lang) {
         $array1 = array(
             "seo_en",
             "seo_en",
+            "seo_en",
+            "seo_en",
+            "seo_en",
             "seo_en"
         );
 
         $array2 = array(
+            "seo_en",
+            "seo_en",
+            "seo_en",
             "seo_en",
             "seo_en",
             "seo_en"
@@ -31,10 +43,16 @@ switch ($lang) {
         $array1 = array(
             "seo",
             "seo",
+            "seo",
+            "seo",
+            "seo",
             "seo"
         );
 
         $array2 = array(
+            "seo",
+            "seo",
+            "seo",
             "seo",
             "seo",
             "seo"

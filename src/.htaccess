@@ -127,7 +127,7 @@ RewriteRule ^wp-section/?$ index.php?lang=fr&page=wp-section
 RewriteRule ^en/wp-section/?$ index.php?lang=en&page=wp-section
 
 #SEO
-RewriteRule ^([a-z-A-Z0-9]+)/([a-z-A-Z0-9]+)/?$ index.php?lang=fr&page=seo-1&town=$1 [L]
+RewriteRule ^([a-z-A-Z0-9]+)/([a-z-A-Z0-9]+)/?$ index.php?lang=fr&page=seo-1&service=$1&town=$2 [L]
 
 
 # Disable server signature
